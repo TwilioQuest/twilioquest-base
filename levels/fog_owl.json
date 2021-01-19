@@ -1,0 +1,23 @@
+{
+  "title": "Fog Owl",
+  "description": "",
+  "events": "../scripts/fog_owl.js",
+  "default_map": "../maps/fog_owl.json",
+  "is_mission": false,
+  "backgroundEffect": {
+    "key": "starfield",
+    "options": { "baseSpeed": 0.03, "direction": "topToBottom" }
+  },
+  "backgroundMusic": "fogowl.ogg",
+  "flavorTextOverrides": {
+    "crewPod": "It looks like this pod is configured for a different user. I should use <span class=\"highlight\">my VR pod</span> instead. It's the <span class=\"highlight\">open pod with the green light on top</span>.",
+    "crewComplement": "Beds for a bridge crew of four... When the Owl's ready to fly, I should <span class=\"highlight\">recruit a team</span> for the mission.",
+    "chestNothing": "Does <span class=\"highlight\">this chest</span> open? Guess not... Well, it was worth a shot.",
+    "replacementParts": "Replacement parts for a neural Cloud interface. Never hurts to be prepared.",
+    "standupSet": "\"What did the zero say to the eight? <span class=\"highlight\">Nice belt!</span>\" ... Sadly, that's the best one in this standup routine. I hope whoever wrote this iterates a few more times before going on stage.",
+    "fuel": "Wonder what kind of fuel this thing runs on...",
+    "navigationSystemOffline": "The <span class=\"highlight\">navigation system</span> lets the ship travel to different parts of The Cloud. Looks like it's still offline...",
+    "battleTactics": "Notes on battle tactics when facing the forces of the <span class=\"red\">Legacy Systems</span>. Someone expects trouble once we get the ship online...",
+    "airlock": "An airlock, I think. If this is a virtual environment, will I still get <span class=\"highlight\">sucked out into space</span> if I open it? Not sure I want to find out."
+  }
+}

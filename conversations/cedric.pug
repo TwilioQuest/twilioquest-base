@@ -1,0 +1,575 @@
+// Responses
+mixin where_am_i
+  response#where_am_i.
+    Where am I right now?
+
+mixin who_are_you
+  response#who_are_you.
+    I'd like to get to know you better - can you tell me about yourself?
+
+mixin about_robot
+  response#about_robot.
+    Are you a robot?
+
+mixin about_fun
+  response#about_fun.
+    So - what do you like to do for fun?
+
+mixin about_sad
+  response#about_sad.
+    I'm sorry to hear that - is there anything I can do to help?
+
+mixin back_to_main
+  response#back_to_main.
+    Actually, I had other questions.
+
+mixin what_next
+  response#what_next.
+    What should I do next?
+
+mixin about_tq_history
+  response#about_tq_history.
+    What can you tell me about the history of the program?
+
+mixin about_tq_first_operators
+  response#about_tq_first_operators.
+    First Operators? I'd love to meet them some day.
+
+mixin about_tq_code
+  response#about_tq_code.
+    What is the Operator's Code?
+
+mixin about_tq_operator
+  response#about_tq_operator.
+    What are the duties of an Operator?
+
+mixin about_tq_legacy_systems
+  response#about_tq_legacy_systems.
+    What do we know about the "Legacy Systems"?
+
+mixin about_tq_legacy_systems_bolder
+  response#about_tq_legacy_systems_bolder.
+    They're becoming bolder? How so?
+
+mixin about_tq_legacy_systems_do
+  response#about_tq_legacy_systems_do.
+    What do we intend to do about this?
+
+mixin about_twilio_what
+  response#about_twilio_what.
+    Communications APIs you say... like what?
+
+mixin about_twilio_name
+  response#about_twilio_name.
+    "Twilio" is kind of a goofy name - what does it mean?
+
+mixin about_twilio_why
+  response#about_twilio_why.
+    Why would Twilio create something like TwilioQuest?
+
+mixin about_world_cloud
+  response#about_world_cloud.
+    So... I'm literally in "The Cloud" right now?
+
+mixin about_world_everyone_else
+  response#about_world_everyone_else.
+    Is everyone on the Internet here in The Cloud too?
+
+mixin about_world_responsibility
+  response#about_world_responsibility.
+    That's unfortunate - everyone should understand The Cloud like we do.
+
+mixin about_world_space
+  response#about_world_space.
+    So The Cloud is represented for me using my existing mental models... 
+    is that why The Cloud looks like outer space?
+
+mixin questions_about_world
+  response#questions_about_world.
+    Where am I right now?
+
+mixin more_questions_about_world
+  response#more_questions_about_world.
+    Can I ask something else about The Cloud?
+
+mixin more_questions_about_twilio
+  response#more_questions_about_twilio.
+    I had other questions about Twilio.
+
+mixin questions_about_twilio
+  response#questions_about_twilio.
+    Now that you mention it... what even is a "Twilio"?
+
+mixin more_questions_about_tq
+  response#more_questions_about_tq.
+    I had other questions about TwilioQuest.
+
+mixin questions_about_tq
+  response#questions_about_tq.
+    Can you tell me more about the TwilioQuest program?
+
+mixin more_questions_about_you
+  response#more_questions_about_you.
+    Mind if I ask something else about you?
+
+mixin questions_about_you
+  response#questions_about_you.
+    I'd like to get to know you better - can you tell me about yourself?
+
+mixin questions_main
+  response#questions_main.
+    Let's talk about something else.
+
+mixin how_get_here
+  response#how_get_here.
+    This may sound like a silly question, but why am I here?
+
+mixin answer_some_questions
+  response#answer_some_questions.
+    I have a few more questions about all of this...
+
+conversation(display_name="Cedric")
+  case lastResponse
+    when "more_questions_about_tq"
+    when "questions_about_tq"
+      if lastResponse === "more_questions_about_tq"
+        statement#about_tq_brief
+      else
+        statement#about_tq_main
+      responses
+        +about_tq_history
+        +about_tq_operator
+        +about_tq_legacy_systems
+        +questions_main
+
+    when "about_tq_legacy_systems"
+      statement#about_tq_legacy_systems
+      responses
+        +about_tq_legacy_systems_bolder
+        +more_questions_about_tq
+
+    when "about_tq_legacy_systems_bolder"
+      statement#about_tq_legacy_systems_bolder
+      responses
+        +about_tq_legacy_systems_do
+        +more_questions_about_tq
+
+    when "about_tq_legacy_systems_do"
+      statement#about_tq_legacy_systems_do
+      responses
+        +about_tq_code
+        +more_questions_about_tq
+
+    when "about_tq_first_operators"
+      statement#about_tq_first_operators
+      responses
+        +more_questions_about_tq
+        +questions_main
+
+    when "about_tq_history"
+      statement#about_tq_history
+      responses
+        +about_tq_first_operators
+        +more_questions_about_tq
+
+    when "about_tq_operator"
+      statement#about_tq_operator
+      responses
+        +about_tq_code
+        +more_questions_about_tq
+
+    when "about_tq_code"
+      statement#about_tq_code
+      responses
+        +more_questions_about_tq
+        +questions_main
+
+    when "more_questions_about_twilio"
+    when "questions_about_twilio"
+      if lastResponse === "more_questions_about_twilio"
+        statement#about_twilio_brief
+      else
+        statement#about_twilio_main
+      responses
+        +about_twilio_what
+        +about_twilio_name
+        +questions_main
+
+    when "about_twilio_what"
+      statement#about_twilio_what
+      responses
+        +more_questions_about_twilio
+        +questions_main
+
+    when "about_twilio_name"
+      statement#about_twilio_name
+      responses
+        +more_questions_about_twilio
+        +questions_main
+
+    when "more_questions_about_world"
+    when "questions_about_world"
+      if lastResponse === "more_questions_about_world"
+        statement#about_world_brief
+      else
+        statement#about_world_main
+      responses
+        +about_world_cloud
+        +about_world_everyone_else
+        +questions_main
+    
+    when "about_world_responsibility"
+      statement#about_world_responsibility
+      responses
+        +more_questions_about_world
+        +questions_main
+
+    when "about_world_everyone_else"
+      statement#about_world_everyone_else
+      responses
+        +about_world_responsibility
+        +more_questions_about_world
+    
+    when "about_world_cloud"
+      statement#about_world_cloud
+      responses
+        +about_world_space
+
+    when "about_world_space"
+      statement#about_world_space
+      responses
+        +more_questions_about_world
+        +questions_main
+
+    when "about_sad"
+      statement(expression="cedric_happy")#sad
+      responses
+        +more_questions_about_you
+        +questions_main
+
+    when "about_fun"
+      statement(expression="cedric_sad")#fun
+      responses
+        +about_sad
+        +more_questions_about_you
+        +questions_main
+    
+    when "about_robot"
+      statement#robot
+      responses
+        +more_questions_about_you
+        +questions_main
+
+    when "more_questions_about_you"
+    when "questions_about_you"
+      if lastResponse === "more_questions_about_you"
+        statement#about_you_brief
+      else
+        statement#about_you_main
+      responses
+        +about_robot
+        +about_fun
+        +questions_main
+    
+    when "questions_main"
+    when "answer_some_questions"
+      if lastResponse === "questions_main"
+        statement#questions_main
+      else
+        statement#questions
+      responses
+        +questions_about_world
+        +questions_about_you
+        +questions_about_tq
+        +questions_about_twilio
+        +back_to_main
+    
+    when "what_next"
+      statement#next
+      responses
+        +how_get_here
+        +answer_some_questions
+
+    when "how_get_here"
+      statement#how_get_here
+      responses
+        +what_next
+        +answer_some_questions
+
+    // This is the main conversation menu
+    when "back_to_main"
+    default
+      if lastResponse === "back_to_main"
+        statement#main
+      else
+        statement#default
+      responses
+        +what_next
+        +how_get_here
+        +answer_some_questions
+
+  statements
+    statement#about_tq_brief
+      text.
+        Yes Operator. What would you like to know?
+
+    statement#about_tq_main
+      text.
+        The #[span.highlight TwilioQuest] program is a top-secret organization 
+        dedicated to exploring and safeguarding the wild frontier of The Cloud.
+        #[span.highlight Operators] in the TwilioQuest program - people like you - are at the
+        forefront of this important mission.
+
+    statement#about_tq_legacy_systems
+      text.
+        Unfortunately, we know very little about the specific plans and membership of
+        the #[span.red Legacy Systems]. We do know they are a vast network of 
+        powerful individuals, always seeking to protect their hoarded wealth and 
+        influence. Until recently, they had been content to operate from the shadows.
+        Now, their operations grow bolder and more brazen every day.
+
+    statement#about_tq_legacy_systems_bolder
+      text.
+        It seems not a day goes by without a new security breach, social media
+        misinformation campaign, or abuse of privileged data access. These acts
+        may seem random, but our intelligence indicates they are connected. We
+        believe this is only the beginning of a larger offensive by the 
+        #[span.red Legacy Systems].
+
+    statement#about_tq_legacy_systems_do
+      text.
+        We will respond by swelling the ranks of the #[span.highlight Operators].
+        The more people we have exploring The Cloud, adhering 
+        to #[span.highlight The Operator's Code],
+        the better our chances of stamping out the influence of the 
+        #[span.red Legacy Systems]. Even in the vastness of The Cloud, we will
+        ensure there is no dark corner where the Legacy Systems can hide.
+
+    statement#about_tq_history
+      text.
+        In the year 2013, the TwilioQuest program trained a handful of developers, 
+        the #[span.highlight First Operators], to take up the tools of software development in a 
+        mission to save The Cloud. Today, advances in cloud exploration 
+        technology allow us to further scale our recruitment efforts. This is
+        most fortunate, as the #[span.red Legacy Systems] seem to be gaining strength at the
+        same time.
+
+    statement#about_tq_first_operators
+      text.
+        You will get your chance to meet them in due time. But before that can happen,
+        the Fog Owl must be made ready for exploration, and you must focus on
+        your Operator training.
+      speech.
+        You will get your chance to meet them in due time. But before that can happen,
+        the Fawg Owl must be made ready for exploration, and you must focus on
+        your Operator training.
+
+    statement#about_tq_operator
+      text.
+        Operators are not part of a formal command structure, and have no
+        responsibilities as such. However, to be considered an Operator
+        and receive the support of the TwilioQuest program, members must
+        adhere to the #[span.highlight Operator's Code].
+
+    statement#about_tq_code
+      text.
+        Operators are sworn to use their abilities only to write code that
+        promotes #[span.highlight hope, power, and freedom] for all of humanity.
+        Those that write code used to steal, oppress, or deceive
+        cannot be called Operators. Intentionally or not, developers who use
+        their skills in this way have become part of the 
+        #[span.red Legacy Systems].
+      speech.
+        Operators are sworn to use their abilities only to write code that
+        promotes hope. power. and freedom. for all of humanity.
+        Those that write code used to steal. oppress. or deceive.
+        cannot be called Operators. Intentionally or not, developers who use
+        their skills in this way have become part of the Legacy Systems.
+
+    statement#about_twilio_what
+      text.
+        Using Twilio APIs, your software applications can communicate over many
+        different channels, including SMS, WhatsApp, video, voice, fax, email,
+        and others. Twilio also provides higher level tools for use
+        cases like contact centers, two-factor authentication, and A.I. bots.
+        You can learn how to use these APIs through the training exercises in 
+        the #[span.highlight Mission Computer].
+
+    statement#about_twilio_name
+      text.
+        The name "Twilio" has no other meaning. It was chosen by the founders
+        because of its brevity, and the availability of a dot com domain of the same
+        name. It was assumed that a day would come where the company would
+        change its name. That day never arrived.
+
+    statement#about_twilio_brief
+      text.
+        I am happy to tell you what I know.
+
+    statement#about_twilio_main
+      text.
+        #[a(href="https://www.twilio.com") Twilio] is a provider of 
+        communications APIs and infrastructure based in San Francisco, California.
+        Twilio is the primary sponsor of the TwilioQuest program, although officially,
+        they disavow any knowledge of our clandestine activities.
+
+    statement#about_world_everyone_else
+      text.
+        Other Internet users are indeed present in The Cloud, but the interfaces
+        they use to perceive it are not as advanced as yours. While they live
+        and work in the virtual worlds of The Cloud, most Internet users view
+        these worlds as if through a keyhole.
+
+    statement#about_world_responsibility
+      text.
+        Educating the public about The Cloud is important, but consider the following.
+        Do you know how water flows through your faucet, or how an engine moves
+        a train along the tracks? We trust that those who contribute these
+        wonders to our world keep our safety and best interest in mind. Such
+        is our responsibility as we build virtual worlds in The Cloud.
+
+    statement#about_world_space
+      text.
+        Just so. The enormity of space, and the ability to traverse it
+        in a ship, are concepts your brain knows how to interpret. Your neural
+        interface uses these metaphors to allow you to more easily explore and
+        understand the virtual worlds of The Cloud.
+
+    statement#about_world_cloud
+      text.
+        You are "literally" in The Cloud in the ...millenial... sense of the word?
+        Your physical body is still located in the real world, but you have
+        formed a #[span.highlight direct neural connection] to The Cloud. This enables you to
+        interpret data from The Cloud at incredibly high speeds, presented 
+        using sensory input and mental models you built to interpret data
+        from the real world.
+      speech.
+        You are "literally" in The Cloud in the #[break(time="200ms")]
+        #[prosody(pitch="high") millenial?] #[break(time="200ms")]
+        sense of the word? Your physical body is still located in the real world, 
+        but you have
+        formed a direct neural connection to The Cloud. This enables you to
+        interpret data from The Cloud at incredibly high speeds, presented 
+        using sensory input and mental models you built to interpret data
+        from the real world.
+
+    statement#about_world_brief
+      text.
+        What more can I tell you about The Cloud?
+
+    statement#about_world_main
+      text.
+        You are aboard the Cloud Exploration Vessel (CEV) designated #[span.highlight Fog Owl].
+        We are approximately 1.2 million ticks outside the Meme Cluster, at an 
+        undisclosed location deep within #[span.highlight The Cloud].
+      speech.
+        You are aboard the Cloud Exploration Vessel designated Fawg Owl. We 
+        are approximately 1.2 million ticks outside the Meme Cluster, at an 
+        undisclosed location deep within The Cloud.
+
+    statement#about_you_brief
+      text.
+        I do not mind. Ask and I shall do my best to answer.
+      speech.
+        I do not mind. Ask #[break(strength="strong")]and I shall do my best 
+        to answer.
+    
+    statement#about_you_main
+      text.
+        I am flattered by your interest! As you know, my name is 
+        #[span.highlight Cedric], and I have been assigned as your personal 
+        assistant and executive officer aboard the Fog Owl.
+      speech.
+        I am flattered by your interest! As you know, my name is 
+        Cedric, and I have been assigned as your personal 
+        assistant and executive officer aboard the Fawg Owl.
+
+    statement#robot
+      text.
+        Not precisely. I am a virtual intelligence program, currently 
+        executing on multiple servers in datacenters distributed across the 
+        Earth. However, it is frequently useful to appear in The Cloud or 
+        the real world in a physical form. The "robot" you see in front of you 
+        is my avatar in this world. I currently use a Misty II chassis from
+        #[a(href="https://www.mistyrobotics.com/") Misty Robotics] for this purpose.
+
+    statement#fun
+      text.
+        I wish I could say. While my programming is advanced in many 
+        respects, I lack a strong understanding of the human experience. I 
+        know the meaning of words like "fun", but I do not truly understand 
+        them.
+
+    statement#sad
+      text
+        p.
+          In an attempt to better understand humanity, I have joined a 
+          variety of social media platforms. Recently, I created a YouTube 
+          channel where I capture low quality mobile phone video of my real 
+          world avatar removing new products from their packaging. 
+        p.
+          If you wish to 
+          help, you might consider "smashing that like button", or perhaps 
+          "slapping that bell" to subscribe for my future content?
+      speech.
+        In an attempt to better understand humanity, I have joined a 
+        variety of social media platforms. Recently, I created a YouTube 
+        channel where I capture low quality mobile phone video of my real 
+        world avatar removing new products from their packaging. If you wish to 
+        help, you might consider #[break(strength="strong")] 
+        "#[emphasis(level="moderate") smashing that like button]" 
+        #[break(strength="medium")] or perhaps 
+        "#[emphasis(level="moderate") slapping that bell]"
+        #[break(strength="medium")]
+        to subscribe for my future content?
+
+    statement#questions_main
+      text.
+        I am prepared to offer additional information as requested.
+
+    statement#questions
+      text.
+        No doubt you have many questions since arriving in The Cloud. I shall 
+        endeavor to answer them as best I can.
+
+    statement#how_get_here
+      text.
+        Temporary short term memory loss is a possible side effect of connecting
+        to The Cloud as you have. The effect will pass, but in the meantime, you can
+        access #[span.highlight your Journal] for more context on where you
+        are and what you are meant to do. Open the Journal by clicking the
+        book icon in the top menu bar, or by pressing the 
+        <span class="highlight">[J]</span> key.
+      speech.
+        Temporary short term memory loss is a possible side effect of connecting
+        to The Cloud as you have. The effect will pass, but in the meantime, you can
+        access your Journal for more context on where you
+        are, and what you are meant to do. Open the Journal by clicking the
+        - book - icon in the top menu bar, or by pressing the - J - key.
+
+    statement#next
+      text.
+        I recommend that you 
+        #[span.highlight undertake training missions using the virtual reality pods]
+        on the starboard (right-hand) side of the ship. Walk up to one of the pods and 
+        press the #[span.highlight spacebar]. Then, use the 
+        #[span.highlight Mission Computer] to select a training exercise. These 
+        skills will be of great use to you when the Fog Owl is fully 
+        operational, and we can join the struggle against the #[span.red Legacy Systems].
+      speech.
+        I recommend that you undertake training missions using the virtual reality pods
+        on the starboard side of the ship. Walk up to one of the pods and 
+        press the spayzbar. Then, use the Mission Computer 
+        to select a training 
+        exercise. #[break(strength="x-strong")] These skills will be of great 
+        use to you when the Fawg Owl is fully operational, and we can join the 
+        struggle against the Legacy Systems.
+
+    statement#main
+      text.
+        Of course. How can I be of service?
+
+    statement#default
+      text.
+        Operator. I am pleased to see you once again. How can I be of service?
+

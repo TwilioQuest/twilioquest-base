@@ -1,0 +1,20 @@
+{
+  "name": "twilioquest-base",
+  "version": "0.0.1",
+  "description": "Base extension for the TwilioQuest game - contains Fog Owl map and common assets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwilioQuest/twilioquest-base.git"
+  },
+  "keywords": ["twilioquest"],
+  "author": "Team TwilioQuest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TwilioQuest/twilioquest-base/issues"
+  },
+  "homepage": "https://github.com/TwilioQuest/twilioquest-base#readme"
+}
