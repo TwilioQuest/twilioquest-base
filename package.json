@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/TwilioQuest/twilioquest-base.git"
   },
-  "keywords": ["twilioquest"],
+  "keywords": [
+    "twilioquest"
+  ],
   "author": "Team TwilioQuest",
   "license": "MIT",
   "bugs": {
