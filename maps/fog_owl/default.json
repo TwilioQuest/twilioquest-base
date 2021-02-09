@@ -617,20 +617,20 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/common\/tilesets\/Tileset_FogOwl.json"
+         "source":"..\/..\/..\/.bundled\/tilesets\/Tileset_FogOwl.json"
         }, 
         {
          "firstgid":677,
-         "source":"..\/..\/common\/tilesets\/scifi_tiles.json"
+         "source":"..\/..\/..\/.bundled\/tilesets\/scifi_tiles.json"
         }, 
         {
          "firstgid":2112,
-         "source":"..\/..\/common\/tilesets\/FogOwlShip_Entrance.json"
+         "source":"..\/..\/..\/.bundled\/tilesets\/FogOwlShip_Entrance.json"
         }, 
         {
          "columns":30,
          "firstgid":2208,
-         "image":"..\/..\/common\/tilesets\/VR_Mission_Tileset.png",
+         "image":"..\/..\/..\/.bundled\/tilesets\/VR_Mission_Tileset.png",
          "imageheight":720,
          "imagewidth":720,
          "margin":0,
