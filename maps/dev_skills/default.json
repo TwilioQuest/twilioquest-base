@@ -587,7 +587,7 @@
         {
          "columns":35,
          "firstgid":1,
-         "image":"..\/..\/common\/tilesets\/scifi_tiles.png",
+         "image":"..\/..\/..\/.bundled\/tilesets\/scifi_tiles.png",
          "imageheight":984,
          "imagewidth":840,
          "margin":0,
@@ -600,7 +600,7 @@
         {
          "columns":57,
          "firstgid":1436,
-         "image":"..\/..\/common\/tilesets\/fantasy_tiles.png",
+         "image":"..\/..\/..\/.bundled\/tilesets\/fantasy_tiles.png",
          "imageheight":1008,
          "imagewidth":1368,
          "margin":0,
