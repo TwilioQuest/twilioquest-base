@@ -3,7 +3,7 @@
   "description": "When the player begins the game, they will experience this level, where they will learn about game systems and controls",
   "events": "prologue/events.js",
   "default_map": "prologue/default.json",
-  "is_mission": true,
+  "is_mission": false,
   "backgroundEffect": {
     "key": "starfield",
     "options": { "baseSpeed": 0.005, "direction": "leftToRight" }
