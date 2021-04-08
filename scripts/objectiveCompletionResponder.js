@@ -6,6 +6,12 @@ function onObjectiveCompleted(self, event, world) {
   }
 }
 
+function initialize(self, event, world) {
+  self.setState({
+    isCompleted: world.isObjectiveCompleted(self.objectiveName),
+  });
+}
+
 module.exports = {
   animations: {
     objectiveCompleted: {},
@@ -20,11 +26,8 @@ module.exports = {
     },
   },
   events: {
-    onLevelDidLoad: function (self, event, world) {
-      self.setState({
-        isCompleted: world.isObjectiveCompleted(self.objectiveName),
-      });
-    },
+    onLevelDidLoad: initialize,
+    onMapDidLoad: initialize,
     onObjectiveCompleted,
     onObjectiveCompletedAgain: onObjectiveCompleted,
   },
