@@ -1,35 +1,57 @@
-{ "columns":0,
- "grid":
+{
+  "columns": 0,
+  "grid": {
+    "height": 1,
+    "orientation": "orthogonal",
+    "width": 1
+  },
+  "margin": 0,
+  "name": "TwilioQuestObjects",
+  "spacing": 0,
+  "tilecount": 1,
+  "tiledversion": "1.4.3",
+  "tileheight": 24,
+  "tiles": [
     {
-     "height":1,
-     "orientation":"orthogonal",
-     "width":1
-    },
- "margin":0,
- "name":"TwilioQuestObjects",
- "spacing":0,
- "tilecount":1,
- "tiledversion":"1.4.3",
- "tileheight":24,
- "tiles":[
+      "id": 1,
+      "image": "twilioquest-chest-red.png",
+      "imageheight": 24,
+      "imagewidth": 24,
+      "type": "chest-red",
+      "properties": [
         {
-         "id":1,
-         "image":"twilioquest-chest-red.png",
-         "imageheight":24,
-         "imagewidth":24,
-         "properties":[
-                {
-                 "name":"hackable",
-                 "type":"bool",
-                 "value":true
-                }, 
-                {
-                 "name":"objectiveName",
-                 "type":"string",
-                 "value":"example_objective"
-                }]
-        }],
- "tilewidth":24,
- "type":"tileset",
- "version":1.4
+          "name": "hackable",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "objectiveName",
+          "type": "string",
+          "value": "example_objective"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "twilioquest-chest-autumn.png",
+      "imageheight": 24,
+      "imagewidth": 24,
+      "type": "chest-autumn",
+      "properties": [
+        {
+          "name": "hackable",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "objectiveName",
+          "type": "string",
+          "value": "example_objective"
+        }
+      ]
+    }
+  ],
+  "tilewidth": 24,
+  "type": "tileset",
+  "version": 1.4
 }
