@@ -182,6 +182,44 @@
           "value": "example_objective"
         }
       ]
+    },
+    {
+      "id": 10,
+      "image": "../objects/laser-horizontal/icon.png",
+      "imageheight": 48,
+      "imagewidth": 72,
+      "type": "laser-horizontal",
+      "properties": [
+        {
+          "name": "hackable",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "objectiveName",
+          "type": "string",
+          "value": "example_objective"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "image": "../objects/terminal/icon.png",
+      "imageheight": 72,
+      "imagewidth": 24,
+      "type": "terminal",
+      "properties": [
+        {
+          "name": "hackable",
+          "type": "bool",
+          "value": true
+        },
+        {
+          "name": "objectiveName",
+          "type": "string",
+          "value": "example_objective"
+        }
+      ]
     }
   ],
   "tilewidth": 24,

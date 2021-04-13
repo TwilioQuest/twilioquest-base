@@ -1,23 +1,44 @@
-const objectiveCompletionResponder = require("./objectiveCompletionResponder");
+const createObjectiveCompletionResponderConfig = require("../../scripts/objectiveCompletionResponder");
 
 module.exports = {
-  ...objectiveCompletionResponder,
+  ...createObjectiveCompletionResponderConfig({
+    renderObjectiveCompleted: (self) => {
+      console.log(
+        "render objective completed",
+        self,
+        self.sprite,
+        self.sprite.body,
+        self.sprite.body.enable
+      );
+      if (self.sprite.body) {
+        self.sprite.body.enable = false;
+      }
+    },
+  }),
   animations: {
-    objectiveCompleted: {
-      frames: [1],
-      frameRate: 1,
+    objectiveNotCompleted: {
+      frames: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      frameRate: 10,
     },
     objectiveCompleting: {
-      frames: [0, 1],
-      frameRate: 2,
+      frames: [20, 21, 22, 23, 24, 25, 26, 27],
+      frameRate: 8,
+    },
+    objectiveCompleted: {
+      frames: [27],
+      frameRate: 1,
+    },
+    spawn: {
+      frames: [0, 1, 2, 3, 4, 5, 6, 7],
+      frameRate: 8,
     },
   },
   spriteSheets: {
     laserHorizontal: {
       fileName: "LaserBlockade_horizontal.png",
       frameDimensions: {
-        width: 24,
-        height: 24,
+        width: 72,
+        height: 48,
       },
     },
   },

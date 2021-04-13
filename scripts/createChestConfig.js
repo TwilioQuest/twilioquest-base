@@ -1,9 +1,13 @@
-const objectiveCompletionResponder = require("./objectiveCompletionResponder");
+const createObjectiveCompletionResponderConfig = require("./objectiveCompletionResponder");
 
 function createChestConfig(chestKey, tilesheet) {
   return {
-    ...objectiveCompletionResponder,
+    ...createObjectiveCompletionResponderConfig(),
     animations: {
+      objectiveNotCompleted: {
+        frames: [0],
+        frameRate: 1,
+      },
       objectiveCompleted: {
         frames: [1],
         frameRate: 1,
