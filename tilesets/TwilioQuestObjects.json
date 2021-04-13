@@ -204,6 +204,25 @@
     },
     {
       "id": 11,
+      "image": "../objects/laser-vertical/icon.png",
+      "imageheight": 72,
+      "imagewidth": 24,
+      "type": "laser-vertical",
+      "properties": [
+        {
+          "name": "hackable",
+          "type": "bool",
+          "value": false
+        },
+        {
+          "name": "objectiveName",
+          "type": "string",
+          "value": "example_objective"
+        }
+      ]
+    },
+    {
+      "id": 12,
       "image": "../objects/terminal/icon.png",
       "imageheight": 72,
       "imagewidth": 24,
