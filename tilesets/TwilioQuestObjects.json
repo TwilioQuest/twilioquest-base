@@ -1,247 +1,265 @@
-{
-  "columns": 0,
-  "grid": {
-    "height": 1,
-    "orientation": "orthogonal",
-    "width": 1
-  },
-  "margin": 0,
-  "name": "TwilioQuestObjects",
-  "spacing": 0,
-  "tilecount": 1,
-  "tiledversion": "1.4.3",
-  "tileheight": 24,
-  "tiles": [
+{ "columns":0,
+ "editorsettings":
     {
-      "id": 1,
-      "image": "../objects/chest-red/icon.png",
-      "imageheight": 24,
-      "imagewidth": 24,
-      "type": "chest-red",
-      "properties": [
+     "export":
         {
-          "name": "hackable",
-          "type": "bool",
-          "value": true
-        },
-        {
-          "name": "objectiveName",
-          "type": "string",
-          "value": "example_objective"
+         "format":"",
+         "target":"."
         }
-      ]
     },
+ "grid":
     {
-      "id": 2,
-      "image": "../objects/chest-autumn/icon.png",
-      "imageheight": 24,
-      "imagewidth": 24,
-      "type": "chest-autumn",
-      "properties": [
-        {
-          "name": "hackable",
-          "type": "bool",
-          "value": true
-        },
-        {
-          "name": "objectiveName",
-          "type": "string",
-          "value": "example_objective"
-        }
-      ]
+     "height":1,
+     "orientation":"orthogonal",
+     "width":1
     },
-    {
-      "id": 3,
-      "image": "../objects/chest-blue/icon.png",
-      "imageheight": 24,
-      "imagewidth": 24,
-      "type": "chest-blue",
-      "properties": [
+ "margin":0,
+ "name":"TwilioQuestObjects",
+ "spacing":0,
+ "tilecount":12,
+ "tiledversion":"1.4.3",
+ "tileheight":72,
+ "tiles":[
         {
-          "name": "hackable",
-          "type": "bool",
-          "value": true
-        },
+         "id":1,
+         "image":"..\/objects\/chest-red\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"chest-red"
+        }, 
         {
-          "name": "objectiveName",
-          "type": "string",
-          "value": "example_objective"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "image": "../objects/chest-green/icon.png",
-      "imageheight": 24,
-      "imagewidth": 24,
-      "type": "chest-green",
-      "properties": [
+         "id":2,
+         "image":"..\/objects\/chest-autumn\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"chest-autumn"
+        }, 
         {
-          "name": "hackable",
-          "type": "bool",
-          "value": true
-        },
+         "id":3,
+         "image":"..\/objects\/chest-blue\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"chest-blue"
+        }, 
         {
-          "name": "objectiveName",
-          "type": "string",
-          "value": "example_objective"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "image": "../objects/chest-light-blue/icon.png",
-      "imageheight": 24,
-      "imagewidth": 24,
-      "type": "chest-light-blue",
-      "properties": [
+         "id":4,
+         "image":"..\/objects\/chest-green\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"chest-green"
+        }, 
         {
-          "name": "hackable",
-          "type": "bool",
-          "value": true
-        },
+         "id":5,
+         "image":"..\/objects\/chest-light-blue\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"chest-light-blue"
+        }, 
         {
-          "name": "objectiveName",
-          "type": "string",
-          "value": "example_objective"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "image": "../objects/chest-light-red/icon.png",
-      "imageheight": 24,
-      "imagewidth": 24,
-      "type": "chest-light-red",
-      "properties": [
+         "id":6,
+         "image":"..\/objects\/chest-light-red\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"chest-light-red"
+        }, 
         {
-          "name": "hackable",
-          "type": "bool",
-          "value": true
-        },
+         "id":7,
+         "image":"..\/objects\/chest-pink\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"chest-pink"
+        }, 
         {
-          "name": "objectiveName",
-          "type": "string",
-          "value": "example_objective"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "image": "../objects/chest-pink/icon.png",
-      "imageheight": 24,
-      "imagewidth": 24,
-      "type": "chest-pink",
-      "properties": [
+         "id":8,
+         "image":"..\/objects\/chest-purple\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"chest-purple"
+        }, 
         {
-          "name": "hackable",
-          "type": "bool",
-          "value": true
-        },
+         "id":9,
+         "image":"..\/objects\/chest-red-orange\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"chest-red-orange"
+        }, 
         {
-          "name": "objectiveName",
-          "type": "string",
-          "value": "example_objective"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "image": "../objects/chest-purple/icon.png",
-      "imageheight": 24,
-      "imagewidth": 24,
-      "type": "chest-purple",
-      "properties": [
+         "id":10,
+         "image":"..\/objects\/laser-horizontal\/icon.png",
+         "imageheight":48,
+         "imagewidth":72,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"laser-horizontal"
+        }, 
         {
-          "name": "hackable",
-          "type": "bool",
-          "value": true
-        },
+         "id":11,
+         "image":"..\/objects\/laser-vertical\/icon.png",
+         "imageheight":72,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"laser-vertical"
+        }, 
         {
-          "name": "objectiveName",
-          "type": "string",
-          "value": "example_objective"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "image": "../objects/chest-red-orange/icon.png",
-      "imageheight": 24,
-      "imagewidth": 24,
-      "type": "chest-red-orange",
-      "properties": [
-        {
-          "name": "hackable",
-          "type": "bool",
-          "value": true
-        },
-        {
-          "name": "objectiveName",
-          "type": "string",
-          "value": "example_objective"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "image": "../objects/laser-horizontal/icon.png",
-      "imageheight": 48,
-      "imagewidth": 72,
-      "type": "laser-horizontal",
-      "properties": [
-        {
-          "name": "hackable",
-          "type": "bool",
-          "value": false
-        },
-        {
-          "name": "objectiveName",
-          "type": "string",
-          "value": "example_objective"
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "image": "../objects/laser-vertical/icon.png",
-      "imageheight": 72,
-      "imagewidth": 24,
-      "type": "laser-vertical",
-      "properties": [
-        {
-          "name": "hackable",
-          "type": "bool",
-          "value": false
-        },
-        {
-          "name": "objectiveName",
-          "type": "string",
-          "value": "example_objective"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "image": "../objects/terminal/icon.png",
-      "imageheight": 72,
-      "imagewidth": 24,
-      "type": "terminal",
-      "properties": [
-        {
-          "name": "hackable",
-          "type": "bool",
-          "value": true
-        },
-        {
-          "name": "objectiveName",
-          "type": "string",
-          "value": "example_objective"
-        }
-      ]
-    }
-  ],
-  "tilewidth": 24,
-  "type": "tileset",
-  "version": 1.4
+         "id":12,
+         "image":"..\/objects\/terminal\/icon.png",
+         "imageheight":72,
+         "imagewidth":24,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":8,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":16,
+                     "x":4,
+                     "y":50
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"terminal"
+        }],
+ "tilewidth":72,
+ "type":"tileset",
+ "version":1.4
 }
