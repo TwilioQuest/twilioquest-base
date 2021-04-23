@@ -1,13 +1,14 @@
 const createObjectiveCompletionResponderConfig = require("./objectiveCompletionResponder");
 
-function createLaserConfig(laserKey, tilesheet, { width, height }) {
+function createLaserConfig(
+  laserKey,
+  tilesheet,
+  { width, height },
+  renderObjectiveCompleted
+) {
   return {
     ...createObjectiveCompletionResponderConfig({
-      renderObjectiveCompleted(self) {
-        if (self.sprite.body) {
-          self.sprite.body.enable = false;
-        }
-      },
+      renderObjectiveCompleted,
     }),
     animations: {
       objectiveNotCompleted: {
