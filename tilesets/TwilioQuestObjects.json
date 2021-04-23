@@ -205,6 +205,40 @@
          "image":"..\/objects\/laser-vertical\/icon.png",
          "imageheight":72,
          "imagewidth":24,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":5,
+                     "id":1,
+                     "name":"",
+                     "properties":[
+                            {
+                             "name":"isCollisionMask",
+                             "type":"bool",
+                             "value":false
+                            }, 
+                            {
+                             "name":"key",
+                             "type":"string",
+                             "value":"objectiveCompleted"
+                            }],
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":10,
+                     "x":7,
+                     "y":10
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
          "properties":[
                 {
                  "name":"hackable",
@@ -226,7 +260,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
