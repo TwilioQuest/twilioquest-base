@@ -1,8 +1,6 @@
 {
   "title": "Fog Owl",
   "description": "",
-  "events": "fog_owl/events.js",
-  "default_map": "fog_owl/default.json",
   "is_mission": false,
   "backgroundEffect": {
     "key": "starfield",
