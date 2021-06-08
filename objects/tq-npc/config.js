@@ -9,7 +9,6 @@ function init(self, event, world) {
 function onPlayerDidInteract(self, event, world) {
   // Check if the interaction event target was self
   if (event.target.spritesheet === self.spritesheet) {
-    console.log(self);
     if (self.observation) {
       // The "observation" property can be set to have the Operator
       // make an observation about a character without kicking off a convo
