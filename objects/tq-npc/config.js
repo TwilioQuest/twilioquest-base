@@ -7,7 +7,23 @@ function init(self, event, world) {
 }
 
 function onPlayerDidInteract(self, event, world) {
-  console.log(self);
+  // Check if the interaction event target was self
+  if (event.target.spritesheet === self.spritesheet) {
+    console.log(self);
+    if (self.observation) {
+      // The "observation" property can be set to have the Operator
+      // make an observation about a character without kicking off a convo
+      world.showNotification(self.observation);
+    } else {
+      // Conversation Pug file and avatar can be set manually by property - 
+      // if this was not done, fall back to the spritesheet name
+      const conversationName = self.conversation || self.spritesheet;
+      const conversationAvatar = self.conversationAvatar || self.spritesheet;
+
+      // Kick off conversation
+      world.startConversation(conversationName, conversationAvatar);
+    }
+  }
 }
 
 // Export TQ object configuration

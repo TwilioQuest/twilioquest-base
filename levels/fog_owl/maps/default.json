@@ -487,6 +487,12 @@
                  "height":32,
                  "id":97,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"conversation",
+                         "type":"string",
+                         "value":"cedric"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -499,6 +505,12 @@
                  "height":32,
                  "id":98,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"observation",
+                         "type":"string",
+                         "value":"Chiara seems to be busy.  You should <em>try speaking to her later<\/em>."
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,

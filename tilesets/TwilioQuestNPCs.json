@@ -41,6 +41,21 @@
             },
          "properties":[
                 {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":"chiaraDefault"
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"chiaraNeutral"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"spritesheet",
                  "type":"string",
                  "value":"chiara"
@@ -75,6 +90,21 @@
              "y":0
             },
          "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":"cedricDefault"
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"cedricNeutral"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }, 
                 {
                  "name":"spritesheet",
                  "type":"string",
