@@ -48,7 +48,7 @@
                 {
                  "name":"conversationAvatar",
                  "type":"string",
-                 "value":"chiaraNeutral"
+                 "value":"chiaraNeutral.png"
                 }, 
                 {
                  "name":"spritesheet",
@@ -93,7 +93,7 @@
                 {
                  "name":"conversationAvatar",
                  "type":"string",
-                 "value":"cedricNeutral"
+                 "value":"cedricNeutral.png"
                 }, 
                 {
                  "name":"spritesheet",
@@ -138,7 +138,7 @@
                 {
                  "name":"conversationAvatar",
                  "type":"string",
-                 "value":"fredricNeutral"
+                 "value":"fredricNeutral.png"
                 }, 
                 {
                  "name":"spritesheet",
@@ -183,7 +183,7 @@
                 {
                  "name":"conversationAvatar",
                  "type":"string",
-                 "value":"coreyNeutral"
+                 "value":"coreyNeutral.png"
                 }, 
                 {
                  "name":"spritesheet",
@@ -228,7 +228,7 @@
                 {
                  "name":"conversationAvatar",
                  "type":"string",
-                 "value":"craigNeutral"
+                 "value":"craigNeutral.png"
                 }, 
                 {
                  "name":"spritesheet",
@@ -273,7 +273,7 @@
                 {
                  "name":"conversationAvatar",
                  "type":"string",
-                 "value":"fredricNeutral"
+                 "value":"fredricNeutral.png"
                 }, 
                 {
                  "name":"spritesheet",
@@ -318,7 +318,7 @@
                 {
                  "name":"conversationAvatar",
                  "type":"string",
-                 "value":"kevinNeutral"
+                 "value":"kevinNeutral.png"
                 }, 
                 {
                  "name":"spritesheet",
@@ -363,7 +363,7 @@
                 {
                  "name":"conversationAvatar",
                  "type":"string",
-                 "value":"marcusNeutral"
+                 "value":"marcusNeutral.png"
                 }, 
                 {
                  "name":"spritesheet",
@@ -408,7 +408,7 @@
                 {
                  "name":"conversationAvatar",
                  "type":"string",
-                 "value":"margaretNeutral"
+                 "value":"margaretNeutral.png"
                 }, 
                 {
                  "name":"spritesheet",
@@ -453,7 +453,7 @@
                 {
                  "name":"conversationAvatar",
                  "type":"string",
-                 "value":"meganNeutral"
+                 "value":"meganNeutral.png"
                 }, 
                 {
                  "name":"spritesheet",
@@ -498,7 +498,7 @@
                 {
                  "name":"conversationAvatar",
                  "type":"string",
-                 "value":"micaNeutral"
+                 "value":"micaNeutral.png"
                 }, 
                 {
                  "name":"spritesheet",
@@ -515,7 +515,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -544,7 +543,7 @@
                 {
                  "name":"conversationAvatar",
                  "type":"string",
-                 "value":"ryanNeutral"
+                 "value":"ryanNeutral.png"
                 }, 
                 {
                  "name":"spritesheet",

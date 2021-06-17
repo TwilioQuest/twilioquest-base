@@ -492,6 +492,11 @@
                          "name":"conversation",
                          "type":"string",
                          "value":"cedric"
+                        }, 
+                        {
+                         "name":"conversationAvatar",
+                         "type":"string",
+                         "value":"cedricNeutral.png"
                         }],
                  "rotation":0,
                  "type":"",
