@@ -1,0 +1,25 @@
+{ "columns":0,
+ "grid":
+    {
+     "height":1,
+     "orientation":"orthogonal",
+     "width":1
+    },
+ "margin":0,
+ "name":"FogOwlObjects",
+ "spacing":0,
+ "tilecount":1,
+ "tiledversion":"1.6.0",
+ "tileheight":48,
+ "tiles":[
+        {
+         "id":0,
+         "image":"..\/objects\/nav_map\/nav_map.png",
+         "imageheight":48,
+         "imagewidth":96,
+         "type":"nav-map"
+        }],
+ "tilewidth":96,
+ "type":"tileset",
+ "version":"1.6"
+}
