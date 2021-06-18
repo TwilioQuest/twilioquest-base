@@ -5,7 +5,6 @@ function init(self, event, world) {
   self.sprite.loadTexture(`npc_${self.spritesheet}`);
 
   // Start the idle animation loop
-  console.log(self);
   self.playAnimation(`npc_${self.spritesheet}_idle`, true);
 }
 
