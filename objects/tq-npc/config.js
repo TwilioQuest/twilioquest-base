@@ -9,8 +9,6 @@ function init(self, event, world) {
 }
 
 function onPlayerDidInteract(self, event, world) {
-  console.log(self);
-  
   // Check if the interaction event target was self
   if (event.target.spritesheet === self.spritesheet) {
     if (self.observation) {
