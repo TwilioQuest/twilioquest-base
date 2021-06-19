@@ -1,12 +1,4 @@
 { "columns":0,
- "editorsettings":
-    {
-     "export":
-        {
-         "format":"",
-         "target":"."
-        }
-    },
  "grid":
     {
      "height":1,
@@ -17,7 +9,7 @@
  "name":"TwilioQuestObjects",
  "spacing":0,
  "tilecount":12,
- "tiledversion":"1.4.3",
+ "tiledversion":"1.5.0",
  "tileheight":72,
  "tiles":[
         {
@@ -208,7 +200,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -268,7 +259,7 @@
                      "name":"",
                      "rotation":0,
                      "type":"",
-                     "visible":true,
+                     "visible":false,
                      "width":16,
                      "x":4,
                      "y":50
@@ -294,5 +285,5 @@
         }],
  "tilewidth":72,
  "type":"tileset",
- "version":1.4
+ "version":1.5
 }
