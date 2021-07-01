@@ -9,7 +9,7 @@
  "name":"TwilioQuestNPCs",
  "spacing":0,
  "tilecount":12,
- "tiledversion":"1.5.0",
+ "tiledversion":"1.6.0",
  "tileheight":32,
  "tiles":[
         {
@@ -49,6 +49,11 @@
                  "name":"conversationAvatar",
                  "type":"string",
                  "value":"chiaraNeutral.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
                 }, 
                 {
                  "name":"spritesheet",
@@ -96,6 +101,11 @@
                  "value":"cedricNeutral.png"
                 }, 
                 {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"spritesheet",
                  "type":"string",
                  "value":"cedric"
@@ -139,6 +149,11 @@
                  "name":"conversationAvatar",
                  "type":"string",
                  "value":"fredricNeutral.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
                 }, 
                 {
                  "name":"spritesheet",
@@ -186,6 +201,11 @@
                  "value":"coreyNeutral.png"
                 }, 
                 {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"spritesheet",
                  "type":"string",
                  "value":"corey"
@@ -229,6 +249,11 @@
                  "name":"conversationAvatar",
                  "type":"string",
                  "value":"craigNeutral.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
                 }, 
                 {
                  "name":"spritesheet",
@@ -276,6 +301,11 @@
                  "value":"fredricNeutral.png"
                 }, 
                 {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"spritesheet",
                  "type":"string",
                  "value":"fredric"
@@ -319,6 +349,11 @@
                  "name":"conversationAvatar",
                  "type":"string",
                  "value":"kevinNeutral.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
                 }, 
                 {
                  "name":"spritesheet",
@@ -366,6 +401,11 @@
                  "value":"marcusNeutral.png"
                 }, 
                 {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"spritesheet",
                  "type":"string",
                  "value":"marcus"
@@ -409,6 +449,11 @@
                  "name":"conversationAvatar",
                  "type":"string",
                  "value":"margaretNeutral.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
                 }, 
                 {
                  "name":"spritesheet",
@@ -456,6 +501,11 @@
                  "value":"meganNeutral.png"
                 }, 
                 {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"spritesheet",
                  "type":"string",
                  "value":"megan"
@@ -499,6 +549,11 @@
                  "name":"conversationAvatar",
                  "type":"string",
                  "value":"micaNeutral.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
                 }, 
                 {
                  "name":"spritesheet",
@@ -546,6 +601,11 @@
                  "value":"ryanNeutral.png"
                 }, 
                 {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"spritesheet",
                  "type":"string",
                  "value":"ryan"
@@ -554,5 +614,5 @@
         }],
  "tilewidth":32,
  "type":"tileset",
- "version":1.5
+ "version":"1.6"
 }
