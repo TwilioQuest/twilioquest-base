@@ -1,0 +1,14 @@
+{ "columns":2,
+ "image":"pythonic_temple_planet.png",
+ "imageheight":144,
+ "imagewidth":96,
+ "margin":0,
+ "name":"pythonic_temple_planet",
+ "spacing":0,
+ "tilecount":6,
+ "tiledversion":"1.6.0",
+ "tileheight":48,
+ "tilewidth":48,
+ "type":"tileset",
+ "version":"1.6"
+}

@@ -14,7 +14,7 @@
  "tiles":[
         {
          "id":0,
-         "image":"..\/objects\/nav_map\/nav_map.png",
+         "image":"..\/objects\/nav-map\/nav_map.png",
          "imageheight":48,
          "imagewidth":96,
          "type":"nav-map"
