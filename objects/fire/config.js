@@ -13,10 +13,19 @@ function onPlayerDidInteract(self, event, world) {
     event.target.startX === self.startX &&
     event.target.startY === self.startY
   ) {
-    self.setState({
-      hasInteracted: true
-    });
-    world.useTool('fire_extinguisher');
+    const inventory = world.getContext('inventory');
+
+    if (inventory.includes('fire_extinguisher')) {
+      self.setState({
+        hasInteracted: true
+      });
+      world.useTool('fire_extinguisher');
+    } else {
+      world.showNotification(`
+      <i>The flames are too intense to get any closer! You'll need the 
+      <em>fire extinguisher</em> to clear the blaze.
+      `);
+    }
   }
 }
 
@@ -90,7 +99,7 @@ function onPlayerStoppedUsingTool(self, event, world) {
   }
 }
 
-// Base NPC object, to be decorated for each built-in NPC
+// Base Object
 const FIRE_OBJECT = {
   state: {
     hasInteracted: false,
