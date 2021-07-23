@@ -5,13 +5,10 @@ function init(self, event, world) {
   self.sprite.loadTexture(`npc_${self.spritesheet}`);
 
   // Start the idle animation loop
-  console.log(self);
   self.playAnimation(`npc_${self.spritesheet}_idle`, true);
 }
 
 function onPlayerDidInteract(self, event, world) {
-  console.log(self);
-  
   // Check if the interaction event target was self
   if (event.target.spritesheet === self.spritesheet) {
     if (self.observation) {
