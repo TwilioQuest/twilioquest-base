@@ -1,0 +1,17 @@
+{
+  "title": "JavaScript Lab: Conditionals 2",
+  "description": "Let's learn how to run multiple different conditionals in a row with the \"else\" statement.",
+  "show_ide": true,
+  "validation_fields": [
+    {
+      "name": "one",
+      "type": "prompt",
+      "placeholder": "",
+      "label": "Use the code editor to write a JavaScript program as directed. Click 'HACK' to validate your work."
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  },
+  "hidden": true
+}

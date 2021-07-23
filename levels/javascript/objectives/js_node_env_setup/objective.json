@@ -1,0 +1,15 @@
+{
+  "title": "JavaScript Lab: Set Up Your Node.js Environment",
+  "description": "The JavaScript Test Lab requires all personnel to have a <strong>Node.js JavaScript runtime</strong> installed before proceeding into the lab. Install Node.js in this challenge.",
+  "validation_fields": [
+    {
+      "name": "nodePath",
+      "type": "text",
+      "placeholder": "/usr/local/bin/node",
+      "label": "Paste in the path to your Node.js executable as described in the objective."
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  }
+}

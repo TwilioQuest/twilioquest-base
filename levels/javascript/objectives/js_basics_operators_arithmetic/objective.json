@@ -1,0 +1,17 @@
+{
+  "title": "JavaScript Lab: Arithmetic Operators",
+  "description": "Now that we know the types of data we can create, lets learn how to modify them with \"operators\".",
+  "show_ide": true,
+  "validation_fields": [
+    {
+      "name": "one",
+      "type": "prompt",
+      "placeholder": "",
+      "label": "Use the code editor to write a JavaScript program as directed. Click 'HACK' to validate your work."
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  },
+  "hidden": true
+}

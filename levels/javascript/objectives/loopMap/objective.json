@@ -1,0 +1,16 @@
+{
+  "title": "JavaScript Lab: A Transformational Moment",
+  "description": "Learn to execute a chunk of code for every item in a JavaScript array, and <strong>return a new array of items as a result</strong>.",
+  "show_ide": false,
+  "validation_fields": [
+    {
+      "name": "prompt",
+      "type": "prompt",
+      "label": "Create a program as described in the objective, then click <span class='highlight'>HACK</span>."
+    }
+  ],
+  "rewards": {
+    "xp": 100,
+    "items": []
+  }
+}

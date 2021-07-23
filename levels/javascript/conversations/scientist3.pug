@@ -1,0 +1,29 @@
+- const worldState = getState('javascriptWorldState');
+
+// Responses
+mixin thanks
+  response#thanks.
+    Thanks - it was a bit of a run-around, but I'm glad I could help.
+
+conversation(display_name="TwilioQuest Engineer")
+  if lastResponse === "thanks"
+    statement.
+      Bonus points for a loop pun, on top of it all! I'll head out to the experiment room after I finish up in here.
+
+  else if worldState.eastWing.hadSavedConversation
+    statement.
+      It looks like you already have #[span.highlight my access code for Beam 3] in the main experiment room. I'll join you there eventually, but I should probably ensure that our supplies weren't damaged in the explosion. Awesome work once again, I owe you big time.
+    responses
+      +thanks
+
+  else
+    - worldState.eastWing.hadSavedConversation = true;
+    statement.
+      How did you get in here? I mean, I'm glad you made it, but I thought it would be days before a rescue team figured out the Infinite Loop's security system!<br/><br/>
+      ...You need my code to reset the laser in the experiment room? By all means - 
+      here's #[span.highlight the hardware token you'll need to activate Beam 3]. You must be something else, even for an Operator.
+    responses
+      +thanks
+
+// Flush world state changes, if any
+- setState('javascriptWorldState', worldState);

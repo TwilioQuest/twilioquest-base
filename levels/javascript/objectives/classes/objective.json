@@ -1,0 +1,16 @@
+{
+  "title": "JavaScript Lab: Class Act",
+  "description": "You've used built in objects like Strings and Numbers. Now, learn to create <strong>your own new objects</strong> with their own behavior.",
+  "show_ide": false,
+  "validation_fields": [
+    {
+      "name": "prompt",
+      "type": "prompt",
+      "label": "Create a program as described in the objective, then click <span class='highlight'>HACK</span>."
+    }
+  ],
+  "rewards": {
+    "xp": 100,
+    "items": []
+  }
+}

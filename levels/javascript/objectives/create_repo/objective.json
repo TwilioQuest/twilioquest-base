@@ -1,0 +1,16 @@
+{
+  "title": "JavaScript Lab: Track Your Work",
+  "description": "Back up your work in a <strong>local git repository</strong>.",
+  "validation_fields": [
+    {
+      "name": "prompt",
+      "type": "prompt",
+      "placeholder": "",
+      "label": "Click HACK once you've initialized a git repository in your JavaScript workspace and made your initial commit!"
+    }
+  ],
+  "show_ide": false,
+  "rewards": {
+    "xp": 100
+  }
+}

@@ -1,0 +1,27 @@
+- const worldState = getState('javascriptWorldState');
+
+// Responses
+mixin funny_way
+  response#funny_way.
+    You have a funny way of showing gratitude.
+
+conversation(display_name="TwilioQuest Botanist")
+  if lastResponse === "funny_way"
+    statement.
+      What, do you want a medal for demonstrating you're not a complete simpleton? I have none to give, so my acknowledgment of your not-useless programming skills will have to suffice.
+
+  else if worldState.southWing.hadSavedConversation
+    statement.
+      You already have #[span.highlight my access code for Beam 2] in the main experiment room. Do you need something else, or do you intend to waste even more of my time while I try to collect my research materials?
+    responses
+      +funny_way
+
+  else
+    - worldState.southWing.hadSavedConversation = true;
+    statement.
+      Well it's about time. Here - #[span.highlight take my access code for Beam 2] in the main experiment room, if you must. I will remain a moment longer to collect my research materials before I evacuate.<br/><br/>... I'll admit that you're not as hopeless as I originally suspected.
+    responses
+      +funny_way
+
+// Flush world state changes, if any
+- setState('javascriptWorldState', worldState);

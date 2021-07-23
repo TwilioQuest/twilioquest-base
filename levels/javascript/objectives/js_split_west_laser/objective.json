@@ -1,0 +1,15 @@
+{
+  "title": "JavaScript Lab: Reverse the Experiment",
+  "description": "The previous attempt to stabilize the ducktypium ended in disaster. Now, you must get all four stabilizer beams back online to reverse the experiment!",
+  "validation_fields": [
+    {
+      "name": "prompt",
+      "type": "prompt",
+      "placeholder": "",
+      "label": "Click <em>HACK</em> once you have satisfied the criteria for this objective."
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  }
+}

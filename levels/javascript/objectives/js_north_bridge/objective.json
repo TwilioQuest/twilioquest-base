@@ -1,0 +1,16 @@
+{
+  "title": "JavaScript Lab: Your First Conditional",
+  "description": "Learn about an essential programming building block, the <strong>if statement</strong>!",
+  "validation_fields": [
+    {
+      "name": "prompt",
+      "type": "prompt",
+      "placeholder": "",
+      "label": "Write a program as directed in the Objective tab, then click <span class='highlight'>HACK</span>."
+    }
+  ],
+  "show_ide": false,
+  "rewards": {
+    "xp": 100
+  }
+}

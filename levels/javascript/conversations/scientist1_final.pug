@@ -1,0 +1,35 @@
+- const worldState = getState('javascriptWorldState');
+
+mixin welcome
+  response#welcome.
+    All in a day's work!
+
+mixin sabotage
+  response#sabotage.
+    When I was fixing the final laser, it appeared to have been sabotaged.
+
+conversation(display_name="TwilioQuest Lead Scientist")
+  if lastResponse === "welcome"
+    statement.
+      I hope not! How many reality-threatening crises do you deal with in an average work week?
+
+    responses
+      +sabotage
+
+  else if lastResponse === "sabotage"
+    statement.
+      You're right - we went over the lab's security footage and discovered it was that cranky botanist who monkeyed with the laser! And now he's conveniently fled the station. We're still investigating the incident, but we suspect that the #[span.red Legacy Systems] helped him infiltrate the station to sabotage our research.<br/><br/> It's a good thing you showed up when you did - the #[span.red Legacy Systems] almost succeeded. I doubt they accounted for an Operator with your skills.
+
+    responses
+      +welcome
+
+  else
+    statement.
+      This is incredible - the #[span.highlight ducktypium] molecule is stable. You did it!<br/><br/>I know you must hear this all the time, but you're a real hero! Our team, and every resident of The Cloud owes you a debt we can never repay.
+
+    responses
+      +welcome
+      +sabotage
+
+// Flush world state changes, if any
+- setState('javascriptWorldState', worldState);

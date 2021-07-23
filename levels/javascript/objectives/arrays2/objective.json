@@ -1,0 +1,15 @@
+{
+  "title": "JavaScript Lab: Accessing Arrays",
+  "description": "Learn to access the data inside arrays using <strong>indexes</strong>.",
+  "show_ide": false,
+  "validation_fields": [
+    {
+      "type": "prompt",
+      "label": "Create a program as described in the objective, then click <span class='highlight'>HACK</span>."
+    }
+  ],
+  "rewards": {
+    "xp": 100,
+    "items": []
+  }
+}

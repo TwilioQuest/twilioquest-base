@@ -1,0 +1,15 @@
+{
+  "title": "JavaScript Lab: Create a Workspace",
+  "description": "Lab personnel are expected to <strong>create a folder on their computer</strong> where all their JavaScript code will reside. Create such a folder in this challenge.",
+  "validation_fields": [
+    {
+      "name": "workspacePath",
+      "type": "text",
+      "placeholder": "C:\\Users\\jane\\twilioquest\\js",
+      "label": "Paste in the full path to a folder on your computer where you will keep all your TwilioQuest JavaScript code."
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  }
+}

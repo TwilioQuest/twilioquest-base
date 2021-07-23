@@ -1,0 +1,16 @@
+{
+  "title": "JavaScript Lab: Array Built-in Functions",
+  "description": "Learn to <strong>split arrays</strong> into multiple arrays, and to <strong>sort the items within them</strong>.",
+  "show_ide": false,
+  "validation_fields": [
+    {
+      "name": "prompt",
+      "type": "prompt",
+      "label": "Create a program as described in the objective, then click <span class='highlight'>HACK</span>."
+    }
+  ],
+  "rewards": {
+    "xp": 100,
+    "items": []
+  }
+}

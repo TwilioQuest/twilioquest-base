@@ -1,0 +1,35 @@
+// Partial conversation template for post-explosion conversation
+case lastResponse
+  when "other_scientists"
+    statement.
+      They were as of a few minutes after the accident. Right now, I can't be sure - we've lost all communications in the lab. We should assume my colleagues are #[span.highlight stranded in other areas of the facility].
+    responses
+      response#get_to_safety.
+        We need to find them and get all of you to safety.
+
+  when "get_to_safety"
+    statement.
+      So here's the thing about "safety"... From what I can tell, that explosion created a dimensional rift that is expanding by the minute. Unless we can #[span.highlight reverse the experiment and mend the rift], nowhere in The Cloud will be safe.
+    responses
+      response#fix_it.
+        So reverse the experiment, or all of existence is doomed. Got it. How do we go about doing that?
+
+  when "fix_it"
+    statement.
+      I think I know how to adjust the stabilizer beams to reverse the reaction, but in order to do that, we'll need to #[span.highlight reactivate all four beams]. And I won't be able to do that myself - my colleagues have the activation codes for the other lasers.
+    responses
+      response#on_it.
+        I'm on it! I'll find your colleagues and get their activation codes.
+
+  when "on_it"
+    statement.
+      I still need some time to calibrate the equipment for the reversal attempt. Let me know when you have #[span.highlight found my colleagues and collected their activation codes]. We can still fix this if we move quickly.
+    // Flag that the scientist post-disaster conversation has been finished
+    - worldState.scientistDisasterConvo = true;
+
+  default
+    statement.
+      The #[span.highlight ducktypium crystal destablized] after we turned on the fourth beam - but that shouldn't have been possible! Our... MY... calculations were perfect, I know it!<br/><br/>And technically, parts of the lab aren't missing, they've just transitioned to a previously undiscovered fifth phase of matter outside our spacetime continuum.<br/><br/>As for the fires... yeah, that part is still pretty bad.
+    responses
+      response#other_scientists.
+        What happened to the other scientists that were inside the test chamber? Are they safe?

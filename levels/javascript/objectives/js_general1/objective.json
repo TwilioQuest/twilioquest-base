@@ -1,0 +1,27 @@
+{
+  "title": "JavaScript Lab: Starting With Why",
+  "description": "Learn the origin story of <strong>JavaScript</strong>, the lingua franca of software development.",
+  "validation_fields": [
+    {
+      "name": "one",
+      "type": "text",
+      "placeholder": "Type 'true' or 'false'",
+      "label": "True or false: JavaScript can be used to program mobile apps, games, web sites, and robots."
+    },
+    {
+      "name": "two",
+      "type": "text",
+      "placeholder": "<fill in the blank above>",
+      "label": "JavaScript started out as a programming language for ___."
+    },
+    {
+      "name": "three",
+      "type": "text",
+      "placeholder": "<fill in the blank above>",
+      "label": "The TwilioQuest team's favorite JavaScript reference documentation is found on the ___ Developer Network website."
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  }
+}

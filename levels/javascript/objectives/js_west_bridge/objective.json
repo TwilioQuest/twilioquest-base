@@ -1,0 +1,15 @@
+{
+  "title": "JavaScript Lab: If Alive Then Bridge",
+  "description": "Extend the east bridge by learning to use an <strong>else statement</strong> in your conditional logic.",
+  "validation_fields": [
+    {
+      "name": "prompt",
+      "type": "prompt",
+      "placeholder": "",
+      "label": "Write a program as directed in the Objective tab, then click <span class='highlight'>HACK</span>."
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  }
+}
