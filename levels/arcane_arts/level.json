@@ -1,7 +1,11 @@
 {
   "title": "University of Arcane Arts",
   "description": "Ecosystem vesting period ramen stealth product management non-disclosure agreement first mover advantage direct mailing social proof partnership buzz hackathon equity. User experience virality iteration gen-z vesting period innovator paradigm shift customer metrics scrum project. Funding business-to-consumer ownership hypotheses disruptive market user experience bandwidth validation early adopters buzz research & development launch party. Accelerator churn rate network effects product management partner network.",
-  "is_mission": false,
+  "is_mission": true,
+  "navMap": {
+    "x": 50,
+    "y": 50
+  },
   "priority": 1,
   "backgroundMusic": "hackertheme_104771b",
   "backgroundEffect": {
