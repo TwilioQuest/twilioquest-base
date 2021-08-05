@@ -16,7 +16,7 @@
                 {
                  "name":"animationEndFrame",
                  "type":"int",
-                 "value":0
+                 "value":11
                 }, 
                 {
                  "name":"animationFrameRate",
@@ -26,7 +26,7 @@
                 {
                  "name":"animationStartFrame",
                  "type":"int",
-                 "value":11
+                 "value":0
                 }],
          "type":"star_M_bright"
         }, 
@@ -36,7 +36,7 @@
                 {
                  "name":"animationEndFrame",
                  "type":"int",
-                 "value":12
+                 "value":23
                 }, 
                 {
                  "name":"animationFrameRate",
