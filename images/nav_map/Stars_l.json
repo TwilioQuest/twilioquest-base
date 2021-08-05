@@ -10,6 +10,7 @@
  "imagewidth":84,
  "margin":0,
  "name":"Stars_l",
+ "objectalignment":"topleft",
  "spacing":0,
  "tilecount":48,
  "tiledversion":"1.6.0",

@@ -4,6 +4,7 @@
  "imagewidth":60,
  "margin":0,
  "name":"Stars_m",
+ "objectalignment":"top",
  "spacing":0,
  "tilecount":48,
  "tiledversion":"1.6.0",
@@ -11,10 +12,42 @@
  "tiles":[
         {
          "id":24,
+         "properties":[
+                {
+                 "name":"animationEndFrame",
+                 "type":"int",
+                 "value":0
+                }, 
+                {
+                 "name":"animationFrameRate",
+                 "type":"int",
+                 "value":4
+                }, 
+                {
+                 "name":"animationStartFrame",
+                 "type":"int",
+                 "value":11
+                }],
          "type":"star_M_bright"
         }, 
         {
          "id":36,
+         "properties":[
+                {
+                 "name":"animationEndFrame",
+                 "type":"int",
+                 "value":12
+                }, 
+                {
+                 "name":"animationFrameRate",
+                 "type":"int",
+                 "value":4
+                }, 
+                {
+                 "name":"animationStartFrame",
+                 "type":"int",
+                 "value":23
+                }],
          "type":"star_M_dark"
         }],
  "tilewidth":5,

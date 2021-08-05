@@ -7,6 +7,7 @@
     },
  "margin":0,
  "name":"nav_map_decor",
+ "objectalignment":"topleft",
  "spacing":0,
  "tilecount":3,
  "tiledversion":"1.6.0",
