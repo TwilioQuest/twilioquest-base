@@ -18,10 +18,62 @@
  "tiles":[
         {
          "id":24,
+         "properties":[
+                {
+                 "name":"animationEndFrame",
+                 "type":"int",
+                 "value":11
+                }, 
+                {
+                 "name":"animationFrameRate",
+                 "type":"int",
+                 "value":4
+                }, 
+                {
+                 "name":"animationMaxDelay",
+                 "type":"int",
+                 "value":12000
+                }, 
+                {
+                 "name":"animationMinDelay",
+                 "type":"int",
+                 "value":6000
+                }, 
+                {
+                 "name":"animationStartFrame",
+                 "type":"int",
+                 "value":0
+                }],
          "type":"star_L_bright"
         }, 
         {
          "id":36,
+         "properties":[
+                {
+                 "name":"animationEndFrame",
+                 "type":"int",
+                 "value":23
+                }, 
+                {
+                 "name":"animationFrameRate",
+                 "type":"int",
+                 "value":4
+                }, 
+                {
+                 "name":"animationMaxDelay",
+                 "type":"int",
+                 "value":12000
+                }, 
+                {
+                 "name":"animationMinDelay",
+                 "type":"int",
+                 "value":6000
+                }, 
+                {
+                 "name":"animationStartFrame",
+                 "type":"int",
+                 "value":12
+                }],
          "type":"star_L_dark"
         }],
  "tilewidth":7,

@@ -1,22 +1,21 @@
-{ "columns":12,
- "image":"Stars_m.png",
- "imageheight":28,
- "imagewidth":60,
+{ "columns":10,
+ "image":"Stars_s.png",
+ "imageheight":20,
+ "imagewidth":30,
  "margin":0,
- "name":"Stars_m",
- "objectalignment":"top",
+ "name":"Stars_s",
  "spacing":0,
- "tilecount":48,
+ "tilecount":40,
  "tiledversion":"1.6.0",
- "tileheight":7,
+ "tileheight":5,
  "tiles":[
         {
-         "id":24,
+         "id":20,
          "properties":[
                 {
                  "name":"animationEndFrame",
                  "type":"int",
-                 "value":11
+                 "value":9
                 }, 
                 {
                  "name":"animationFrameRate",
@@ -26,27 +25,26 @@
                 {
                  "name":"animationMaxDelay",
                  "type":"int",
-                 "value":10000
+                 "value":12000
                 }, 
                 {
                  "name":"animationMinDelay",
                  "type":"int",
-                 "value":5000
+                 "value":6000
                 }, 
                 {
                  "name":"animationStartFrame",
                  "type":"int",
                  "value":0
-                }],
-         "type":"star_M_bright"
+                }]
         }, 
         {
-         "id":36,
+         "id":30,
          "properties":[
                 {
                  "name":"animationEndFrame",
                  "type":"int",
-                 "value":23
+                 "value":19
                 }, 
                 {
                  "name":"animationFrameRate",
@@ -56,21 +54,20 @@
                 {
                  "name":"animationMaxDelay",
                  "type":"int",
-                 "value":10000
+                 "value":12000
                 }, 
                 {
                  "name":"animationMinDelay",
                  "type":"int",
-                 "value":5000
+                 "value":6000
                 }, 
                 {
                  "name":"animationStartFrame",
                  "type":"int",
-                 "value":12
-                }],
-         "type":"star_M_dark"
+                 "value":10
+                }]
         }],
- "tilewidth":5,
+ "tilewidth":3,
  "type":"tileset",
  "version":"1.6"
 }
