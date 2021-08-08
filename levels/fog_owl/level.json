@@ -1,6 +1,8 @@
 {
   "title": "Fog Owl",
-  "description": "",
+  "description": "Your mobile base of operations in The Cloud.",
+  "questTitle": "Aboard the Fog Owl",
+  "questDescription": "Explore The Cloud using the nav map. Brush up tech skills in VR training.",
   "is_mission": false,
   "backgroundEffect": {
     "key": "starfield",
