@@ -1,8 +1,12 @@
 {
   "title": "The Flame of Open Source",
   "description": "Creative interaction design business model canvas startup virality responsive web design customer. Graphical user interface long tail paradigm shift hypotheses. Beta user experience analytics niche market infrastructure monetization success crowdfunding partner network network effects release. Return on investment analytics funding burn rate user experience hackathon business-to-consumer leverage network effects innovator.",
-  "is_mission": false,
-  "priority": 1,
+  "navMap": {
+    "x": 75,
+    "y": 10,
+    "sprite": "nav_map/forest_of_open_source.png"
+  },
+  "priority": 2,
   "backgroundMusic": "hackertheme_104771b",
   "backgroundEffect": {
     "key": "starfield",

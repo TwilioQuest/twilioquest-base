@@ -1,10 +1,10 @@
 {
   "title": "JavaScript Test Lab",
   "description": "TwilioQuest scientists are researching \"ducktypium\", a recently discovered energy source which is as powerful as it is unstable. Visit the test lab to learn more about the JavaScript programming language, and about the research team's experiment.",
-  "is_mission": true,
   "navMap": {
     "x": 25,
-    "y": 25
+    "y": 25,
+    "sprite": "nav_map/javascript_lab.png"
   },
   "priority": 2,
   "backgroundMusic": "hackertheme_104771b",
