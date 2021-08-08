@@ -1,25 +1,17 @@
 {
   "title": "JavaScript Test Lab",
-  "description": "TwilioQuest scientists are researching \"ducktypium\", a recently discovered energy source which is as powerful as it is unstable. Visit the test lab to learn more about the JavaScript programming language, and about the research team's experiment.",
+  "description": "The TwilioQuest Program maintains this high-tech research facility studying the latest advancements in JavaScript technology. There's not much to see here yet, though!",
+  "questDescription": "Not much to see yet - return to the Fog Owl!",
   "navMap": {
     "x": 25,
     "y": 25,
     "sprite": "nav_map/javascript_lab.png"
   },
   "priority": 2,
-  "backgroundMusic": "hackertheme_104771b",
+  "backgroundMusic": "fascinatingarea_108253b",
   "backgroundEffect": {
     "key": "starfield",
     "options": { "baseSpeed": 0.03, "direction": "topToBottom" }
   },
-  "flavorTextOverrides": {
-    "bookshelf": "Hmmm... A lot of classics in here. \"You Don't Know JS\", \"JavaScript: The Good Parts\", and a bunch more.",
-    "ducktypium": "Whoa, this is pure Ducktypium. Powerful, but highly unstable. If the JavaScript in this lab is powered by this stuff, no wonder there’s the occasional insurance claim.",
-    "passwordDeskNote": "Written on a sticky note on her desk: \"Stasis Beam Password: <span class=\"highlight\">PEW PEW PEW!</span>\"",
-    "officeTerminal": "This screen is monitoring the temperature in the Ducktypium room. Its a balmy 21°C.",
-    "officeBookshelf": "There are lots of different past experiment notebooks in here. Mutations, tranformations, prototypes, and more stuff.",
-    "opensMar2020": "The adventure continues this way in <span class=\"highlight\">early May 2020</span> - check back later this month, <a href=\"https://twitter.com/TwilioQuest\">follow Cedric on Twitter</a>, and <a href=\"https://www.twilio.com/quest#email\">sign up for our newsletter</a> to be the first to know when this area opens up!",
-    "playerPlantedTree": "Your very own tree! It represents an actual tree that will be planted in Australia to help recover from the recent wildfires there.",
-    "loopLockInfo": "This strange room displays a number, just like the numbers outside the secure cargo holds on the ship. I wonder if they're connected? I should <span class=\"highlight\">take a walk around this room</span> to see what happens..."
-  }
+  "flavorTextOverrides": {}
 }

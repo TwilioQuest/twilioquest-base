@@ -1,25 +1,17 @@
 {
-  "title": "The Flame of Open Source",
-  "description": "Creative interaction design business model canvas startup virality responsive web design customer. Graphical user interface long tail paradigm shift hypotheses. Beta user experience analytics niche market infrastructure monetization success crowdfunding partner network network effects release. Return on investment analytics funding burn rate user experience hackathon business-to-consumer leverage network effects innovator.",
+  "title": "The Forest of Open Source",
+  "description": "The Druids of Open Source have protected this sacred forest world for generations, helping those that wish to contribute to open source projects. There's not much to see here yet, though!",
+  "questDescription": "Nothing to see here - head back to the Fog Owl!",
   "navMap": {
     "x": 75,
     "y": 10,
     "sprite": "nav_map/forest_of_open_source.png"
   },
   "priority": 2,
-  "backgroundMusic": "hackertheme_104771b",
+  "backgroundMusic": "fascinatingarea_108253b",
   "backgroundEffect": {
     "key": "starfield",
     "options": { "baseSpeed": 0.03, "direction": "topToBottom" }
   },
-  "flavorTextOverrides": {
-    "bookshelf": "Hmmm... A lot of classics in here. \"You Don't Know JS\", \"JavaScript: The Good Parts\", and a bunch more.",
-    "ducktypium": "Whoa, this is pure Ducktypium. Powerful, but highly unstable. If the JavaScript in this lab is powered by this stuff, no wonder there’s the occasional insurance claim.",
-    "passwordDeskNote": "Written on a sticky note on her desk: \"Stasis Beam Password: <span class=\"highlight\">PEW PEW PEW!</span>\"",
-    "officeTerminal": "This screen is monitoring the temperature in the Ducktypium room. Its a balmy 21°C.",
-    "officeBookshelf": "There are lots of different past experiment notebooks in here. Mutations, tranformations, prototypes, and more stuff.",
-    "opensMar2020": "The adventure continues this way in <span class=\"highlight\">early May 2020</span> - check back later this month, <a href=\"https://twitter.com/TwilioQuest\">follow Cedric on Twitter</a>, and <a href=\"https://www.twilio.com/quest#email\">sign up for our newsletter</a> to be the first to know when this area opens up!",
-    "playerPlantedTree": "Your very own tree! It represents an actual tree that will be planted in Australia to help recover from the recent wildfires there.",
-    "loopLockInfo": "This strange room displays a number, just like the numbers outside the secure cargo holds on the ship. I wonder if they're connected? I should <span class=\"highlight\">take a walk around this room</span> to see what happens..."
-  }
+  "flavorTextOverrides": {}
 }
