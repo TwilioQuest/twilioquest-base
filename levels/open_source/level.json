@@ -1,0 +1,17 @@
+{
+  "title": "The Forest of Open Source",
+  "description": "The Druids of Open Source have protected this sacred forest world for generations, helping those that wish to contribute to open source projects. There's not much to see here yet, though!",
+  "questDescription": "Nothing to see here - head back to the Fog Owl!",
+  "navMap": {
+    "x": 75,
+    "y": 10,
+    "sprite": "nav_map/forest_of_open_source.png"
+  },
+  "priority": 2,
+  "backgroundMusic": "fascinatingarea_108253b",
+  "backgroundEffect": {
+    "key": "starfield",
+    "options": { "baseSpeed": 0.03, "direction": "topToBottom" }
+  },
+  "flavorTextOverrides": {}
+}

@@ -8,7 +8,7 @@
  "margin":0,
  "name":"TwilioQuestObjects",
  "spacing":0,
- "tilecount":12,
+ "tilecount":14,
  "tiledversion":"1.5.0",
  "tileheight":72,
  "tiles":[
@@ -282,6 +282,78 @@
                  "value":"example_objective"
                 }],
          "type":"terminal"
+        }, 
+        {
+         "id":13,
+         "image":"..\/objects\/fire\/icons\/red.png",
+         "imageheight":26,
+         "imagewidth":24,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":12,
+                     "id":2,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":20,
+                     "x":2,
+                     "y":14
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"red"
+                }],
+         "type":"fire"
+        }, 
+        {
+         "id":14,
+         "image":"..\/objects\/fire\/icons\/blue.png",
+         "imageheight":26,
+         "imagewidth":24,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":12,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":20,
+                     "x":2,
+                     "y":14
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"blue"
+                }],
+         "type":"fire"
         }],
  "tilewidth":72,
  "type":"tileset",
