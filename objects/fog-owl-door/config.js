@@ -1,0 +1,78 @@
+const initOpenCloseFsm = require("../../scripts/initOpenCloseFsm");
+
+// TODO:
+// - gracefully transition between opening/closing animations part way through
+
+function isOpenCloseKey(self, event) {
+  return self.openCloseAreaKey === event.target.key;
+}
+
+function isWarpExitKey(self, event) {
+  return self.warpExitAreaKey === event.target.key;
+}
+
+function onTriggerAreaWasEntered(self, event, world) {
+  if (isWarpExitKey(self, event)) {
+    world.disablePlayerMovement();
+    world.showOverlayComponent("fogOwlFlying");
+    world.warp("fog_owl");
+    return;
+  }
+
+  if (isOpenCloseKey(self, event)) {
+    self.state.fsm.action("open");
+    return;
+  }
+}
+
+function onTriggerAreaWasExited(self, event) {
+  if (isOpenCloseKey(self, event)) {
+    self.state.fsm.action("close");
+    return;
+  }
+}
+
+module.exports = {
+  state: {
+    fsm: null,
+  },
+  animations: {
+    closed: {
+      frames: [0],
+      frameRate: 1,
+    },
+    closing: {
+      frames: [8, 9, 10, 11, 12, 13, 14, 15],
+      frameRate: 16,
+    },
+    open: {
+      frames: [8],
+      frameRate: 1,
+    },
+    opening: {
+      frames: [0, 1, 2, 3, 4, 5, 6, 7],
+      frameRate: 16,
+    },
+  },
+  spriteSheets: {
+    tq_fog_owl_ship_entrance: {
+      fileName: `FogOwlShip_Entrance.png`,
+      frameDimensions: {
+        width: 48,
+        height: 72,
+      },
+    },
+  },
+  properties: {
+    sprite: {
+      defaultFrameIndex: 0,
+      spriteSheet: "tq_fog_owl_ship_entrance",
+      layers: [],
+    },
+  },
+  events: {
+    onMapDidLoad: initOpenCloseFsm(),
+    onTriggerAreaWasEntered,
+    onTriggerAreaWasExited,
+  },
+};
