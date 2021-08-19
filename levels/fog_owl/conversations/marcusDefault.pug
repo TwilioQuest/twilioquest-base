@@ -1,0 +1,40 @@
+mixin dossier
+  response#dossier.
+    [checks service records] Being the chief engineer of a Cloud Exploration Vessel seems like a step down from being a spelling bee pronouncer.
+
+mixin about
+  response#about.
+    Could you remind me who you are, and what you do on the ship?
+
+conversation(display_name="Marcus")
+  case lastResponse
+    when "dossier"
+      statement#dossier
+      responses
+
+    when "about"
+      statement#about
+      responses
+        +dossier
+
+    default
+      statement#default
+      responses
+        +about
+
+  statements
+    statement#dossier
+      text.
+        Hah, they put that in there did they? In addition to my fine technical 
+        skills, I do take pride in my excellent diction. And knowing word 
+        origins is more useful than you might think.
+
+    statement#about
+      text.
+        Sure thing. Marcus, chief engineer aboard the Fog Owl. I make sure our 
+        bird keeps singing, and right now it's a beautiful tune. I'll let you 
+        know right away if any of our systems start acting up.
+
+    statement#default
+      text.
+        Operator. Systems are green across the board - all good back here.

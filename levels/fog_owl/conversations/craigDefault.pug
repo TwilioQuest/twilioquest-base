@@ -1,0 +1,42 @@
+mixin dossier
+  response#dossier.
+    [checks service records] You're no stranger to developer training, but it looks like you also spent some time in the Peace Corps?
+
+mixin about
+  response#about.
+    Could you remind me who you are, and what you do on the ship?
+
+conversation(display_name="Craig")
+  case lastResponse
+    when "dossier"
+      statement#dossier
+      responses
+
+    when "about"
+      statement#about
+      responses
+        +dossier
+
+    default
+      statement#default
+      responses
+        +about
+
+  statements
+    statement#dossier
+      text.
+        That's true! I did spend time in the Peace Corps teaching computer skills 
+        in Guyana. It's incredible how much technology has advanced since then.
+        It would have been much easier with a direct neural interface to The 
+        Cloud, that's for sure.
+
+    statement#about
+      text.
+        Of course! My name's Craig. I'm a developer, and I'm also the training 
+        officer here aboard the Fog Owl. I help build simulations for 
+        our virtual reality training platform, to help prepare you for any 
+        unforseen hacking problems you might encounter in The Cloud.
+
+    statement#default
+      text.
+        Hey, Operator! Always a good day to learn something new!
