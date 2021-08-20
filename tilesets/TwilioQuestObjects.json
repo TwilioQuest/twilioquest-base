@@ -8,8 +8,8 @@
  "margin":0,
  "name":"TwilioQuestObjects",
  "spacing":0,
- "tilecount":14,
- "tiledversion":"1.5.0",
+ "tilecount":15,
+ "tiledversion":"1.6.0",
  "tileheight":72,
  "tiles":[
         {
@@ -291,7 +291,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -327,7 +326,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -354,8 +352,26 @@
                  "value":"blue"
                 }],
          "type":"fire"
+        }, 
+        {
+         "id":15,
+         "image":"..\/objects\/fog-owl-door\/icon.png",
+         "imageheight":72,
+         "imagewidth":48,
+         "properties":[
+                {
+                 "name":"openCloseAreaKey",
+                 "type":"string",
+                 "value":"triggerAreaKey"
+                }, 
+                {
+                 "name":"warpExitAreaKey",
+                 "type":"string",
+                 "value":"anotherTriggerAreaKey"
+                }],
+         "type":"fog-owl-door"
         }],
  "tilewidth":72,
  "type":"tileset",
- "version":1.5
+ "version":"1.6"
 }
