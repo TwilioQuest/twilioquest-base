@@ -1,8 +1,5 @@
 const initOpenCloseFsm = require("../../scripts/initOpenCloseFsm");
 
-// TODO:
-// - gracefully transition between opening/closing animations part way through
-
 function isOpenCloseKey(self, event) {
   return self.openCloseAreaKey === event.target.key;
 }
@@ -42,11 +39,11 @@ module.exports = {
       frameRate: 1,
     },
     closing: {
-      frames: [8, 9, 10, 11, 12, 13, 14, 15],
+      frames: [7, 6, 5, 4, 3, 2, 1, 0],
       frameRate: 16,
     },
     open: {
-      frames: [8],
+      frames: [7],
       frameRate: 1,
     },
     opening: {

@@ -1,7 +1,10 @@
 const FSM = require("./FSM");
 
 const initOpenCloseFsm =
-  ({ modifyPhysicsBodyWithStateChange = true } = {}) =>
+  ({
+    modifyPhysicsBodyWithStateChange = true,
+    smoothTransitionBetweenOpeningAndClosing = true,
+  } = {}) =>
   (self) => {
     const fsm = new FSM(
       {
@@ -23,9 +26,16 @@ const initOpenCloseFsm =
             complete: () => fsm.transition("closed"),
           },
           onEnter: () => {
-            // TODO: If we came from opening, we should start the closing anim
-            // not all the way at the beginning
-            self.playAnimation("closing").then(() => fsm.action("complete"));
+            const closingAnimation =
+              self.sprite.animations.getAnimation("closing");
+
+            const startingFrame = smoothTransitionBetweenOpeningAndClosing
+              ? closingAnimation.frameTotal - self.sprite.frame
+              : undefined;
+
+            self
+              .playAnimation("closing", false, { startingFrame })
+              .then(() => fsm.action("complete"));
           },
         },
         open: {
@@ -46,9 +56,13 @@ const initOpenCloseFsm =
             complete: () => fsm.transition("open"),
           },
           onEnter: () => {
-            // TODO: If we came from closing, we should start the opening anim
-            // not all the way at the beginning
-            self.playAnimation("opening").then(() => fsm.action("complete"));
+            const startingFrame = smoothTransitionBetweenOpeningAndClosing
+              ? self.sprite.frame
+              : undefined;
+
+            self
+              .playAnimation("opening", false, { startingFrame })
+              .then(() => fsm.action("complete"));
           },
         },
       },
