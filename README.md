@@ -1,4 +1,4 @@
-# TwilioQuest Base Extenstion
+# TwilioQuest Base Extension
 
 Base extension for the TwilioQuest game - contains Fog Owl map and common assets.
 
