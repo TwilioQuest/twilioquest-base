@@ -6,20 +6,31 @@ mixin about
   response#about.
     Could you remind me who you are, and what you do on the ship?
 
+mixin whats_this
+  response#whats_this.
+    What is this area of the ship used for?
+
 conversation(display_name="Craig")
   case lastResponse
     when "dossier"
       statement#dossier
       responses
+        +whats_this
 
     when "about"
       statement#about
       responses
         +dossier
 
+    when "whats_this"
+      statement#whats_this
+      responses
+        +about
+
     default
       statement#default
       responses
+        +whats_this
         +about
 
   statements
@@ -30,13 +41,22 @@ conversation(display_name="Craig")
         It would have been much easier with a direct neural interface to The 
         Cloud, that's for sure.
 
+    statement#whats_this
+      text.
+        This is the latest in educational technology from the TwilioQuest Program.
+        It's a virtual reality training simulator! To use it, walk up to the terminal 
+        and press the <span class="highlight">spacebar</span>. You should see 
+        a list of available training simulations where you can build your programming 
+        skills. Choose one, and start exploring!<br/><br/>You should also note 
+        that we add new training missions all the time, so you should check back frequently.
+
     statement#about
       text.
         Of course! My name's Craig. I'm a developer, and I'm also the training 
-        officer here aboard the Fog Owl. I help build simulations for 
+        officer here aboard the Fog Owl. <br/><br/>I help build simulations for 
         our virtual reality training platform, to help prepare you for any 
         unforseen hacking problems you might encounter in The Cloud.
 
     statement#default
       text.
-        Hey, Operator! Always a good day to learn something new!
+        Well hey there, Operator! It's a great day to learn something new, don't you think?
