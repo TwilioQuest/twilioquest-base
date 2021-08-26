@@ -1,0 +1,59 @@
+mixin dossier
+  response#dossier.
+    [checks service records] Being the chief engineer of a Cloud Exploration Vessel seems like a step down from being a spelling bee pronouncer.
+
+mixin what_this
+  response#what_this.
+    What's this area of the ship all about?
+
+mixin about
+  response#about.
+    Could you remind me who you are, and what you do on the ship?
+
+conversation(display_name="Marcus")
+  case lastResponse
+    when "dossier"
+      statement#dossier
+      responses
+        +what_this
+
+    when "what_this"
+      statement#what_this
+      responses
+        +about
+
+    when "about"
+      statement#about
+      responses
+        +dossier
+
+    default
+      statement#default
+      responses
+        +what_this
+        +about
+
+  statements
+    statement#what_this
+      text.
+        This is the engineering deck, where we take care of the beating heart of 
+        the Fog Owl - a state-of-the-art <span class="highlight">packet transmission drive</span>. The drive 
+        systems propel clusters of Operators connected to The Cloud at incredible 
+        speeds between virtual worlds.<br/><br/>This is the tech we think will
+        finally allow us to stay one step ahead of the Legacy Systems.
+    
+    statement#dossier
+      text.
+        Hah, they put that in there did they? In addition to my fine technical 
+        skills, I do take pride in my excellent diction. And knowing word 
+        origins is more useful than you might think.
+
+    statement#about
+      text.
+        Sure thing. Marcus, chief engineer aboard the Fog Owl. I make sure our 
+        bird keeps singing, and right now it's a beautiful tune. I'll let you 
+        know right away if any of our systems start acting up.
+
+    statement#default
+      text.
+        Operator. Systems are green across the board - all good back here.

@@ -1,0 +1,55 @@
+mixin dossier
+  response#dossier.
+    [checks service records] Oh wow, it looks like you had family in the Air Force?
+
+mixin traffic
+  response#traffic.
+    Any navigational hazards out there I should be aware of?
+
+mixin about
+  response#about.
+    Could you remind me who you are, and what you do on the ship?
+
+conversation(display_name="Megan")
+  case lastResponse
+    when "dossier"
+      statement#dossier
+      responses
+        +traffic
+
+    when "about"
+      statement#about
+      responses
+        +dossier
+
+    when "traffic"
+      statement#traffic
+      responses
+        +about
+
+    default
+      statement#default
+      responses
+        +traffic
+        +about
+
+  statements
+    statement#dossier
+      text.
+        As the daughter of a 914th Airlift Wing officer, I do feel obligated to 
+        tell you - "The Sky's No Limit". <br/><br/>Though let's be honest, my 
+        ride is much cooler than any junker the Air Force has in the fleet.
+    
+    statement#traffic
+      text.
+        A few, but nothing I can't handle. Once you survive driving in Los Angeles,
+        killer bit comets and narrow logic gates become much less initimidating.
+
+    statement#about
+      text.
+        You bet. I'm Megan, and I have the privilege of serving as 
+        pilot of the Fog Owl. And I must say, the Owl handles like a dream.
+
+    statement#default
+      text.
+        What's up, Operator? What course should I set?
