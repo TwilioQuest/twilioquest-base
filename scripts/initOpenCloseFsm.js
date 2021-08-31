@@ -66,7 +66,7 @@ const initOpenCloseFsm =
           },
         },
       },
-      "closed"
+      self.initialState ?? "closed"
     );
 
     self.setState({ fsm });
