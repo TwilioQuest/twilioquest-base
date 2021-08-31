@@ -40,6 +40,8 @@ module.exports = class FSM {
   constructor(states, initialState) {
     this.currentState = initialState;
     this.states = states;
+
+    this.states[initialState].onEnter?.();
   }
 
   /**
@@ -49,9 +51,7 @@ module.exports = class FSM {
    * @param {String} action - the string value of a valid action
    */
   action(action, payload) {
-    if (this.states[this.currentState].actions[action]) {
-      this.states[this.currentState].actions[action](payload);
-    }
+    this.states[this.currentState].actions[action]?.(payload);
   }
 
   /**
@@ -63,8 +63,6 @@ module.exports = class FSM {
   transition(state) {
     this.currentState = state;
 
-    if (this.states[this.currentState].onEnter) {
-      this.states[this.currentState].onEnter();
-    }
+    this.states[this.currentState].onEnter?.();
   }
 };

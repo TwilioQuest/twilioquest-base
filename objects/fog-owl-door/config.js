@@ -17,7 +17,7 @@ function onTriggerAreaWasEntered(self, event, world) {
   }
 
   if (isOpenCloseKey(self, event)) {
-    self.state.fsm.action("open");
+    self.state.fsm?.action("open");
     return;
   }
 }
