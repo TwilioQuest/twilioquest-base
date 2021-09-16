@@ -1,0 +1,23 @@
+{
+  "title": "Búho de Niebla",
+  "description": "Su base de operaciones móvil en La Nube.",
+  "questTitle": "Aborda el Búho de Niebla",
+  "questDescription": "Explore La Nube usando el mapa de navegación. Mejore las habilidades tecnológicas en el entrenamiento de realidad virtual.",
+  "is_mission": false,
+  "backgroundEffect": {
+    "key": "starfield",
+    "options": { "baseSpeed": 0.03, "direction": "topToBottom" }
+  },
+  "backgroundMusic": "fogowl.ogg",
+  "flavorTextOverrides": {
+    "crewPod": "Parece que este pod está configurado para un usuario diferente. Debería usar <span class=\"highlight\">mi pod de realidad virtual</span> en su lugar. Es el <span class=\"highlight\"> grupo abierto con la luz verde en la parte superior</span>.",
+    "crewComplement": "Camas para una tripulación del puente de cuatro... Cuando el Búho esté listo para volar, debería <span class=\"highlight\"> reclutar un equipo </span> para la misión.",
+    "chestNothing": "¿<span class=\"highlight\"> Este cofre </span> se abre? Supongo que no... Bueno, valió la pena intentarlo.",
+    "replacementParts": "Piezas de repuesto para una interfaz de Nube neuronal. Nunca está de más estar preparado.",
+    "standupSet": "\"¿Qué le dijo el cero al ocho? <span class=\"highlight\"> ¡Bonito cinturón!</span>\"... Lamentablemente, ese es el mejor en esta rutina de standup. Espero que quien haya escrito esto repita unas cuantas veces más antes de subir al escenario.",
+    "fuel": "Me pregunto con qué tipo de combustible funciona esta cosa...",
+    "navigationSystemOffline": "El <span class=\"highlight\"> sistema de navegación </span> permite que el barco viaje a diferentes partes de La Nube. Parece que todavía está desconectado...",
+    "battleTactics": "Notas sobre tácticas de batalla al enfrentarse a las fuerzas de los <span class=\"red\"> Sistemas Legacy </span>. Alguien espera problemas una vez que pongamos el barco en línea...",
+    "airlock": "Una burbuja de aire, creo. Si se trata de un entorno virtual, ¿seguiré siendo <span class=\"highlight\"> succionado al espacio </span> si lo abro? No estoy seguro de querer averiguarlo."
+  }
+}
