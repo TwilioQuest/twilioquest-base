@@ -11,7 +11,12 @@ function isWarpExitKey(self, event) {
 function onTriggerAreaWasEntered(self, event, world) {
   if (isWarpExitKey(self, event)) {
     world.disablePlayerMovement();
-    world.showOverlayComponent("fogOwlFlying");
+    world.showOverlayComponent({
+      key: "fogOwlFlying",
+      props: {
+        fadeIn: true,
+      },
+    });
     world.warp("fog_owl");
     return;
   }
