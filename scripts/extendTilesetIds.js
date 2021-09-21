@@ -13,7 +13,7 @@ const fs = require("fs").promises;
 
 const emptyTileObject = {
   id: 16,
-  image: "../images/missing.png",
+  image: "./missing.png",
   imageheight: 32,
   imagewidth: 32,
 };
