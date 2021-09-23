@@ -32,7 +32,11 @@ async function handleTutorial(event, world, worldState) {
     x: 732,
     y: 610,
   });
-  world.showNotification(translations[lang]['fogOwl.tutorial.vrTraining']);
+
+  const vrTrainingNotification = (translations[lang] && translations[lang]['fogOwl.tutorial.vrTraining']) ?
+    translations[lang]['fogOwl.tutorial.vrTraining'] :
+    translations.en['fogOwl.tutorial.vrTraining']
+  world.showNotification(vrTrainingNotification);
   await world.wait(6000);
 
   await world.tweenCameraToPlayer();
