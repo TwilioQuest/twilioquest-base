@@ -11,6 +11,8 @@ async function handleTutorial(event, world, worldState) {
   }
 
   await world.wait(1000);
+  const lang = await world.getContext('lang') || 'en';
+  const translations = await world.getContext('translations');
 
   world.disablePlayerMovement();
   await world.tweenCameraToPosition({
@@ -30,12 +32,7 @@ async function handleTutorial(event, world, worldState) {
     x: 732,
     y: 610,
   });
-  world.showNotification(`
-    <i>
-      This area looks like some kind of VR training simulator.<br/><br/> I bet there are
-      some training sims that can help <em>build my technical skills</em>!
-    </i>
-  `);
+  world.showNotification(translations[lang]['fogOwl.tutorial.vrTraining']);
   await world.wait(6000);
 
   await world.tweenCameraToPlayer();
