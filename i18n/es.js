@@ -23,10 +23,10 @@ module.exports = {
   mapa de navegación para viajar a un destino en La Nube. Hemos destacado algunos
   puntos calientes en el mapa que creemos que podrían necesitar su atención. Debería
   visitar estos lugares siempre que tenga tiempo.`,
-  // 'mica.about': `Oh, claro, soy Mica, tu oficial de comunicaciones a bordo del Búho de Niebla.
-  // Además de dominar varios idiomas, puedo ayudar a manejar
-  // negociaciones delicadas o resolver conflictos con cualquier persona que encontremos
-  // mientras explora La Nube.`,
+  'mica.about': `Oh, claro, soy Mica, tu oficial de comunicaciones a bordo del Búho de Niebla.
+  Además de dominar varios idiomas, puedo ayudar a manejar
+  negociaciones delicadas o resolver conflictos con cualquier persona que encontremos
+  mientras explora La Nube.`,
   'mica.default': `¡Hola operador! ¿A dónde vamos hoy?`,
   'mica.dossierResponse': '[revisa los registros de servicio] Tengo entendido que usted también era un actor infantil.',
   'mica.aboutResponse': '¿Podrías recordarme quién eres y qué haces en el barco?',
