@@ -11,8 +11,6 @@ async function handleTutorial(event, world, worldState) {
   }
 
   await world.wait(1000);
-  const lang = await world.getContext('lang') || 'en';
-  const translations = await world.getContext('translations');
 
   world.disablePlayerMovement();
   await world.tweenCameraToPosition({
@@ -33,18 +31,15 @@ async function handleTutorial(event, world, worldState) {
     y: 610,
   });
 
-  const vrTrainingNotification = (translations[lang] && translations[lang]['fogOwl.tutorial.vrTraining']) ?
-    translations[lang]['fogOwl.tutorial.vrTraining'] :
-    translations.en['fogOwl.tutorial.vrTraining']
+  const vrTrainingNotification = world.getTranslatedString('fogOwl.tutorial.vrTraining');
   world.showNotification(vrTrainingNotification);
-  await world.wait(6000);
 
+  await world.wait(6000);
   await world.tweenCameraToPlayer();
-  world.showNotification(`
-    <i>
-      Time to get started!<br/><br/> I might want to say hi to Cedric and the crew as well.
-    </i>
-  `);
+
+  const timeToStartNotification = world.getTranslatedString('fogOwl.tutorial.timeToStart');
+  world.showNotification(timeToStartNotification);
+
   world.enablePlayerMovement();
 
   worldState.hasSeenTutorial = true;
