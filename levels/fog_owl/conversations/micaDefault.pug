@@ -1,14 +1,14 @@
 mixin dossier
   response#dossier.
-    [checks service records] I understand you were also a child actor?
+    !{translations['mica.dossierResponse'] || fallbackTranslations['mica.dossierResponse']}
 
 mixin about
   response#about.
-    Could you remind me who you are, and what you do on the ship?
+    !{translations['mica.aboutResponse'] || fallbackTranslations['mica.aboutResponse']}
 
 mixin whats_this
   response#whats_this.
-    What is that platform behind you?
+    !{translations['mica.whatsThisResponse'] || fallbackTranslations['mica.whatsThisResponse']}
 
 conversation(display_name="Mica")
   case lastResponse
@@ -36,27 +36,16 @@ conversation(display_name="Mica")
   statements
     statement#dossier
       text.
-        How did that get in there?! It's true, but my career was short and not 
-        all that successful. My most famous role was as an anthropomorphic fruit.
-        I performed a memorable song and dance number impressing upon children the 
-        importance of eating five servings of fruits and vegetables a day.<br/><br/>
-        So if you're ever on a mission where you need someone to pretend they're 
-        an apple, I've got you covered.
-    
+        !{translations['mica.dossier'] || fallbackTranslations['mica.dossier']}
+        
     statement#whats_this
       text.
-        That's the <span class="highlight">navigation map</span>. You can use the 
-        nav map to travel to a destination in The Cloud. We've highlighted a few 
-        hot spots on the map that we think could use your attention. You should 
-        visit these locations whenever you have time.
+        !{translations['mica.whatsThis'] || fallbackTranslations['mica.whatsThis']}
 
     statement#about
       text.
-        Oh, sure - I'm Mica, your communications officer aboard the Fog Owl. In 
-        addition to being fluent in several languages, I can help handle 
-        sensitive negotiations or resolve conflicts with anyone we encounter 
-        while exploring The Cloud. 
+        !{translations['mica.about'] || fallbackTranslations['mica.about']}
 
     statement#default
       text.
-        Hey Operator! Where are we off to today?
+        !{translations['mica.default'] || fallbackTranslations['mica.default']}
