@@ -1,14 +1,14 @@
 mixin dossier
   response#dossier.
-    !{translations['mica.dossierResponse'] || fallbackTranslations['mica.dossierResponse']}
+    !{getTranslatedString('mica.dossierResponse')}
 
 mixin about
   response#about.
-    !{translations['mica.aboutResponse'] || fallbackTranslations['mica.aboutResponse']}
+    !{getTranslatedString('mica.aboutResponse')}
 
 mixin whats_this
   response#whats_this.
-    !{translations['mica.whatsThisResponse'] || fallbackTranslations['mica.whatsThisResponse']}
+    !{getTranslatedString('mica.whatsThisResponse')}
 
 conversation(display_name="Mica")
   case lastResponse
@@ -36,16 +36,16 @@ conversation(display_name="Mica")
   statements
     statement#dossier
       text.
-        !{translations['mica.dossier'] || fallbackTranslations['mica.dossier']}
+        !{getTranslatedString('mica.dossier')}
         
     statement#whats_this
       text.
-        !{translations['mica.whatsThis'] || fallbackTranslations['mica.whatsThis']}
+        !{getTranslatedString('mica.whatsThis')}
 
     statement#about
       text.
-        !{translations['mica.about'] || fallbackTranslations['mica.about']}
+        !{getTranslatedString('mica.about')}
 
     statement#default
       text.
-        !{translations['mica.default'] || fallbackTranslations['mica.default']}
+        !{getTranslatedString('mica.default')}
