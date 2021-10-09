@@ -3,10 +3,14 @@ function init(self, event, world) {
   self.sprite.loadTexture(`tq_fire_${self.spritesheet}`);
 
   // Start the idle animation loop
-  self.playAnimation(`fire_idle`, true);
+  self.playAnimation(`fire_idle`, true, { startWithRandomFrame: true });
 }
 
 function onPlayerDidInteract(self, event, world) {
+  if (self.notExtinguishable) {
+    return;
+  }
+
   if (
     // Approximate match for uniqueness
     event.target.type === "fire" &&
