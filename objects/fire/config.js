@@ -140,6 +140,20 @@ const FIRE_OBJECT = {
         height: 26,
       },
     },
+    tq_fire_green: {
+      fileName: `spritesheets/green.png`,
+      frameDimensions: {
+        width: 24,
+        height: 26,
+      },
+    },
+    tq_fire_purple: {
+      fileName: `spritesheets/purple.png`,
+      frameDimensions: {
+        width: 24,
+        height: 26,
+      },
+    },
     tq_fire_blue: {
       fileName: `spritesheets/blue.png`,
       frameDimensions: {
