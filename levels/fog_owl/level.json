@@ -8,7 +8,7 @@
     "key": "starfield",
     "options": { "baseSpeed": 0.03, "direction": "topToBottom" }
   },
-  "backgroundMusic": "fogowl.ogg",
+  "backgroundMusic": "fogowl_629966b",
   "flavorTextOverrides": {
     "crewPod": "It looks like this pod is configured for a different user. I should use <span class=\"highlight\">my VR pod</span> instead. It's the <span class=\"highlight\">open pod with the green light on top</span>.",
     "crewComplement": "Beds for a bridge crew of four... When the Owl's ready to fly, I should <span class=\"highlight\">recruit a team</span> for the mission.",
