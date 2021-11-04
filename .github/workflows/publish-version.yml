@@ -1,0 +1,22 @@
+name: Publish Version
+on:
+  release:
+    types: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      # Setup .npmrc file to publish to npm
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "12.x"
+          registry-url: "https://registry.npmjs.org"
+      - run: npm install
+      - name: Check version
+        run: npm run check-version
+        id: check-version
+      - run: npm publish
+        if: tasks.check-version.outputs.isNewVersion
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
