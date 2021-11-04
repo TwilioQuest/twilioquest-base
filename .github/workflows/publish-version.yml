@@ -16,6 +16,6 @@ jobs:
         id: check-version
       - run: echo "${{ steps.check-version.outputs.isNewVersion }}"
       - run: npm publish
-        if: steps.check-version.outputs.isNewVersion == "true"
+        if: ${{steps.check-version.outputs.isNewVersion == "true"}}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
