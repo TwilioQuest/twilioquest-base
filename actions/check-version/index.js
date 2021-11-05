@@ -1,21 +1,6 @@
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
-// const packageInfo = require("../package.json");
 const fs = require("fs").promises;
-
-console.log({
-  __dirname,
-  argv: process.argv,
-  GITHUB_WORKSPACE: process.env.GITHUB_WORKSPACE,
-});
-
-async function test() {
-  const dir = await fs.readdir(__dirname);
-
-  console.log(dir);
-}
-
-test();
 
 /**
  * This function uses GitHub Action's standard out
@@ -40,6 +25,9 @@ const setOutput = (output, value) => {
 setOutput("isNewVersion", "false");
 
 async function run() {
+  const packagePath = path.join(process.env.GITHUB_WORKSPACE, "package.json");
+  const packageInfo = require(packagePath);
+
   const { stdout } = await exec(`npm show ${packageInfo.name} version`);
   const version = stdout.trim();
 
