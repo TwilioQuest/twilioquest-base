@@ -14,9 +14,9 @@ jobs:
           node-version: "12.x"
           registry-url: "https://registry.npmjs.org"
       - run: npm install
-      - name: Check version
-        run: npm run check-version
+      - name: check-version
         id: check-version
+        uses: twilioquest/twilioquest-base/actions/check-version@tq-245-make-action-reusable
       - name: "publish package"
         # We only want to publish to npm if we have a new
         # version of this package.
