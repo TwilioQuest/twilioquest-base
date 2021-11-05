@@ -3,7 +3,11 @@ const exec = util.promisify(require("child_process").exec);
 // const packageInfo = require("../package.json");
 const fs = require("fs").promises;
 
-console.log({ __dirname, argv: process.argv });
+console.log({
+  __dirname,
+  argv: process.argv,
+  GITHUB_WORKSPACE: process.env.GITHUB_WORKSPACE,
+});
 
 async function test() {
   const dir = await fs.readdir(__dirname);
