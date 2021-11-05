@@ -1,8 +1,17 @@
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 // const packageInfo = require("../package.json");
+const fs = require("fs").promises;
 
 console.log({ __dirname, argv: process.argv });
+
+async function test() {
+  const dir = await fs.readdir(__dirname);
+
+  console.log(dir);
+}
+
+test();
 
 /**
  * This function uses GitHub Action's standard out
