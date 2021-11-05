@@ -11,9 +11,7 @@ jobs:
           node-version: "12.x"
           registry-url: "https://registry.npmjs.org"
       - run: npm install
-      - name: get-npm-version
-        uses: martinbeentjes/npm-get-version-action@master
       - name: check-version
+        id: check-version
         uses: twilioquest/twilioquest-base/actions/check-version@tq-245-make-action-reusable
       - run: echo "isNewVersion -> ${{steps.check-version.outputs.isNewVersion}}"
-      - run: echo "version -> ${{steps.get-npm-version.outputs.current-version}}"
