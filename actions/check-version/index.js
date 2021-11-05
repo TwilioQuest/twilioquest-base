@@ -1,6 +1,6 @@
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
-const packageInfo = require("../package.json");
+// const packageInfo = require("../package.json");
 
 console.log({ __dirname });
 
