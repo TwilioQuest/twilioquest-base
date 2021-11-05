@@ -1,6 +1,6 @@
+const path = require("path");
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
-const packageInfo = require("../package.json");
 
 /**
  * This function uses GitHub Action's standard out
@@ -25,6 +25,9 @@ const setOutput = (output, value) => {
 setOutput("isNewVersion", "false");
 
 async function run() {
+  const packagePath = path.join(process.env.GITHUB_WORKSPACE, "package.json");
+  const packageInfo = require(packagePath);
+
   const { stdout } = await exec(`npm show ${packageInfo.name} version`);
   const version = stdout.trim();
 
