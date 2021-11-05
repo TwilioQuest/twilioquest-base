@@ -14,8 +14,9 @@ jobs:
       - name: Check version
         run: npm run check-version
         id: check-version
-      - run: echo "${{ steps.check-version.outputs.isNewVersion }}"
       - name: "publish package"
+        # We only want to publish to npm if we have a new
+        # version of this package.
         if: steps.check-version.outputs.isNewVersion == 'true'
         run: npm publish
         env:
