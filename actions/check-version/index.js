@@ -2,7 +2,7 @@ const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 // const packageInfo = require("../package.json");
 
-console.log({ __dirname });
+console.log({ __dirname, argv: process.argv });
 
 /**
  * This function uses GitHub Action's standard out
