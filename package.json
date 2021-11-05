@@ -13,8 +13,7 @@
     "/tilesets"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "check-version": "node tasks/isVersionChanged.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
