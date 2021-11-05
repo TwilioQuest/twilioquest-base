@@ -1,6 +1,6 @@
+const path = require("path");
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
-const fs = require("fs").promises;
 
 /**
  * This function uses GitHub Action's standard out
