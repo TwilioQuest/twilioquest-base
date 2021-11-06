@@ -20,7 +20,7 @@ jobs:
       - run: npm install
       - name: check-version
         id: check-version
-        uses: twilioquest/twilioquest-base/actions/check-version@tq-245-make-action-reusable
+        uses: twilioquest/twilioquest-base/actions/check-version@main
       - name: "publish package"
         # We only want to publish to npm if we have a new
         # version of this package.
