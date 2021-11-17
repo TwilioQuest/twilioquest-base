@@ -1,0 +1,14 @@
+{ "columns":40,
+ "image":"Tileset_Javascript.png",
+ "imageheight":1560,
+ "imagewidth":960,
+ "margin":0,
+ "name":"Tileset_Javascript",
+ "spacing":0,
+ "tilecount":2600,
+ "tiledversion":"1.7.2",
+ "tileheight":24,
+ "tilewidth":24,
+ "type":"tileset",
+ "version":"1.6"
+}
