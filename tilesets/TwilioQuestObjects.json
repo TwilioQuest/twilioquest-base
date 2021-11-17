@@ -515,9 +515,21 @@
         }, 
         {
          "id":22,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/laser-vertical2\/LaserBlockade-vertical-icon.png",
+         "imageheight":72,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"laser-vertical2"
         }, 
         {
          "id":23,
