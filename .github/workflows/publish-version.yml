@@ -1,0 +1,30 @@
+name: Publish Version
+on:
+  push:
+    branches:
+      - main
+  workflow_call:
+    secrets:
+      NPM_TOKEN:
+        required: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      # Setup .npmrc file to publish to npm
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "12.x"
+          registry-url: "https://registry.npmjs.org"
+      - run: npm install
+      - name: check-version
+        id: check-version
+        uses: twilioquest/twilioquest-base/actions/check-version@main
+      - name: "publish package"
+        # We only want to publish to npm if we have a new
+        # version of this package.
+        if: steps.check-version.outputs.isNewVersion == 'true'
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

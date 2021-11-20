@@ -1,0 +1,8 @@
+name: "Check Package Version"
+description: "Check if the current package version is a different one that what is deployed on the NPM registry."
+outputs:
+  isNewVersion:
+    description: "The string 'true' if this is a new version. String 'false' otherwise."
+runs:
+  using: "node12"
+  main: "index.js"
