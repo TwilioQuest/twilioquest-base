@@ -1,0 +1,14 @@
+{ "columns":2,
+ "image":"Freighter_PressurePlates.png",
+ "imageheight":72,
+ "imagewidth":48,
+ "margin":0,
+ "name":"Freighter_PressurePlates",
+ "spacing":0,
+ "tilecount":6,
+ "tiledversion":"1.7.2",
+ "tileheight":24,
+ "tilewidth":24,
+ "type":"tileset",
+ "version":"1.6"
+}
