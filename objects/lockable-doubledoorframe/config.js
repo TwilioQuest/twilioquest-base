@@ -10,15 +10,15 @@ module.exports = {
       frameRate: 1,
     },
     closing: {
-      frames: [8, 9, 10, 11, 12, 13, 14, 15],
+      frames: [7, 6, 5, 4, 3, 2, 1, 0],
       frameRate: 16,
     },
     open: {
-      frames: [15],
+      frames: [7],
       frameRate: 1,
     },
     opening: {
-      frames: [15, 14, 13, 12, 11, 10, 9, 8],
+      frames: [0, 1, 2, 3, 4, 5, 6, 7],
       frameRate: 16,
     },
   },
