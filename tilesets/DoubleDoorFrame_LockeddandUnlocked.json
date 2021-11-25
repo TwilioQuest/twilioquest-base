@@ -1,0 +1,14 @@
+{ "columns":2,
+ "image":"DoubleDoorFrame_LockeddandUnlocked.png",
+ "imageheight":144,
+ "imagewidth":192,
+ "margin":0,
+ "name":"DoubleDoorFrame_LockeddandUnlocked",
+ "spacing":0,
+ "tilecount":4,
+ "tiledversion":"1.7.2",
+ "tileheight":72,
+ "tilewidth":96,
+ "type":"tileset",
+ "version":"1.6"
+}
