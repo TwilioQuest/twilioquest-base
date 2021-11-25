@@ -1,0 +1,14 @@
+{ "columns":2,
+ "image":"VRMission_PressurePlates.png",
+ "imageheight":96,
+ "imagewidth":48,
+ "margin":0,
+ "name":"VRMission_PressurePlates",
+ "spacing":0,
+ "tilecount":8,
+ "tiledversion":"1.7.2",
+ "tileheight":24,
+ "tilewidth":24,
+ "type":"tileset",
+ "version":"1.6"
+}
