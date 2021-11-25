@@ -1,0 +1,14 @@
+{ "columns":4,
+ "image":"DoorFrame_LockedandUnlocked_Side.png",
+ "imageheight":240,
+ "imagewidth":144,
+ "margin":0,
+ "name":"DoorFrame_LockedandUnlocked_Side",
+ "spacing":0,
+ "tilecount":8,
+ "tiledversion":"1.7.2",
+ "tileheight":120,
+ "tilewidth":36,
+ "type":"tileset",
+ "version":"1.6"
+}
