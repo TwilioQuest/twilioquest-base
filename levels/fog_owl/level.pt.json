@@ -1,0 +1,26 @@
+{
+  "title": "Fog Owl",
+  "description": "Sua base móvel de operações na Cloud.",
+  "questTitle": "A bordo da Fog Owl",
+  "questDescription": "Explore a Cloud usando o mapa de navegação. Aprimore as habilidades técnicas no treinamento de VR.",
+  "is_mission": false,
+  "backgroundEffect": {
+    "key": "starfield",
+    "options": {
+      "baseSpeed": 0.03,
+      "direction": "topToBottom"
+    }
+  },
+  "backgroundMusic": "fogowl_629966b",
+  "flavorTextOverrides": {
+    "crewPod": "Parece que este pod está configurado para um usuário diferente. Em vez desse, devo usar <span class=\"highlight\">meu pod de VR</span>. Esse é o <span class=\"highlight\">pod aberto com a luz verde no topo</span>.",
+    "crewComplement": "Camas para 4 tripulantes... Quando a Owl estiver pronta para voar, devo <span class=\"highlight\">recrutar uma equipe</span> para a missão.",
+    "chestNothing": "<span class=\"highlight\">Este baú</span> abre? Acho que não... Bem, valeu a pena tentar.",
+    "replacementParts": "Peças de reposição para uma interface de Cloud neural. Nunca é demais estar preparado.",
+    "standupSet": "\"O que o zero disse ao oito? <span class=\"highlight\">Que cinto legal!</span>\" ... Infelizmente, isso é o melhor nessa rotina de standup. Espero que quem escreveu isso repita mais algumas vezes antes de subir no palco.",
+    "fuel": "Imagino com que tipo de combustível essa coisa funciona ...",
+    "navigationSystemOffline": "O <span class=\"highlight\">sistema de navegação</span> permite que a nave viaje para diferentes partes da Cloud. Parece que ainda está off-line...",
+    "battleTactics": "Observações sobre táticas de batalha ao enfrentar as forças dos <span class=\"red\">Sistemas Legados</span>. Alguém espera problemas assim que colocarmos o navio on-line...",
+    "airlock": "Uma saída da nave, eu acho. Se esse for um ambiente virtual, ainda serei <span class=\"highlight\">sugado para o espaço</span> se eu abri-la? Não tenho certeza se quero descobrir."
+  }
+}

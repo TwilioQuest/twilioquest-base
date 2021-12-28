@@ -1,0 +1,16 @@
+{
+  "title": "Fog Owl: 植樹",
+  "description": "TwilioQuestをプレイすると、オーストラリアの森林再生を支援することになります。[<strong>HACK</strong>]をクリックすると、Twilioは植樹活動に1ドルを寄付します!",
+  "validation_fields": [
+    {
+      "name": "prompt",
+      "type": "prompt",
+      "placeholder": "",
+      "label": "[HACK]をクリックして、木を植えましょう。"
+    }
+  ],
+  "show_ide": false,
+  "rewards": {
+    "xp": 100
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Fog Owl",
+  "description": "Votre base mobile d'opérations dans le Cloud.",
+  "questTitle": "À bord du Fog Owl",
+  "questDescription": "Explorez le Cloud avec la carte de navigation. Améliorez vos compétences techniques avec les formations en réalité virtuelle.",
+  "is_mission": false,
+  "backgroundEffect": {
+    "key": "starfield",
+    "options": {
+      "baseSpeed": 0.03,
+      "direction": "topToBottom"
+    }
+  },
+  "backgroundMusic": "fogowl_629966b",
+  "flavorTextOverrides": {
+    "crewPod": "Cette capsule semble configurée pour un autre utilisateur. Je devrais plutôt utiliser <span class=\"highlight\">ma capsule de réalité virtuelle</span>. Il s'agit de la <span class=\"highlight\">capsule ouverte avec la lumière verte au-dessus</span>.",
+    "crewComplement": "Lits pour un équipage de quatre... Lorsque le Fog Owl sera prêt à voler, je devrais <span class=\"highlight\">recruter une équipe</span> pour la mission.",
+    "chestNothing": "Est-ce que <span class=\"highlight\">ce coffre</span> peut s'ouvrir? On dirait que non... Ça valait la peine d'essayer.",
+    "replacementParts": "Des pièces de rechange pour une interface Cloud neuronale. Il vaut mieux être toujours préparé.",
+    "standupSet": "«Qu'est-ce que le zéro a dit au huit? <span class=\"highlight\">Jolie ceinture!</span>» ... C'est triste, mais c'est la meilleure blague de ce one-man-show. J'espère que celui qui l'a écrit va s'entraîner encore un peu avant de monter sur scène.",
+    "fuel": "Je me demande avec quel carburant cette chose fonctionne...",
+    "navigationSystemOffline": "Le <span class=\"highlight\">système de navigation</span> permet au vaisseau de voyager vers différentes parties du Cloud. Il semble toujours hors ligne...",
+    "battleTactics": "Remarques sur les tactiques de combat face aux forces des <span class=\"red\">Legacy Systems</span>. On s'attend à des ennuis une fois que nous aurons mis le vaisseau en ligne...",
+    "airlock": "Un sas, je crois. Si c'est bien un environnement virtuel, serai-je quand même <span class=\"highlight\">aspiré dans l'espace</span> si je l'ouvre? Je ne suis pas sûr de vouloir savoir."
+  }
+}
