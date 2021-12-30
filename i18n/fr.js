@@ -124,8 +124,8 @@ module.exports = {
   "fog_owl.cedric.about_world_brief": "Que puis-je vous dire de plus sur le Cloud?",
   "fog_owl.cedric.about_world_main_text": `Vous êtes à bord du Cloud Exploration Vessel (CEV) dénommé #[span.highlight Fog Owl].
   Nous nous trouvons à environ 1,2 million de clics en dehors du Meme Cluster, à un 
-  emplacement non divulgué, loin dans #[span.highlight The Cloud]",
-  "fog_owl.cedric.about_world_main_speech": "Vous êtes à bord du vaisseau d'exploration du Cloud (CEV) dénommé Fog Owl. Nous nous trouvons à environ 1,2 million de clics en dehors du Cluster de memes, à un 
+  emplacement non divulgué, loin dans #[span.highlight The Cloud]`,
+  "fog_owl.cedric.about_world_main_speech": `Vous êtes à bord du vaisseau d'exploration du Cloud (CEV) dénommé Fog Owl. Nous nous trouvons à environ 1,2 million de clics en dehors du Cluster de memes, à un 
   emplacement non divulgué, loin dans le Cloud.`,
   "fog_owl.cedric.about_you_brief_text": "Ça ne me dérange pas. Demandez-moi et je ferai de mon mieux pour répondre.",
   "fog_owl.cedric.about_you_brief_speech": `Ça ne me dérange pas. Demandez-moi #[break(strength='strong')]et je ferai de mon mieux 

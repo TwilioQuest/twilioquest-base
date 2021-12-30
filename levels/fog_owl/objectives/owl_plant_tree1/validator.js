@@ -17,24 +17,18 @@ module.exports = async helper => {
 
     if (response.ok) {
       // 204 indicates success
-      helper.success(`
-        Thanks for helping plant a tree in Australia!
-      `);
+      helper.success(helper.world.getTranslatedString('fog_owl.validator.thanks'));
     } else {
       if (response.status === 403) {
-        return helper.success(`
-          You've already planted this tree - good for you!
-        `);
+        return helper.success(helper.world.getTranslatedString('fog_owl.validator.already_planted'));
       } else {
-        return helper.fail(`
-          Sorry, something went wrong submitting your request. Try again later!
-        `);
+        return helper.fail(helper.world.getTranslatedString('fog_owl.validator.submitting_error'));
       }
     }
   } catch (err) {
     console.log(err);
     helper.fail(
-      `Something went wrong when we tried to plant a tree on your behalf:
+      `${helper.world.getTranslatedString('fog_owl.validator.submitting_error')}
       <br/></br/>
       ${err}`
     );

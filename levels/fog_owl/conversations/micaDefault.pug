@@ -1,14 +1,14 @@
 mixin dossier
   response#dossier.
-    !{getTranslatedString('mica.dossierResponse')}
+    !{getTranslatedString('fog_owl.mica.dossier_response')}
 
 mixin about
   response#about.
-    !{getTranslatedString('mica.aboutResponse')}
+    !{getTranslatedString('fog_owl.mica.about_response')}
 
 mixin whats_this
   response#whats_this.
-    !{getTranslatedString('mica.whatsThisResponse')}
+    !{getTranslatedString('fog_owl.mica.whats_this_response')}
 
 conversation(display_name="Mica")
   case lastResponse
@@ -36,16 +36,16 @@ conversation(display_name="Mica")
   statements
     statement#dossier
       text.
-        !{getTranslatedString('mica.dossier')}
+        !{getTranslatedString('fog_owl.mica.dossier')}
         
     statement#whats_this
       text.
-        !{getTranslatedString('mica.whatsThis')}
+        !{getTranslatedString('fog_owl.mica.whats_this')}
 
     statement#about
       text.
-        !{getTranslatedString('mica.about')}
+        !{getTranslatedString('fog_owl.mica.about')}
 
     statement#default
       text.
-        !{getTranslatedString('mica.default')}
+        !{getTranslatedString('fog_owl.mica.default')}

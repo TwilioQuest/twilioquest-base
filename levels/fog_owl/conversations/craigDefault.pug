@@ -1,14 +1,14 @@
 mixin dossier
   response#dossier.
-    [checks service records] You're no stranger to developer training, but it looks like you also spent some time in the Peace Corps?
+    !{getTranslatedString('fog_owl.craig.dossier_response')}
 
 mixin about
   response#about.
-    Could you remind me who you are, and what you do on the ship?
+    !{getTranslatedString('fog_owl.craig.about_response')}
 
 mixin whats_this
   response#whats_this.
-    What is this area of the ship used for?
+    !{getTranslatedString('fog_owl.craig.whats_this_response')}
 
 conversation(display_name="Craig")
   case lastResponse
@@ -36,27 +36,16 @@ conversation(display_name="Craig")
   statements
     statement#dossier
       text.
-        That's true! I did spend time in the Peace Corps teaching computer skills 
-        in Guyana. It's incredible how much technology has advanced since then.
-        It would have been much easier with a direct neural interface to The 
-        Cloud, that's for sure.
+        !{getTranslatedString('fog_owl.craig.dossier')}
 
     statement#whats_this
       text.
-        This is the latest in educational technology from the TwilioQuest Program.
-        It's a virtual reality training simulator! To use it, walk up to the terminal 
-        and press the <span class="highlight">spacebar</span>. You should see 
-        a list of available training simulations where you can build your programming 
-        skills. Choose one, and start exploring!<br/><br/>You should also note 
-        that we add new training missions all the time, so you should check back frequently.
+        !{getTranslatedString('fog_owl.craig.whats_this')}
 
     statement#about
       text.
-        Of course! My name's Craig. I'm a developer, and I'm also the training 
-        officer here aboard the Fog Owl. <br/><br/>I help build simulations for 
-        our virtual reality training platform, to help prepare you for any 
-        unforseen hacking problems you might encounter in The Cloud.
+        !{getTranslatedString('fog_owl.craig.about')}
 
     statement#default
       text.
-        Well hey there, Operator! It's a great day to learn something new, don't you think?
+        !{getTranslatedString('fog_owl.craig.default')}

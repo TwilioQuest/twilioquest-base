@@ -1,14 +1,14 @@
 mixin dossier
   response#dossier.
-    [checks service records] It says you go by the nickname of "Hurricane"?
+    !{getTranslatedString('fog_owl.corey.dossier_response')}
 
 mixin defensive_systems
   response#defensive_systems.
-    Does the Fog Owl have any defensive capabilities?
+    !{getTranslatedString('fog_owl.corey.defensive_systems_response')}
 
 mixin about
   response#about.
-    Could you remind me who you are, and what you do on the ship?
+    !{getTranslatedString('fog_owl.corey.about_response')}
 
 conversation(display_name="Corey")
   case lastResponse
@@ -36,24 +36,16 @@ conversation(display_name="Corey")
   statements
     statement#dossier
       text.
-        That's absolutely right. It kind of emerged from Twitch chat, and it
-        stuck. You should <a href="https://www.twitch.tv/cldubya">hang out on the stream sometime</a>.
-        Chat can fill you in on the details.
+        !{getTranslatedString('fog_owl.corey.dossier')}
 
     statement#defensive_systems
       text.
-        Theoretically, yes. In reality, not really. Our navigational shields are 
-        functioning normally, but our deflector shields and weapons systems are 
-        completely offline. I'm working with Ryan and the engineers back at base
-        to patch these systems, but I don't have an ETA on that work.<br/><br/>
-        Try not to start any trouble before then, alright?
+        !{getTranslatedString('fog_owl.corey.defensive_systems')}
 
     statement#about
       text.
-        I'm Corey, security and tactical officer aboard the Fog Owl. If
-        there's trouble, that's when I go to work. Hopefully, I won't go to
-        work that often.
+        !{getTranslatedString('fog_owl.corey.about')}
 
     statement#default
       text.
-        Operator, always a pleasure. What can I do for you?
+        !{getTranslatedString('fog_owl.corey.default')}
