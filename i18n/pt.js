@@ -363,8 +363,6 @@ module.exports = {
   que algumas extensões podem`,
   "base.extensions.require": "requerer que você reinicie o jogo",
   "base.extensions.before": "antes de estarem disponíveis (por exemplo, novas missões no computador da missão).",
-  "base.extensions.visit": "Consulte",
-  "base.extensions.moreInformation": "para obter mais informações sobre extensões.",
   "base.extensions.disableExtensions": "Desativar extensões",
   "base.extensions.extensionDirectory": "Diretório de extensão",
   "base.extensions.noDirectory": "Nenhum diretório escolhido",

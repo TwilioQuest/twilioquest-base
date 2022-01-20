@@ -367,8 +367,6 @@ module.exports = {
   that some extensions may`,
   "base.extensions.require": "require you to restart the game",
   "base.extensions.before": "before they are available (e.g. new missions in the mission computer).",
-  "base.extensions.visit": "Visit",
-  "base.extensions.moreInformation": "for more information on extensions.",
   "base.extensions.disableExtensions": "Disable Extensions",
   "base.extensions.extensionDirectory": "Extension Directory",
   "base.extensions.noDirectory": "No directory chosen",
