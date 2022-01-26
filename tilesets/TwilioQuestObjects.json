@@ -540,33 +540,56 @@
         }, 
         {
          "id":24,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/fountain\/Fountain_icon.png",
+         "imageheight":48,
+         "imagewidth":48,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestFountain"
+                }],
+         "type":"fountain"
         }, 
         {
          "id":25,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/candle-desk\/Candle_desk_icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestCandleDesk"
+                }],
+         "type":"candle-desk"
         }, 
         {
          "id":26,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/candle-wall\/Candle_icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestCandleWall"
+                }],
+         "type":"candle-wall"
         }, 
         {
          "id":27,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/door-dungeon-left\/DungeonDoor_left_icon.png",
+         "imageheight":48,
+         "imagewidth":24,
+         "type":"door-dungeon-left"
         }, 
         {
          "id":28,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/door-dungeon-right\/DungeonDoor_right_icon.png",
+         "imageheight":48,
+         "imagewidth":24,
+         "type":"door-dungeon-right"
         }, 
         {
          "id":29,
