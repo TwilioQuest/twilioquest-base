@@ -486,5 +486,8 @@ module.exports = {
   "base.questIde.discard": "Discard your changes and reset to the sample code?",
   "base.questIde.runCode": "Run Code in Editor",
   "base.questIde.reset": "Reset to Initial Example Code",
-  "base.questIde.hide": "Hide Code Editor"
+  "base.questIde.hide": "Hide Code Editor",
+  "base.objective.help": "Help",
+  "base.objective.objective": "Objective",
+  "base.objective.overview": "Overview"
 }

@@ -482,5 +482,8 @@ module.exports = {
   "base.questIde.discard": "Descartar as alterações e redefinir o código da amostra?",
   "base.questIde.runCode": "Executar código no editor",
   "base.questIde.reset": "Redefinir para o código de exemplo inicial",
-  "base.questIde.hide": "Ocultar editor de código"
+  "base.questIde.hide": "Ocultar editor de código",
+  "base.objective.help": "Ajuda",
+  "base.objective.objective": "Objetivo",
+  "base.objective.overview": "Visão geral"
 }
