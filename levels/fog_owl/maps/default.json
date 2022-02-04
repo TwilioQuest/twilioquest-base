@@ -744,7 +744,7 @@
         {
          "columns":100,
          "firstgid":773,
-         "image":"..\/..\/..\/tilesets\/TwilioQuestTileset.png",
+         "image":"..\/..\/..\/..\/.bundled\/tilesets\/TwilioQuestTileset.png",
          "imageheight":2400,
          "imagewidth":2400,
          "margin":0,

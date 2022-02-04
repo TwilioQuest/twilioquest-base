@@ -25,16 +25,4 @@ module.exports = {
       layers: [],
     },
   },
-  events: {
-    onPlayerDidInteract: (self, event, world) => {
-      if (self !== event.target) {
-        // Do nothing if this interaction event isn't our object
-        return;
-      }
-    },
-  },
-  state: {
-    // closed, closing, open, opening
-    current: "closed",
-  },
 };
