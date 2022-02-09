@@ -1009,7 +1009,7 @@
         }, 
         {
          "firstgid":11811,
-         "source":"..\/..\/..\/tilesets\/TwilioQuestObjects.json"
+         "source":"..\/..\/..\/..\/.bundled\/tilesets\/TwilioQuestObjects.json"
         }],
  "tilewidth":24,
  "type":"map",
