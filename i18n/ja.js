@@ -1,38 +1,38 @@
 module.exports = {
-  "fog_owl.cedric.where_am_i": "まずどこへ行けばいいですか？",
-  "fog_owl.cedric.who_are_you": "あなたのことを詳しく知りたいのですが、聞いてもいいですか？",
-  "fog_owl.cedric.about_robot": "あなたはロボットなのですか？",
-  "fog_owl.cedric.about_fun": "そうですか。あなたには楽しいと思うことはありますか？",
-  "fog_owl.cedric.about_sad": "それは残念です。何か私にできることはありますか？",
+  "fog_owl.cedric.where_am_i": "まずどこへ行けばいいですか?",
+  "fog_owl.cedric.who_are_you": "あなたのことを詳しく知りたいのですが、聞いてもいいですか?",
+  "fog_owl.cedric.about_robot": "あなたはロボットなのですか?",
+  "fog_owl.cedric.about_fun": "そうですか。あなたには楽しいと思うことはありますか?",
+  "fog_owl.cedric.about_sad": "それは残念です。何か私にできることはありますか?",
   "fog_owl.cedric.back_to_main": "実は、他にも質問があります。",
-  "fog_owl.cedric.what_next": "次に何をすればいいですか？",
-  "fog_owl.cedric.about_tq_history_response": "このプログラムの歴史について聞いてもいいですか？",
-  "fog_owl.cedric.about_tq_first_operators_response": "最初のオペレーター？いつか会ってみたいものです。",
-  "fog_owl.cedric.about_tq_code_response": "オペレーターの行動規範とは何ですか？",
-  "fog_owl.cedric.about_tq_operator_response": "オペレーターの任務とは何ですか？",
-  "fog_owl.cedric.about_tq_legacy_systems_response": "「Legacy Systems」とは何ですか？",
-  "fog_owl.cedric.about_tq_legacy_systems_bolder_response": "それは勢力を伸ばしているのですか？どういうふうに？",
-  "fog_owl.cedric.about_tq_legacy_systems_do_response": "これについて私は何を目指せばいいですか？",
-  "fog_owl.cedric.about_twilio_what_response": "通信API？...どのようなものですか？",
-  "fog_owl.cedric.about_twilio_name_response": "「Twilio」とは奇妙な名前ですが、どういう意味ですか？",
-  "fog_owl.cedric.about_twilio_why": "なぜTwilioはTwilioQuestを制作しようと考えたのですか？",
-  "fog_owl.cedric.about_world_cloud": "それじゃあ...私は今、文字通り「The Cloud」の中にいるということですか？",
-  "fog_owl.cedric.about_world_everyone_else_response": "インターネット上の誰もがこのThe Cloudの中にいるのですか？",
+  "fog_owl.cedric.what_next": "次に何をすればいいですか?",
+  "fog_owl.cedric.about_tq_history_response": "このプログラムの歴史について聞いてもいいですか?",
+  "fog_owl.cedric.about_tq_first_operators_response": "最初のオペレーター?いつか会ってみたいものです。",
+  "fog_owl.cedric.about_tq_code_response": "オペレーターの行動規範とは何ですか?",
+  "fog_owl.cedric.about_tq_operator_response": "オペレーターの任務とは何ですか?",
+  "fog_owl.cedric.about_tq_legacy_systems_response": "「Legacy Systems」とは何ですか?",
+  "fog_owl.cedric.about_tq_legacy_systems_bolder_response": "それは勢力を伸ばしているのですか?どういうふうに?",
+  "fog_owl.cedric.about_tq_legacy_systems_do_response": "これについて私は何を目指せばいいですか?",
+  "fog_owl.cedric.about_twilio_what_response": "通信API?...どのようなものですか?",
+  "fog_owl.cedric.about_twilio_name_response": "「Twilio」とは奇妙な名前ですが、どういう意味ですか?",
+  "fog_owl.cedric.about_twilio_why": "なぜTwilioはTwilioQuestを制作しようと考えたのですか?",
+  "fog_owl.cedric.about_world_cloud": "それじゃあ...私は今、文字通り「The Cloud」の中にいるということですか?",
+  "fog_owl.cedric.about_world_everyone_else_response": "インターネット上の誰もがこのThe Cloudの中にいるのですか?",
   "fog_owl.cedric.about_world_responsibility_response": "それは残念です。私たちのように、誰もがThe Cloudを理解する必要があります。",
   "fog_owl.cedric.about_world_space_response": `それでは、The Cloudは私の今のメンタルモデルを使用して描写されているということですね...
-  The Cloudが宇宙を模しているのはそれが理由なのですか？`,
-  "fog_owl.cedric.questions_about_world": "まずどこへ行けばいいですか？",
-  "fog_owl.cedric.more_questions_about_world": "The Cloudについて他のことを聞いてもいいですか？",
+  The Cloudが宇宙を模しているのはそれが理由なのですか?`,
+  "fog_owl.cedric.questions_about_world": "まずどこへ行けばいいですか?",
+  "fog_owl.cedric.more_questions_about_world": "The Cloudについて他のことを聞いてもいいですか?",
   "fog_owl.cedric.more_questions_about_twilio": "Twilioについて他にも質問があります。",
   "fog_owl.cedric.questions_about_twilio": "そもそも「Twilio」とは何なのか教えてください。",
   "fog_owl.cedric.more_questions_about_tq": "TwilioQuestについて質問がまだあります。",
   "fog_owl.cedric.questions_about_tq": "TwilioQuestプログラムについてもっと詳しく教えてください。",
-  "fog_owl.cedric.more_questions_about_you": "あなた自身について聞いてもいいですか？",
-  "fog_owl.cedric.questions_about_you": "あなたのことを詳しく知りたいのですが、聞いてもいいですか？",
+  "fog_owl.cedric.more_questions_about_you": "あなた自身について聞いてもいいですか?",
+  "fog_owl.cedric.questions_about_you": "あなたのことを詳しく知りたいのですが、聞いてもいいですか?",
   "fog_owl.cedric.questions_main_response": "話題を変えましょう。",
-  "fog_owl.cedric.how_get_here": "ばかげた質問と思われるかもしれませんが、なぜ私はここにいるのでしょう？",
+  "fog_owl.cedric.how_get_here": "ばかげた質問と思われるかもしれませんが、なぜ私はここにいるのでしょう?",
   "fog_owl.cedric.answer_some_questions": "このことについてまだ聞きたいことがあります...",
-  "fog_owl.cedric.about_tq_brief": "はい、オペレーターさん。何について知りたいですか？",
+  "fog_owl.cedric.about_tq_brief": "はい、オペレーターさん。何について知りたいですか?",
   "fog_owl.cedric.about_tq_main": `#[span.highlight TwilioQuest]プログラムは、The Cloudという未踏の地を探検し、
   保護することを目的とした最高機密組織です。
   あなたたちTwilioQuestプログラムの#[span.highlight Operators]オペレーターは、この重要なミッションの最前線にいます。`,
@@ -96,14 +96,14 @@ module.exports = {
   その世界を、鍵穴から覗いた景色のように見ています。`,
   "fog_owl.cedric.about_world_responsibility": `The Cloudのことを世間に広めることは重要ですが、注意すべき点があります。
   蛇口から水が流れる原理や、機関車が線路上で列車を動かす
-  原理をご存じですか？これらの偉業を可能にしている人達は、
+  原理をご存じですか?これらの偉業を可能にしている人達は、
   世界の安全と利益を最優先に活動しています。The Cloudに
   仮想世界を構築した我々にも、同じ責任があります。`,
   "fog_owl.cedric.about_world_space": `世界の安全と利益です。宇宙の広大さと、そこを船で旅する能力は概念です。
   それを解釈する方法は、あなたの脳内にあります。あなたの神経
   インターフェースはこれらのメタファーを使用し、The Cloudの仮想世界を
   より簡単に探検、理解できるようにします。`,
-  "fog_owl.cedric.about_world_cloud_text": `あなたは文字通り、ある意味、千年もThe Cloudにいるのですか？
+  "fog_owl.cedric.about_world_cloud_text": `あなたは文字通り、ある意味、千年もThe Cloudにいるのですか?
   あなたの物理的な肉体は今も現実世界に存在します。しかし
   The Cloudと#[span.highlight direct neural connection]神経が直接接続されています。そのため、
   The Cloudからのデータを驚異的な速さで解釈し、感覚入力とあなたが構築した
@@ -111,14 +111,14 @@ module.exports = {
   解釈できるのです。`,
   "fog_owl.cedric.about_world_cloud_speech": `あなたは「文字通り」、ある意味、#[break(time='200ms')]
   #[prosody(pitch='high') millenial?] #[break(time='200ms')]も
-  The Cloudにいるのですか？あなたの物理的な肉体は今も現実世界に存在します。
+  The Cloudにいるのですか?あなたの物理的な肉体は今も現実世界に存在します。
   しかし神経が
   The Cloudと直接接続されています。そのため、
   The Cloudからのデータを驚異的な速さで解釈し、感覚入力とあなたが構築した
   メンタルモデルを駆使し、現実世界からのデータを
   解釈できるのです。`,
-  "fog_owl.cedric.about_world_brief": "The Cloudについてまだ聞きたいことはありますか？",
-  "fog_owl.cedric.about_world_main_text": `あなたは今、クラウド探検船（CEV）#[span.highlight Fog Owl]に乗船しています。
+  "fog_owl.cedric.about_world_brief": "The Cloudについてまだ聞きたいことはありますか?",
+  "fog_owl.cedric.about_world_main_text": `あなたは今、クラウド探検船(CEV)#[span.highlight Fog Owl]に乗船しています。
   我々はMeme Clusterから約120万ティック離れた外にいます。
   つまり、#[span.highlight The Cloud]の奥深く、誰も知らない領域です。`,
   "fog_owl.cedric.about_world_main_speech": `あなたは今、クラウド探検船Fog Owlに乗船しています。我々は
@@ -180,11 +180,11 @@ module.exports = {
   The Cloudの新しい世界を旅しながら探検してみてください。<br/><br/>
   また、#[span.highlight VR training room down the hallway behind you]後ろの通路の先にあるVRトレーニングルームを使用すると、テクニカルスキルを
   磨くこともできます。`,
-  "fog_owl.cedric.main": "もちろん。何かご用でしょうか？",
-  "fog_owl.cedric.default": "オペレーター。またお会いできて嬉しいです。何かご用でしょうか？",
-  "fog_owl.corey.dossier_response": "[checks service records] 「ハリケーン」というニックネームで親しまれているそうですね？",
-  "fog_owl.corey.defensive_systems_response": "Fog Owlに防御能力はあるのですか？",
-  "fog_owl.corey.about_response": "あなたが誰なのか、船で何をしているのかをもう一度教えてくれませんか？",
+  "fog_owl.cedric.main": "もちろん。何かご用でしょうか?",
+  "fog_owl.cedric.default": "オペレーター。またお会いできて嬉しいです。何かご用でしょうか?",
+  "fog_owl.corey.dossier_response": "[checks service records] 「ハリケーン」というニックネームで親しまれているそうですね?",
+  "fog_owl.corey.defensive_systems_response": "Fog Owlに防御能力はあるのですか?",
+  "fog_owl.corey.about_response": "あなたが誰なのか、船で何をしているのかをもう一度教えてくれませんか?",
   "fog_owl.corey.dossier": `はい、そのとおりです。Twitchのチャットでそう呼ばれ、
   定着しました。<a href='https://www.twitch.tv/cldubya'>そのうちストリームに入り浸る</a>ことになりますよ。
   チャットで詳しいことが分かります。`,
@@ -194,10 +194,10 @@ module.exports = {
   システムにパッチを当てようとしていますが、その作業に関するETAはありません。<br/><br/>
   それまでは、トラブルを起こさないようにしましょう。`,
   "fog_owl.corey.about": "私の名前はコーリー。Fog Owlの乗組員で、セキュリティと戦術を担当しています。トラブルが発生したときに出動します。できれば、出動する回数は少なくしたいですね。",
-  "fog_owl.corey.default": "オペレーター、いつもお会いできて光栄です。どういうご用件ですか？",
-  "fog_owl.craig.dossier_response": "[checks service records] あなたは開発者トレーニングに精通していますが、平和部隊での経験もあるようですね？",
-  "fog_owl.craig.about_response": "あなたが誰なのか、船で何をしているのかをもう一度教えてくれませんか？",
-  "fog_owl.craig.whats_this_response": "船のこのエリアは何に使用するのですか？",
+  "fog_owl.corey.default": "オペレーター、いつもお会いできて光栄です。どういうご用件ですか?",
+  "fog_owl.craig.dossier_response": "[checks service records] あなたは開発者トレーニングに精通していますが、平和部隊での経験もあるようですね?",
+  "fog_owl.craig.about_response": "あなたが誰なのか、船で何をしているのかをもう一度教えてくれませんか?",
+  "fog_owl.craig.whats_this_response": "船のこのエリアは何に使用するのですか?",
   "fog_owl.craig.dossier": `確かにそうです!私はガイアナで平和部隊としてコンピュータースキルを教えていました。それ以来、テクノロジーの進化には目を見張るものがあります。
   The Cloudへの直接的な神経インターフェースがあれば、確実に
   はるかに簡単でした。`,
@@ -209,35 +209,35 @@ module.exports = {
   トレーニングも担当しています。<br/><br/>VRトレーニングプラットフォームの
   シミュレーション構築をサポートし、The Cloudで発生する可能性のある
   予期しないハッキングの問題に備えるよう支援します。`,
-  "fog_owl.craig.default": "やあ、オペレーター!何か新しいことを学ぶのにふさわしい日だと思わない？",
+  "fog_owl.craig.default": "やあ、オペレーター!何か新しいことを学ぶのにふさわしい日だと思わない?",
   "fog_owl.marcus.dossier_response": "[checks service records] クラウド探検船のチーフエンジニアになるのは、スペリング大会の進行役を引退するような感じです。",
-  "fog_owl.marcus.what_this_response": "船のこのエリアは何ですか？",
-  "fog_owl.marcus.about_response": "あなたが誰なのか、船で何をしているのかをもう一度教えてくれませんか？",
+  "fog_owl.marcus.what_this_response": "船のこのエリアは何ですか?",
+  "fog_owl.marcus.about_response": "あなたが誰なのか、船で何をしているのかをもう一度教えてくれませんか?",
   "fog_owl.marcus.what_this": `ここはエンジニアリングデッキで、最先端の<span class='highlight'>パケット伝送ドライブ</span>としての
   FogOwlの心臓部を守る場所でもあります。このドライブシステムは、
   仮想世界の間でThe Cloudに驚異的な速度で接続された
   オペレーターのクラスターを推進します。<br/><br/>これは、最終的にLegacy Systemsの
   一歩先を行けるようになると思われるテクノロジーです。`,
-  "fog_owl.marcus.dossier": `それで、彼らはそこに入れたということだよね？私は素晴らしいテクニカルスキルだけじゃなくて、
+  "fog_owl.marcus.dossier": `それで、彼らはそこに入れたということだよね?私は素晴らしいテクニカルスキルだけじゃなくて、
   言葉遣いも自慢です。また、言葉の起源を知ることは、
   あなたが想像する以上に役に立ちます。`,
   "fog_owl.marcus.about": `確かにそうです。私の名前はマーカス。Fog Owl乗組員のチーフエンジニアです。私は常にシステムが
   正常に機能するように努めていますが、今はすこぶる順調です。システムのいずれかが
   動作し始めたら、すぐにお知らせします。`,
   "fog_owl.marcus.default": "オペレーター。システムは全体的に良好な状態です。ここに戻れてうれしいです。",
-  "fog_owl.megan.dossier_response": "[checks service records] 空軍に家族がいたようですね？",
-  "fog_owl.megan.traffic_response": "ナビゲーションに私が踏まえておくべき危険はありますか？",
-  "fog_owl.megan.about_response": "あなたが誰なのか、船で何をしているのかをもう一度教えてくれませんか？",
+  "fog_owl.megan.dossier_response": "[checks service records] 空軍に家族がいたようですね?",
+  "fog_owl.megan.traffic_response": "ナビゲーションに私が踏まえておくべき危険はありますか?",
+  "fog_owl.megan.about_response": "あなたが誰なのか、船で何をしているのかをもう一度教えてくれませんか?",
   "fog_owl.megan.dossier": `第914空輸航空団将校の娘として、あなたに伝えるべきと感じていることがあるの。
   それは「限界はない」ということ。<br/><br/>正直、私の愛用機は、
   どの空軍機よりはるかにいけてるのよ。`,
   "fog_owl.megan.traffic": `私が処理できないものはほとんどありません。ロサンゼルスでの運転をこなしているなら、
   キラービット彗星や狭い論理ゲートは恐れるに足りません。`,
   "fog_owl.megan.about": "まさにそのとおり。私の名前はミーガン。Fog Owlのパイロットとして特別な任務を遂行しています。Owlは間違いなく、見事に処理します。",
-  "fog_owl.megan.default": "オペレーター、どうしました？どのコースをセットしましょうか？",
-  "fog_owl.mica.dossier_response": "[checks service records] あなたは子役もしていたのですね？",
-  "fog_owl.mica.about_response": "あなたが誰なのか、船で何をしているのかをもう一度教えてくれませんか？",
-  "fog_owl.mica.whats_this_response": "あなたの後ろにある、あのプラットフォームは何ですか？",
+  "fog_owl.megan.default": "オペレーター、どうしました?どのコースをセットしましょうか?",
+  "fog_owl.mica.dossier_response": "[checks service records] あなたは子役もしていたのですね?",
+  "fog_owl.mica.about_response": "あなたが誰なのか、船で何をしているのかをもう一度教えてくれませんか?",
+  "fog_owl.mica.whats_this_response": "あなたの後ろにある、あのプラットフォームは何ですか?",
   "fog_owl.mica.dossier": `どうしてあそこにあるのですか?! それは事実ですが、私のキャリアは短く、
   それほど成功しませんでした。私が演じた中で一番有名な役柄は、果物の役でした。
   覚えやすい曲に合わせた歌や踊りを通じて、子供たちに果物や野菜を毎日食べることの
@@ -252,7 +252,7 @@ module.exports = {
   言語に堪能なだけでなく、機密交渉への対応や、The Cloudの
   探検中に遭遇した人との競合を解決する
   お手伝いをします。`,
-  "fog_owl.mica.default": "やあ、オペレーター!今日はどこへ行くの？",
+  "fog_owl.mica.default": "やあ、オペレーター!今日はどこへ行くの?",
   "fog_owl.tutorial.navigation_system": `<i>
   そう、これがFog Owlです!<br/><br/>そのプラットフォームは、<em>ナビゲーション
   システムのようなものです。</em>これを使えば、The Cloud内のいろいろな場所に
@@ -412,7 +412,7 @@ module.exports = {
   "base.unlocksTab.redeeming": "使用中...",
   "base.help.help": "ヘルプ",
   "base.help.movement": "移動",
-  "base.help.move": "プレイヤーの移動には矢印キーまたはおよびキーを使用します。",
+  "base.help.move": "<p>プレイヤーの移動には矢印キーまたはおよびキーを使用します。</p>",
   "base.help.interact": "人に話しかけたり、物を調べたりするには、スペースバーを使います",
   "base.help.technicalAssistance": "技術アシスタンス",
   "base.help.needHelp": `特定のコードチャレンジなどに関する技術アシスタンスが

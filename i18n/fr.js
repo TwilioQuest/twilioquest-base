@@ -418,7 +418,7 @@ module.exports = {
   "base.unlocksTab.redeeming": "Utilisation du code en cours…",
   "base.help.help": "Aide",
   "base.help.movement": "Mouvement",
-  "base.help.move": "Déplacez votre joueur avec les touches de flèches ou les touches [W], [A], [S], et [D].",
+  "base.help.move": "<p>Déplacez votre joueur avec les touches de <strong>flèches</strong> ou les touches <strong>[W], [A], [S], et [D]</strong>.</p>",
   "base.help.interact": "Interagissez avec des personnages ou des objets en utilisant la barre d'espace",
   "base.help.technicalAssistance": "Assistance technique",
   "base.help.needHelp": `Vous avez besoin d'aide pour un problème de code particulier ou un autre
