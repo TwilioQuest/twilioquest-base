@@ -478,5 +478,20 @@ module.exports = {
   "base.questIde.hide": "コードエディタを非表示",
   "base.objective.help": "ヘルプ",
   "base.objective.objective": "目的",
-  "base.objective.overview": "概要"
+  "base.objective.overview": "概要",
+  "base.iframeoverlay.loading": "読み込み中...URL:",
+  "base.iframeoverlay.errored": "URL読み込みエラー:",
+  "base.iframeoverlay.loaded": "読み込み完了!",
+  "base.iframeoverlay.close": "選ぶ",
+  "base.extensions.find": "探す:",
+  "base.extensions.awesome": "素晴らしいコミュニティが作成した拡張機能",
+  "base.extensions.onThe": "場所:",
+  "base.extensions.twilioQuestExtensionsGallery": "TwilioQuest拡張機能ギャラリー",
+  "base.extensions.detailedInstructions": "拡張機能ギャラリーにも、インストール方法についてさらに詳しい説明があります。",
+  "base.extensions.learn": "TwilioQuest拡張機能についての詳細はこちら:",
+  "base.extensions.translations": "翻訳",
+  "base.extensions.refresh": "翻訳を更新",
+  "base.extensions.extensions": "拡張機能",
+  "base.onboardinginterface.start": "開始",
+  "base.onboardinginterface.continue": "続行"
 }
