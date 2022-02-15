@@ -489,5 +489,20 @@ module.exports = {
   "base.questIde.hide": "Hide Code Editor",
   "base.objective.help": "Help",
   "base.objective.objective": "Objective",
-  "base.objective.overview": "Overview"
+  "base.objective.overview": "Overview",
+  "base.iframeoverlay.loading": "Loading... URL:",
+  "base.iframeoverlay.errored": "Error loading URL:",
+  "base.iframeoverlay.loaded": "Loaded!",
+  "base.iframeoverlay.close": "Close",
+  "base.extensions.find": "Find",
+  "base.extensions.awesome": "awesome community authored extensions",
+  "base.extensions.onThe": "on the",
+  "base.extensions.twilioQuestExtensionsGallery": "TwilioQuest Extensions Gallery",
+  "base.extensions.detailedInstructions": "The Extensions Gallery also has more detailed instructions about how to install extensions.",
+  "base.extensions.learn": "Learn more about TwilioQuest Extensions by visiting the",
+  "base.extensions.translations": "Translations",
+  "base.extensions.refresh": "Refresh translations",
+  "base.extensions.extensions": "Extensions",
+  "base.onboardinginterface.start": "Start",
+  "base.onboardinginterface.continue": "Continue"
 }
