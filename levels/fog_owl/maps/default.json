@@ -727,7 +727,7 @@
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":127,
+ "nextobjectid":134,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
@@ -744,7 +744,7 @@
         {
          "columns":100,
          "firstgid":773,
-         "image":"..\/..\/..\/tilesets\/TwilioQuestTileset.png",
+         "image":"..\/..\/..\/..\/.bundled\/tilesets\/TwilioQuestTileset.png",
          "imageheight":2400,
          "imagewidth":2400,
          "margin":0,
