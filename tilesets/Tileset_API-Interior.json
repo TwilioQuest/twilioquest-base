@@ -1,0 +1,14 @@
+{ "columns":40,
+ "image":"Tileset_API-Interior.png",
+ "imageheight":1080,
+ "imagewidth":960,
+ "margin":0,
+ "name":"Tileset_API-Interior",
+ "spacing":0,
+ "tilecount":1800,
+ "tiledversion":"1.7.2",
+ "tileheight":24,
+ "tilewidth":24,
+ "type":"tileset",
+ "version":"1.6"
+}
