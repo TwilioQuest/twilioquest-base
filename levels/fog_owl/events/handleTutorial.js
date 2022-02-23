@@ -25,7 +25,7 @@ async function handleTutorial(event, world, worldState) {
     y: 610,
   });
 
-  world.showNotification(world.getTranslatedString('fogOwl.tutorial.vr_training'));
+  world.showNotification(world.getTranslatedString('fog_owl.tutorial.vr_training'));
 
   await world.wait(6000);
   await world.tweenCameraToPlayer();

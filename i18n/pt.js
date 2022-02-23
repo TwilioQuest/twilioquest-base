@@ -238,8 +238,8 @@ module.exports = {
   "fog_owl.megan.about_response": "Você poderia me lembrar quem você é e o que você faz na nave?",
   "fog_owl.megan.dossier": `Como filha de um oficial do 914º Airlift Wing, sinto-me na obrigação de 
   dizer a você - \"O céu não tem limite\". <br/><br/>Embora sejamos honestos, o meu 
-  passeio é muito mais legal do que qualquer outro junker da Força Aérea na frota.",
-  "fog_owl.megan.traffic": "Alguns, mas nada que eu não consiga lidar. Depois de sobreviver ao dirigir em Los Angeles, cometas 
+  passeio é muito mais legal do que qualquer outro junker da Força Aérea na frota.`,
+  "fog_owl.megan.traffic": `Alguns, mas nada que eu não consiga lidar. Depois de sobreviver ao dirigir em Los Angeles, cometas 
   assassinos e portas lógicas estreitas se tornam muito menos intimidantes.`,
   "fog_owl.megan.about": `Pode apostar. Sou Megan e tenho o privilégio de servir como 
   piloto da Fog Owl. E devo dizer que a Owl se comporta como um sonho.`,
