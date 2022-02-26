@@ -33,30 +33,30 @@ module.exports = {
   "fog_owl.cedric.how_get_here": "Pode parecer uma pergunta boba, mas por que estou aqui?",
   "fog_owl.cedric.answer_some_questions": "Tenho mais algumas perguntas sobre tudo isso...",
   "fog_owl.cedric.about_tq_brief": "Sim, Operador. O que você gostaria de saber?",
-  "fog_owl.cedric.about_tq_main": `O programa #[span.highlight TwilioQuest] é uma organização secreta 
+  "fog_owl.cedric.about_tq_main": `O programa <span class='highlight'>TwilioQuest</span> é uma organização secreta 
   dedicada a explorar e proteger a fronteira selvagem da Nuvem.
-  #[span.highlight Operators] no programa TwilioQuest - pessoas como você - estão na
+  <span class='highlight'>Operators</span> no programa TwilioQuest - pessoas como você - estão na
   vanguarda dessa importante missão.`,
   "fog_owl.cedric.about_tq_legacy_systems": `Infelizmente, sabemos muito pouco sobre os planos específicos e a participação 
-  dos #[span.red Legacy Systems]. Sabemos que eles são uma vasta rede de indivíduos 
+  dos <span class='red'>Legacy Systems</span>. Sabemos que eles são uma vasta rede de indivíduos 
   poderosos, sempre buscando proteger sua riqueza acumulada e
   influência. Até pouco tempo, eles se contentavam em operar nas sombras.
   Agora, suas operações crescem mais audaciosas e mais descaradas a cada dia.`,
   "fog_owl.cedric.about_tq_legacy_systems_bolder": `Parece que não passa um dia sem uma nova violação de segurança, campanha de mídia social
   desinformação ou abuso de acesso privilegiado a dados. Esses atos
   podem parecer aleatórios, mas nossa inteligência indica que estão conectados. Acreditamos que este é apenas o começo de uma ofensiva maior por parte dos 
-  #[span.red Legacy Systems].`,
-  "fog_owl.cedric.about_tq_legacy_systems_do": `Vamos responder aumentando as fileiras dos #[span.highlight Operators].
+  <span class='red'>Legacy Systems</span>.`,
+  "fog_owl.cedric.about_tq_legacy_systems_do": `Vamos responder aumentando as fileiras dos <span class='highlight'>Operators</span>.
   Quanto mais pessoas tivermos explorando a Nuvem, aderindo 
-  ao #[span.highlight The Operator's Code],
+  ao <span class='highlight'>The Operator's Code</span>,
   mais chances de acabar com a influência dos 
-  #[span.red Legacy Systems]. Mesmo na vastidão da Nuvem, vamos 
+  <span class='red'>Legacy Systems</span>. Mesmo na vastidão da Nuvem, vamos 
   garantir que não haja um canto escuro onde os Sistemas Legados possam se esconder.`,
   "fog_owl.cedric.about_tq_history": `Em 2013, o programa TwilioQuest treinou alguns desenvolvedores, 
-  os #[span.highlight First Operators], para usar as ferramentas de desenvolvimento de software em uma 
+  os <span class='highlight'>First Operators</span>, para usar as ferramentas de desenvolvimento de software em uma 
   missão para salvar a Nuvem. Hoje, os avanços na 
   tecnologia de exploração da nuvem nos permitem ampliar ainda mais nossos esforços de recrutamento. Isso é
-  quase uma sorte, pois os #[span.red Legacy Systems] parecem estar ganhando força ao
+  quase uma sorte, pois os <span class='red'>Legacy Systems</span> parecem estar ganhando força ao
   mesmo tempo.`,
   "fog_owl.cedric.about_tq_first_operators_text": `Você terá a chance de conhecê-los no devido tempo. Mas antes que isso possa acontecer,
   a Fog Owl deve estar pronta para a exploração e você deve se concentrar em
@@ -67,13 +67,13 @@ module.exports = {
   "fog_owl.cedric.about_tq_operator": `Os operadores não fazem parte de uma estrutura de comando formal e não têm
   responsabilidades como tal. No entanto, para ser considerado um Operador
   e receber o suporte do programa TwilioQuest, os membros devem
-  aderir ao #[span.highlight Operator's Code].`,
+  aderir ao <span class='highlight'>Operator's Code</span>.`,
   "fog_owl.cedric.about_tq_code_text": `Os operadores prometeram usar suas habilidades apenas para escrever código que
-  promove #[span.highlight hope, power, and freedom] para toda a humanidade.
+  promove <span class='highlight'>hope, power, and freedom</span> para toda a humanidade.
   Aqueles que escrevem código usado para roubar, oprimir ou enganar
   não podem ser chamados de Operadores. Intencionalmente ou não, os desenvolvedores que usam
   suas habilidades dessa maneira se tornaram parte dos 
-  #[span.red Legacy Systems].`,
+  <span class='red'>Legacy Systems</span>.`,
   "fog_owl.cedric.about_tq_code_speech": `Os operadores prometeram usar suas habilidades apenas para escrever código que
   promove esperança, força e liberdade para toda a humanidade.
   Aqueles que escrevem código usado para roubar, oprimir ou enganar
@@ -84,13 +84,13 @@ module.exports = {
   e outros. A Twilio também fornece ferramentas de nível superior para casos de
   uso como contact centers, autenticação de 2 fatores e bots com IA.
   Você pode aprender a usar essas APIs pelos exercícios de treinamento 
-  a #[span.highlight VR Training Room].`,
+  a <span class='highlight'>VR Training Room</span>.`,
   "fog_owl.cedric.about_twilio_name": `O nome \"Twilio\" não tem outro significado. Ele foi escolhido pelos fundadores
   por causa de sua brevidade e da disponibilidade de um domínio ponto com do mesmo
   nome. Presume-se que chegaria o dia em que a empresa mudaria
   de nome. Esse dia nunca chegou.`,
   "fog_owl.cedric.about_twilio_brief": "Fico feliz em dizer o que sei.",
-  "fog_owl.cedric.about_twilio_main": `A #[a(href='https://www.twilio.com') Twilio] é uma fornecedora de 
+  "fog_owl.cedric.about_twilio_main": `A <a href='https://www.twilio.com'>Twilio</a> é uma fornecedora de 
   APIs e infraestrutura de comunicações baseada em São Francisco, na Califórnia.
   A Twilio é a principal patrocinadora do programa TwilioQuest, embora oficialmente
   eles neguem qualquer conhecimento de nossas atividades clandestinas.`,
@@ -109,30 +109,30 @@ module.exports = {
   entenda os mundos virtuais da Nuvem.`,
   "fog_owl.cedric.about_world_cloud_text": `Você está \"literalmente\" na Nuvem no ...sentido milenar... da palavra?
   Seu corpo físico ainda está localizado no mundo real, mas você
-  formou uma #[span.highlight direct neural connection] com a Nuvem. Isso permite que você
+  formou uma <span class='highlight'>direct neural connection</span> com a Nuvem. Isso permite que você
   interprete dados da Nuvem em velocidades incrivelmente altas, apresentados 
   usando dados sensoriais e modelos mentais que você construiu para interpretar dados
   do mundo real`,
-  "fog_owl.cedric.about_world_cloud_speech": `Você está \"literalmente\" na Nuvem no sentido #[break(time='200ms')]
-  #[prosody(pitch='high') millenial?] #[break(time='200ms')]
+  "fog_owl.cedric.about_world_cloud_speech": `Você está \"literalmente\" na Nuvem no sentido <break time="200ms"/>
+  <prosody pitch="high">millenial?</prosody> <break time="200ms"/>
   da palavra? Seu corpo físico ainda está localizado no mundo real, 
   mas você formou uma conexão neural direta com a Nuvem. Isso permite que você
   interprete dados da Nuvem em velocidades incrivelmente altas, apresentados 
   usando dados sensoriais e modelos mentais que você construiu para interpretar dados
   do mundo real.`,
   "fog_owl.cedric.about_world_brief": "O que mais posso dizer sobre a Nuvem?",
-  "fog_owl.cedric.about_world_main_text": `Você está a bordo da nave de exploração na nuvem (CEV) designada #[span.highlight Fog Owl].
+  "fog_owl.cedric.about_world_main_text": `Você está a bordo da nave de exploração na nuvem (CEV) designada <span class='highlight'>Fog Owl</span>.
   Nós 
   somos aproximadamente 1,2 milhão de marcações fora do Meme Cluster, em um local 
-  secreto dentro da #[span.highlight The Cloud]`,
+  secreto dentro da <span class='highlight'>The Cloud</span>`,
   "fog_owl.cedric.about_world_main_speech": `Você está a bordo da nave de exploração na nuvem designada Fog Owl. Nós 
   somos aproximadamente 1,2 milhão de marcações fora do Meme Cluster, em um local 
   secreto dentro da Nuvem.`,
   "fog_owl.cedric.about_you_brief_text": "Não me importo. Pergunte e eu farei o meu melhor para responder.",
-  "fog_owl.cedric.about_you_brief_speech": `Não me importo. Pergunte #[break(strength='strong')]e eu farei o meu melhor 
+  "fog_owl.cedric.about_you_brief_speech": `Não me importo. Pergunte <break strength='strong'/>e eu farei o meu melhor 
   para responder.`,
   "fog_owl.cedric.about_you_main_text": `Estou lisonjeado pelo seu interesse! Como você sabe, meu nome é 
-  #[span.highlight Cedric] e eu fui designado como seu 
+  <span class='highlight'>Cedric</span> e eu fui designado como seu 
   assistente pessoal e executivo a bordo da Fog Owl.`,
   "fog_owl.cedric.about_you_main_speech": `Estou lisonjeado pelo seu interesse! Como você sabe, meu nome é 
   Cedric, e eu fui designado como seu 
@@ -142,7 +142,7 @@ module.exports = {
   Terra. No entanto, é frequentemente útil aparecer na Nuvem ou 
   no mundo real em uma forma física. O \"robô\" que você vê na sua frente 
   é meu avatar neste mundo. No momento, uso um chassi Misty II da
-  #[a(href='https://www.mistyrobotics.com/') Misty Robotics] para essa finalidade.`,
+  <a href='https://www.mistyrobotics.com/'>Misty Robotics</a> para essa finalidade.`,
   "fog_owl.cedric.fun": `Gostaria de poder dizer. Embora minha programação seja avançada em muitos 
   aspectos, eu não tenho um bom entendimento da experiência humana. Eu 
   conheço o significado de palavras como \"diversão\", mas não as entendo 
@@ -158,18 +158,18 @@ module.exports = {
   variedade de plataformas de mídia social. Recentemente, criei um 
   canal no YouTube onde faço vídeos de baixa qualidade pelo celular do meu avatar do 
   mundo real removendo produtos novos de suas embalagens. Se quiser 
-  ajudar, você pode clicar #[break(strength='strong')] 
-  no \"#[emphasis(level='moderate') smashing that like button]\" 
-  #[break(strength='medium')] ou talvez 
-  \"#[emphasis(level='moderate') slapping that bell]\"
-  #[break(strength='medium')]
+  ajudar, você pode clicar <break strength='strong'/> 
+  no <emphasis level="moderate">smashing that like button</emphasis> 
+  <break strength='medium'/> ou talvez 
+  <emphasis level="moderate">slapping that bell</emphasis>"
+  <break strength='medium'/>
   para se inscrever no meu conteúdo futuro?`,
   "fog_owl.cedric.questions_main": "Estou preparado para oferecer informações adicionais, conforme solicitado.",
   "fog_owl.cedric.questions": `Sem dúvida, você tem muitas perguntas desde que chegou na Nuvem. Eu vou 
   me esforçar para respondê-las da melhor maneira possível.`,
   "fog_owl.cedric.how_get_here_text": `A perda temporária de memória de curto prazo é um possível efeito colateral de se conectar
   à Nuvem como você fez. O efeito passará, mas enquanto isso, você pode
-  acessar o #[span.highlight your Journal] para obter mais contexto sobre onde você
+  acessar o <span class='highlight'>your Journal</span> para obter mais contexto sobre onde você
   está e o que você deve fazer. Abra o Diário clicando no ícone de
   livro na barra de menus superior ou pressionando a tecla 
   <span class='highlight'>[J]</span>.`,
@@ -179,10 +179,10 @@ module.exports = {
   está e o que você deve fazer. Abra o Diário clicando no ícone de
   - livro - na barra de menus superior ou pressionando a tecla - J -.`,
   "fog_owl.cedric.next": `Nossa missão é exercitar os sistemas de navegação da Fog Owl, então eu 
-  recomendo que você #[span.highlight use the navigation interface to my left] 
+  recomendo que você <span class='highlight'>use the navigation interface to my left</span> 
   para viajar e explorar novos mundos na Nuvem.<br/><br/>
   Você também pode achar útil aprimorar suas habilidades técnicas usando a 
-  #[span.highlight VR training room down the hallway behind you].`,
+  <span class='highlight'>VR training room down the hallway behind you</span>.`,
   "fog_owl.cedric.main": "Claro. Como posso ajudar?",
   "fog_owl.cedric.default": "Operador. Estou feliz por vê-lo novamente. Como posso ajudar?",
   "fog_owl.corey.dossier_response": "[checks service records] Você atende pelo apelido de \"Furacão\"?",
