@@ -593,27 +593,31 @@
         }, 
         {
          "id":29,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/door-cage\/CageDoor_Icon.png",
+         "imageheight":48,
+         "imagewidth":24,
+         "type":"door-cage"
         }, 
         {
          "id":30,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/magic-key\/MagicKey_Icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "type":"magic-key"
         }, 
         {
          "id":31,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/scroll\/Scroll_Icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "type":"scroll"
         }, 
         {
          "id":32,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/wand\/Wand_Icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "type":"wand"
         }, 
         {
          "id":33,
