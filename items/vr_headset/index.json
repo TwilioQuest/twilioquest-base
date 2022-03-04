@@ -1,0 +1,6 @@
+{
+    "name": "vr_headset",
+    "displayName": "VR Headset",
+    "type": "head",
+    "description": "Use this VR headset for a less immersive Cloud experience than TwilioQuest. Retro games can be fun sometimes."
+}
