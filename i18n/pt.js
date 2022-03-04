@@ -324,7 +324,7 @@ module.exports = {
   "base.validator.hack": "HACK",
   "base.validator.INITIALIZING": "** ANÁLISE **",
   "base.validator.LOCKED": "** BLOQUEADO **",
-  "base.validator.HACKING": "** INVASÃO **",
+  "base.validator.HACKING": "** HACKING **",
   "base.validator.CLEAR": "** LIVRE **",
   "base.validator.SUCCESS": "** SUCESSO **",
   "base.validator.FAIL": "** FALHA **",
