@@ -1,38 +1,62 @@
 module.exports = {
   "fog_owl.cedric.where_am_i": "Onde eu estou agora?",
-  "fog_owl.cedric.who_are_you": "Gostaria de conhecer você melhor. Fale sobre você.",
+  "fog_owl.cedric.who_are_you":
+    "Gostaria de conhecer você melhor. Fale sobre você.",
   "fog_owl.cedric.about_robot": "Você é um robô?",
   "fog_owl.cedric.about_fun": "O que você gosta de fazer para se divertir?",
-  "fog_owl.cedric.about_sad": "Sinto muito. Posso fazer alguma coisa para ajudar?",
+  "fog_owl.cedric.about_sad":
+    "Sinto muito. Posso fazer alguma coisa para ajudar?",
   "fog_owl.cedric.back_to_main": "Na verdade, eu tinha outras perguntas.",
   "fog_owl.cedric.what_next": "O que devo fazer a seguir?",
-  "fog_owl.cedric.about_tq_history_response": "O que você pode me dizer sobre a história do programa?",
-  "fog_owl.cedric.about_tq_first_operators_response": "Primeiros operadores? Gostaria de conhecê-los um dia.",
+  "fog_owl.cedric.about_tq_history_response":
+    "O que você pode me dizer sobre a história do programa?",
+  "fog_owl.cedric.about_tq_first_operators_response":
+    "Primeiros operadores? Gostaria de conhecê-los um dia.",
   "fog_owl.cedric.about_tq_code_response": "O que é o Código do operador?",
-  "fog_owl.cedric.about_tq_operator_response": "Quais são as funções de um Operador?",
-  "fog_owl.cedric.about_tq_legacy_systems_response": "O que sabemos sobre os \"Sistemas Legados\"?",
-  "fog_owl.cedric.about_tq_legacy_systems_bolder_response": "Eles estão se tornando mais ousados? Como assim?",
-  "fog_owl.cedric.about_tq_legacy_systems_do_response": "O que faremos com relação a isso?",
-  "fog_owl.cedric.about_twilio_what_response": "APIs de comunicação que você diz... como o quê?",
-  "fog_owl.cedric.about_twilio_name_response": "\"Twilio\" é um tipo de nome bobo - o que ele significa?",
-  "fog_owl.cedric.about_twilio_why": "Por que a Twilio criaria algo como o TwilioQuest?",
-  "fog_owl.cedric.about_world_cloud": "Então... Estou literalmente na \"Nuvem\" agora?",
-  "fog_owl.cedric.about_world_everyone_else_response": "Todos na Internet também estão aqui na Nuvem?",
-  "fog_owl.cedric.about_world_responsibility_response": "Isso é lamentável - todos deveriam entender a Nuvem como nós.",
+  "fog_owl.cedric.about_tq_operator_response":
+    "Quais são as funções de um Operador?",
+  "fog_owl.cedric.about_tq_legacy_systems_response":
+    'O que sabemos sobre os "Sistemas Legados"?',
+  "fog_owl.cedric.about_tq_legacy_systems_bolder_response":
+    "Eles estão se tornando mais ousados? Como assim?",
+  "fog_owl.cedric.about_tq_legacy_systems_do_response":
+    "O que faremos com relação a isso?",
+  "fog_owl.cedric.about_twilio_what_response":
+    "APIs de comunicação que você diz... como o quê?",
+  "fog_owl.cedric.about_twilio_name_response":
+    '"Twilio" é um tipo de nome bobo - o que ele significa?',
+  "fog_owl.cedric.about_twilio_why":
+    "Por que a Twilio criaria algo como o TwilioQuest?",
+  "fog_owl.cedric.about_world_cloud":
+    'Então... Estou literalmente na "Nuvem" agora?',
+  "fog_owl.cedric.about_world_everyone_else_response":
+    "Todos na Internet também estão aqui na Nuvem?",
+  "fog_owl.cedric.about_world_responsibility_response":
+    "Isso é lamentável - todos deveriam entender a Nuvem como nós.",
   "fog_owl.cedric.about_world_space_response": `Então, a Nuvem é representada por mim usando meus modelos mentais existentes... 
   é por isso que a Nuvem se parece com o espaço sideral?`,
   "fog_owl.cedric.questions_about_world": "Onde eu estou agora?",
-  "fog_owl.cedric.more_questions_about_world": "Posso perguntar mais uma coisa sobre a Nuvem?",
-  "fog_owl.cedric.more_questions_about_twilio": "Eu tinha outras perguntas sobre a Twilio.",
-  "fog_owl.cedric.questions_about_twilio": "Agora que você mencionou... o que é mesmo um \"Twilio\"?",
-  "fog_owl.cedric.more_questions_about_tq": "Eu tinha outras perguntas sobre o TwilioQuest.",
-  "fog_owl.cedric.questions_about_tq": "Você pode me falar mais sobre o programa TwilioQuest?",
-  "fog_owl.cedric.more_questions_about_you": "Posso perguntar mais alguma coisa sobre você?",
-  "fog_owl.cedric.questions_about_you": "Gostaria de conhecer você melhor. Fale sobre você.",
+  "fog_owl.cedric.more_questions_about_world":
+    "Posso perguntar mais uma coisa sobre a Nuvem?",
+  "fog_owl.cedric.more_questions_about_twilio":
+    "Eu tinha outras perguntas sobre a Twilio.",
+  "fog_owl.cedric.questions_about_twilio":
+    'Agora que você mencionou... o que é mesmo um "Twilio"?',
+  "fog_owl.cedric.more_questions_about_tq":
+    "Eu tinha outras perguntas sobre o TwilioQuest.",
+  "fog_owl.cedric.questions_about_tq":
+    "Você pode me falar mais sobre o programa TwilioQuest?",
+  "fog_owl.cedric.more_questions_about_you":
+    "Posso perguntar mais alguma coisa sobre você?",
+  "fog_owl.cedric.questions_about_you":
+    "Gostaria de conhecer você melhor. Fale sobre você.",
   "fog_owl.cedric.questions_main_response": "Vamos falar sobre outra coisa.",
-  "fog_owl.cedric.how_get_here": "Pode parecer uma pergunta boba, mas por que estou aqui?",
-  "fog_owl.cedric.answer_some_questions": "Tenho mais algumas perguntas sobre tudo isso...",
-  "fog_owl.cedric.about_tq_brief": "Sim, Operador. O que você gostaria de saber?",
+  "fog_owl.cedric.how_get_here":
+    "Pode parecer uma pergunta boba, mas por que estou aqui?",
+  "fog_owl.cedric.answer_some_questions":
+    "Tenho mais algumas perguntas sobre tudo isso...",
+  "fog_owl.cedric.about_tq_brief":
+    "Sim, Operador. O que você gostaria de saber?",
   "fog_owl.cedric.about_tq_main": `O programa <span class='highlight'>TwilioQuest</span> é uma organização secreta 
   dedicada a explorar e proteger a fronteira selvagem da Nuvem.
   <span class='highlight'>Operators</span> no programa TwilioQuest - pessoas como você - estão na
@@ -128,7 +152,8 @@ module.exports = {
   "fog_owl.cedric.about_world_main_speech": `Você está a bordo da nave de exploração na nuvem designada Fog Owl. Nós 
   somos aproximadamente 1,2 milhão de marcações fora do Meme Cluster, em um local 
   secreto dentro da Nuvem.`,
-  "fog_owl.cedric.about_you_brief_text": "Não me importo. Pergunte e eu farei o meu melhor para responder.",
+  "fog_owl.cedric.about_you_brief_text":
+    "Não me importo. Pergunte e eu farei o meu melhor para responder.",
   "fog_owl.cedric.about_you_brief_speech": `Não me importo. Pergunte <break strength='strong'/>e eu farei o meu melhor 
   para responder.`,
   "fog_owl.cedric.about_you_main_text": `Estou lisonjeado pelo seu interesse! Como você sabe, meu nome é 
@@ -164,7 +189,8 @@ module.exports = {
   <emphasis level="moderate">slapping that bell</emphasis>"
   <break strength='medium'/>
   para se inscrever no meu conteúdo futuro?`,
-  "fog_owl.cedric.questions_main": "Estou preparado para oferecer informações adicionais, conforme solicitado.",
+  "fog_owl.cedric.questions_main":
+    "Estou preparado para oferecer informações adicionais, conforme solicitado.",
   "fog_owl.cedric.questions": `Sem dúvida, você tem muitas perguntas desde que chegou na Nuvem. Eu vou 
   me esforçar para respondê-las da melhor maneira possível.`,
   "fog_owl.cedric.how_get_here_text": `A perda temporária de memória de curto prazo é um possível efeito colateral de se conectar
@@ -184,10 +210,14 @@ module.exports = {
   Você também pode achar útil aprimorar suas habilidades técnicas usando a 
   <span class='highlight'>VR training room down the hallway behind you</span>.`,
   "fog_owl.cedric.main": "Claro. Como posso ajudar?",
-  "fog_owl.cedric.default": "Operador. Estou feliz por vê-lo novamente. Como posso ajudar?",
-  "fog_owl.corey.dossier_response": "[checks service records] Você atende pelo apelido de \"Furacão\"?",
-  "fog_owl.corey.defensive_systems_response": "O Fog Owl tem alguma capacidade defensiva?",
-  "fog_owl.corey.about_response": "Você poderia me lembrar quem você é e o que você faz na nave?",
+  "fog_owl.cedric.default":
+    "Operador. Estou feliz por vê-lo novamente. Como posso ajudar?",
+  "fog_owl.corey.dossier_response":
+    '[checks service records] Você atende pelo apelido de "Furacão"?',
+  "fog_owl.corey.defensive_systems_response":
+    "O Fog Owl tem alguma capacidade defensiva?",
+  "fog_owl.corey.about_response":
+    "Você poderia me lembrar quem você é e o que você faz na nave?",
   "fog_owl.corey.dossier": `Isso está absolutamente certo. Isso surgiu do bate-papo da Twitch e ficou
   travado. Você deve <a href='https://www.twitch.tv/cldubya'>desligar a transmissão em algum momento</a>.
   O Chat pode preencher os detalhes.`,
@@ -199,9 +229,12 @@ module.exports = {
   "fog_owl.corey.about": `Sou Corey, oficial de segurança e tática a bordo da Fog Owl. Se
   há problemas, é quando vou trabalhar. Felizmente, não vou 
   trabalhar com tanta frequência.`,
-  "fog_owl.corey.default": "Operador, é sempre um prazer. O que posso fazer por você?",
-  "fog_owl.craig.dossier_response": "[checks service records] Você não é estranho no treinamento de pessoas desenvolvedoras, mas parece que também passou algum tempo no Corpo da Paz?",
-  "fog_owl.craig.about_response": "Você poderia me lembrar quem você é e o que você faz na nave?",
+  "fog_owl.corey.default":
+    "Operador, é sempre um prazer. O que posso fazer por você?",
+  "fog_owl.craig.dossier_response":
+    "[checks service records] Você não é estranho no treinamento de pessoas desenvolvedoras, mas parece que também passou algum tempo no Corpo da Paz?",
+  "fog_owl.craig.about_response":
+    "Você poderia me lembrar quem você é e o que você faz na nave?",
   "fog_owl.craig.whats_this_response": "Para que essa área da nave é usada?",
   "fog_owl.craig.dossier": `Isso é verdade! Eu passei um tempo no Corpo da Paz ensinando habilidades de informática 
   na Guiana. É incrível o quanto a tecnologia avançou desde então.
@@ -217,10 +250,13 @@ module.exports = {
   oficial de treinamento aqui a bordo da Fog Owl. <br/><br/>Eu ajudo a criar simulações para a 
   nossa plataforma de treinamento de realidade virtual, para ajudar a preparar você para qualquer problema 
   imprevisto com hackers que você possa encontrar na Nuvem.`,
-  "fog_owl.craig.default": "Olá, Operador! É um ótimo dia para aprender algo novo, você não acha?",
-  "fog_owl.marcus.dossier_response": "[checks service records] Ser o engenheiro-chefe de uma nave de exploração na nuvem parece um passo abaixo de ser um soletrador.",
+  "fog_owl.craig.default":
+    "Olá, Operador! É um ótimo dia para aprender algo novo, você não acha?",
+  "fog_owl.marcus.dossier_response":
+    "[checks service records] Ser o engenheiro-chefe de uma nave de exploração na nuvem parece um passo abaixo de ser um soletrador.",
   "fog_owl.marcus.what_this_response": "O que é esta área da nave?",
-  "fog_owl.marcus.about_response": "Você poderia me lembrar quem você é e o que você faz na nave?",
+  "fog_owl.marcus.about_response":
+    "Você poderia me lembrar quem você é e o que você faz na nave?",
   "fog_owl.marcus.what_this": `Esta é a plataforma de engenharia, onde cuidamos do coração pulsante 
   da Fog Owl - uma <span class='highlight'>unidade de transmissão de pacote</span> de última geração. Os 
   sistemas de acionamento impulsionam clusters de Operadores conectados à Nuvem em 
@@ -232,10 +268,14 @@ module.exports = {
   "fog_owl.marcus.about": `Certo. Marcus, engenheiro-chefe a bordo da Fog Owl. Eu garanto que nosso 
   pássaro continue cantando, e no momento, é uma bela música. Informarei imediatamente 
   se algum dos nossos sistemas começar a apresentar problemas.`,
-  "fog_owl.marcus.default": "Operador. Os sistemas estão verdes em todos os aspectos - tudo bem aqui.",
-  "fog_owl.megan.dossier_response": "[checks service records] Uau, parece que você tinha uma família na Força Aérea?",
-  "fog_owl.megan.traffic_response": "Há algum perigo de navegação que eu deva conhecer?",
-  "fog_owl.megan.about_response": "Você poderia me lembrar quem você é e o que você faz na nave?",
+  "fog_owl.marcus.default":
+    "Operador. Os sistemas estão verdes em todos os aspectos - tudo bem aqui.",
+  "fog_owl.megan.dossier_response":
+    "[checks service records] Uau, parece que você tinha uma família na Força Aérea?",
+  "fog_owl.megan.traffic_response":
+    "Há algum perigo de navegação que eu deva conhecer?",
+  "fog_owl.megan.about_response":
+    "Você poderia me lembrar quem você é e o que você faz na nave?",
   "fog_owl.megan.dossier": `Como filha de um oficial do 914º Airlift Wing, sinto-me na obrigação de 
   dizer a você - \"O céu não tem limite\". <br/><br/>Embora sejamos honestos, o meu 
   passeio é muito mais legal do que qualquer outro junker da Força Aérea na frota.`,
@@ -243,9 +283,12 @@ module.exports = {
   assassinos e portas lógicas estreitas se tornam muito menos intimidantes.`,
   "fog_owl.megan.about": `Pode apostar. Sou Megan e tenho o privilégio de servir como 
   piloto da Fog Owl. E devo dizer que a Owl se comporta como um sonho.`,
-  "fog_owl.megan.default": "O que está acontecendo, Operador? Que curso devo definir?",
-  "fog_owl.mica.dossier_response": "[checks service records] Eu entendo que você também era um ator mirim?",
-  "fog_owl.mica.about_response": "Você poderia me lembrar quem você é e o que você faz no navio?",
+  "fog_owl.megan.default":
+    "O que está acontecendo, Operador? Que curso devo definir?",
+  "fog_owl.mica.dossier_response":
+    "[checks service records] Eu entendo que você também era um ator mirim?",
+  "fog_owl.mica.about_response":
+    "Você poderia me lembrar quem você é e o que você faz no navio?",
   "fog_owl.mica.whats_this_response": "Qual é a plataforma por trás de você?",
   "fog_owl.mica.dossier": `Como isso chegou lá?! É verdade, mas minha carreira foi curta e nem 
   tão bem-sucedida. Meu papel mais famoso foi como uma fruta antropomórfica.
@@ -274,12 +317,14 @@ module.exports = {
   "fog_owl.tutorial.get_started": `<i>
   É hora de começar!<br/><br/> Talvez eu queira dizer oi para Cedric e para a equipe também.
   </i>`,
-  "fog_owl.validator.thanks": "Obrigado por ajudar a plantar uma árvore na Austrália!",
-  "fog_owl.validator.already_planted": "Você já plantou esta árvore - bom para você!",
-  "fog_owl.validator.submitting_error": "Desculpe, ocorreu um erro ao enviar sua solicitação. Tente novamente mais tarde!",
-  "fog_owl.validator.plant_tree_error": "Algo deu errado quando tentamos plantar uma árvore em seu nome:",
-
-
+  "fog_owl.validator.thanks":
+    "Obrigado por ajudar a plantar uma árvore na Austrália!",
+  "fog_owl.validator.already_planted":
+    "Você já plantou esta árvore - bom para você!",
+  "fog_owl.validator.submitting_error":
+    "Desculpe, ocorreu um erro ao enviar sua solicitação. Tente novamente mais tarde!",
+  "fog_owl.validator.plant_tree_error":
+    "Algo deu errado quando tentamos plantar uma árvore em seu nome:",
 
   "base.endConversation": "<finalizar conversa>",
   "base.titleScreen.pressToStart": "pressione a barra de espaço para iniciar",
@@ -306,15 +351,18 @@ module.exports = {
   de configuração da conta da Twilio.`,
   "base.validationHelper.couldntFind": "Não foi possível encontrar",
   "base.validationHelper.tryAgain": "Tente novamente",
-  "base.validationHelper.twiMLError": "Parece haver um problema com a geração do seu TwiML.",
+  "base.validationHelper.twiMLError":
+    "Parece haver um problema com a geração do seu TwiML.",
   "base.validationHelper.statusCode": "Código de status:",
-  "base.validationHelper.didntEnterPath": "Você não inseriu um caminho de arquivo.",
+  "base.validationHelper.didntEnterPath":
+    "Você não inseriu um caminho de arquivo.",
   "base.validationHelper.pathNotExists": "O caminho fornecido não existe",
   "base.validationHelper.pathIsntExecutable": `O caminho fornecido não é executável!
 
   Verifique se este é um caminho para um executável e se o TwilioQuest tem
   as permissões apropriadas para executar o arquivo.`,
-  "base.validationHelper.validationError": "Ocorreu um erro quando tentamos validar se poderíamos executar seu executável!",
+  "base.validationHelper.validationError":
+    "Ocorreu um erro quando tentamos validar se poderíamos executar seu executável!",
   "base.validator.backToTutorial": "Voltar ao tutorial",
   "base.validator.showTutorial": "Mostrar tutorial",
   "base.validator.showCodeEditor": "Mostrar editor de código",
@@ -329,7 +377,8 @@ module.exports = {
   "base.validator.SUCCESS": "** SUCESSO **",
   "base.validator.FAIL": "** FALHA **",
   "base.itemTabs.all": "tudo",
-  "base.inventory.dragDrop": "<strong>Arrastar/soltar</strong> pr <strong>clique duas vezes</strong> para equipar itens.",
+  "base.inventory.dragDrop":
+    "<strong>Arrastar/soltar</strong> pr <strong>clique duas vezes</strong> para equipar itens.",
   "base.adventureTeams.join": "Ingressar",
   "base.adventureTeams.joining": "Ingressando...",
   "base.adventureTeams.currentTeam": "Equipes atuais",
@@ -348,7 +397,8 @@ module.exports = {
   "base.credits.thanks": "Agradecimento especial a",
   "base.environmentVariables.unlock": "Desbloquear",
   "base.environmentVariables.lock": "Bloquear",
-  "base.environmentVariables.variablesWillAppear": "As variáveis aparecerão aqui quando desbloqueadas nas missões.",
+  "base.environmentVariables.variablesWillAppear":
+    "As variáveis aparecerão aqui quando desbloqueadas nas missões.",
   "base.environmentVariables.environmentVariables": "Variáveis de ambiente",
   "base.environmentVariables.missions": `As missões no TwilioQuest salvarão dados importantes como \"environment
   variables\" para usá-las em diferentes missões. Se você precisar alterar
@@ -356,19 +406,23 @@ module.exports = {
   "base.extensions.loaded": "carregado",
   "base.extensions.failed": "falha",
   "base.extensions.externalExtensions": "Extensões externas",
-  "base.extensions.extensionsLoaded": "Essas extensões estão sendo carregadas do diretório acima.",
+  "base.extensions.extensionsLoaded":
+    "Essas extensões estão sendo carregadas do diretório acima.",
   "base.extensions.bundledExtensions": "Extensões agrupadas",
-  "base.extensions.extensionsBundled": "Essas extensões são fornecidas por padrão durante o download do TwilioQuest.",
+  "base.extensions.extensionsBundled":
+    "Essas extensões são fornecidas por padrão durante o download do TwilioQuest.",
   "base.extensions.willAttempt": `O TwilioQuest tentará carregar extensões da pasta abaixo. Observe
   que algumas extensões podem`,
   "base.extensions.require": "requerer que você reinicie o jogo",
-  "base.extensions.before": "antes de estarem disponíveis (por exemplo, novas missões no computador da missão).",
+  "base.extensions.before":
+    "antes de estarem disponíveis (por exemplo, novas missões no computador da missão).",
   "base.extensions.disableExtensions": "Desativar extensões",
   "base.extensions.extensionDirectory": "Diretório de extensão",
   "base.extensions.noDirectory": "Nenhum diretório escolhido",
   "base.extensions.chooseDirectory": "Escolha o diretório",
   "base.extensions.choose": "Escolha",
-  "base.extensions.chooseADirectory": "Escolha um diretório para carregar suas extensões em",
+  "base.extensions.chooseADirectory":
+    "Escolha um diretório para carregar suas extensões em",
   "base.extensions.loadedExtensions": "Extensões carregadas",
   "base.extensions.enableButton": `Clique no botão abaixo para ativar as extensões. As extensões podem conter novos
   níveis, itens ou recursos para o TwilioQuest.`,
@@ -385,7 +439,8 @@ module.exports = {
   "base.operations.joining": "Ingressando...",
   "base.operations.currentOperation": "Operações atuais",
   "base.operations.leaveOperation": "Sair da operação",
-  "base.operations.notInOperations": "Você não está em nenhuma operação no momento.",
+  "base.operations.notInOperations":
+    "Você não está em nenhuma operação no momento.",
   "base.settings.settings": "Configurações",
   "base.settings.hide": "Ocultar",
   "base.settings.playerGuid": "Exibir GUIA do jogador",
@@ -419,8 +474,10 @@ module.exports = {
   "base.unlocksTab.redeeming": "Resgatando...",
   "base.help.help": "Ajuda",
   "base.help.movement": "Movimento",
-  "base.help.move": "<p>Mova o jogador com as <strong>teclas de seta</strong> ou <strong>[W], [A], [S], e [D]</strong> teclas.</p>", 
-  "base.help.interact": "<p>Interaja com pessoas ou objetos usando <strong>barra de espaço</strong>.</p>",
+  "base.help.move":
+    "<p>Mova o jogador com as <strong>teclas de seta</strong> ou <strong>[W], [A], [S], e [D]</strong> teclas.</p>",
+  "base.help.interact":
+    "<p>Interaja com pessoas ou objetos usando <strong>barra de espaço</strong>.</p>",
   "base.help.technicalAssistance": "Assistência técnica",
   "base.help.needHelp": `Precisa de ajuda para um determinado desafio de código ou outra
   assistência técnica? Converse com seus colegas operadores em nosso`,
@@ -440,14 +497,20 @@ module.exports = {
   "base.missionComputer.complete": "% concluído",
   "base.missionComputer.rank": "Classificação:",
   "base.missionComputer.select": "SELECIONAR UMA MISSÃO",
-  "base.missionComputer.selectTraining": "Selecione Training Mission (missão de treinamento)",
+  "base.missionComputer.selectTraining":
+    "Selecione Training Mission (missão de treinamento)",
   "base.navmap.navigationLoading": "Carregando navegação...",
   "base.navmap.loadingIntelligence": "Carregando relatório de inteligência...",
+  "base.navmap.selectADestination": "Selecione um destino",
+  "base.navmap.exit": "Sair",
+  "base.navmap.go": "Ir!",
   "base.avatarStep.selectAvatar": "Selecione seu avatar",
-  "base.liveEventStep.adventure": "Você tem um código de adesão para a equipe de aventura?",
+  "base.liveEventStep.adventure":
+    "Você tem um código de adesão para a equipe de aventura?",
   "base.liveEventStep.no": "NÃO",
   "base.liveEventStep.yes": "SIM",
-  "base.liveEventStep.enterCode": "Insira seu team join code (código de adesão à equipe):",
+  "base.liveEventStep.enterCode":
+    "Insira seu team join code (código de adesão à equipe):",
   "base.nameStep.enterName": "Digite seu nome",
   "base.onboardingInterface.welcome": "Boas-vindas",
   "base.onboardingInterface.connected": "Você está conectado a",
@@ -458,15 +521,18 @@ module.exports = {
   "base.onboardingInterface.esc": "[ESC]",
   "base.onboardingInterface.back": "para voltar",
   "base.avatarSelector.custom": "Personalizar",
-  "base.clearDataButton.continue": "Todos os dados e progresso do usuário serão excluídos. Continuar?",
-  "base.clearDataButton.seriously": "Sério, estamos prestes a excluir todos os seus itens e redefinir todo o seu progresso no jogo. Tem certeza de que deseja fazer isso?",
+  "base.clearDataButton.continue":
+    "Todos os dados e progresso do usuário serão excluídos. Continuar?",
+  "base.clearDataButton.seriously":
+    "Sério, estamos prestes a excluir todos os seus itens e redefinir todo o seu progresso no jogo. Tem certeza de que deseja fazer isso?",
   "base.clearDataButton.erase": "Apagar dados do jogo",
   "base.customAvatarCreator.customize": "Personalizar:",
   "base.customAvatarCreator.Skin": "Pele",
   "base.customAvatarCreator.Eyes": "Olhos",
   "base.customAvatarCreator.Hair Color": "Cor do cabelo",
   "base.customAvatarCreator.Hair Style": "Estilo do cabelo",
-  "base.fogOwlFlying.packet": "Unidade de transmissão de pacote engatada, aguarde...",
+  "base.fogOwlFlying.packet":
+    "Unidade de transmissão de pacote engatada, aguarde...",
   "base.hudBar.returnToThe": "Voltar para a Fog Owl?",
   "base.hudBar.xp": "XP:",
   "base.hudBar.rank": "Classificação:",
@@ -475,11 +541,14 @@ module.exports = {
   "base.hudBar.settings": "Configurações",
   "base.hudBar.help": "Ajuda",
   "base.hudBar.return": "Voltar para a Fog Owl",
-  "base.hudBar.explore": "Explore a nuvem e desenvolva suas habilidades de programação!",
-  "base.questIde.initializing": "Inicializando ambiente de desenvolvimento em JavaScript...",
+  "base.hudBar.explore":
+    "Explore a nuvem e desenvolva suas habilidades de programação!",
+  "base.questIde.initializing":
+    "Inicializando ambiente de desenvolvimento em JavaScript...",
   "base.questIde.ready": "QuestIDE 1.0.0 pronto. Bem-vindo, operador.",
   "base.questIde.executing": "Executando seu programa...",
-  "base.questIde.discard": "Descartar as alterações e redefinir o código da amostra?",
+  "base.questIde.discard":
+    "Descartar as alterações e redefinir o código da amostra?",
   "base.questIde.runCode": "Executar código no editor",
   "base.questIde.reset": "Redefinir para o código de exemplo inicial",
   "base.questIde.hide": "Ocultar editor de código",
@@ -493,12 +562,15 @@ module.exports = {
   "base.extensions.find": "Encontre",
   "base.extensions.awesome": "extensões incríveis criadas pela comunidade",
   "base.extensions.onThe": "na",
-  "base.extensions.twilioQuestExtensionsGallery": "Galeria de extensões do TwilioQuest",
-  "base.extensions.detailedInstructions": "Na Galeria de extensões você também encontra instruções mais detalhadas sobre como instalar extensões.",
-  "base.extensions.learn": "Saiba mais sobre as extensões do TwilioQuest visitando a",
+  "base.extensions.twilioQuestExtensionsGallery":
+    "Galeria de extensões do TwilioQuest",
+  "base.extensions.detailedInstructions":
+    "Na Galeria de extensões você também encontra instruções mais detalhadas sobre como instalar extensões.",
+  "base.extensions.learn":
+    "Saiba mais sobre as extensões do TwilioQuest visitando a",
   "base.extensions.translations": "Traduções",
   "base.extensions.refresh": "Atualizar traduções",
   "base.extensions.extensions": "Extensões",
   "base.onboardinginterface.start": "iniciar",
-  "base.onboardinginterface.continue": "continuar"
-}
+  "base.onboardinginterface.continue": "continuar",
+};

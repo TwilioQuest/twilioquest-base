@@ -1,0 +1,7 @@
+{
+  "baseFont": "'Roboto Mono', Consolas, monospace",
+  "gameFont": "'Press Start 2P', monospace",
+  "readingFont": "'Helvetica Neue', Helvetica, sans-serif",
+  "uiFont": "'Vector 2.0'",
+  "buttonFont": "'Stapler 2.0'"
+}
