@@ -33,12 +33,12 @@ module.exports = {
   "fog_owl.cedric.how_get_here": "This may sound like a silly question, but why am I here?",
   "fog_owl.cedric.answer_some_questions": "I have a few more questions about all of this...",
   "fog_owl.cedric.about_tq_brief": "Yes Operator. What would you like to know?",
-  "fog_owl.cedric.about_tq_main": `The #[span.highlight TwilioQuest] program is a top-secret organization 
+  "fog_owl.cedric.about_tq_main": `The <span class='highlight'>TwilioQuest</span> program is a top-secret organization 
   dedicated to exploring and safeguarding the wild frontier of The Cloud.
-  #[span.highlight Operators] in the TwilioQuest program - people like you - are at the
+  <span class='highlight'>Operators</span> in the TwilioQuest program - people like you - are at the
   forefront of this important mission.`,
   "fog_owl.cedric.about_tq_legacy_systems": `Unfortunately, we know very little about the specific plans and membership of
-  the #[span.red Legacy Systems]. We do know they are a vast network of 
+  the <span class='red'>Legacy Systems</span>. We do know they are a vast network of 
   powerful individuals, always seeking to protect their hoarded wealth and 
   influence. Until recently, they had been content to operate from the shadows.
   Now, their operations grow bolder and more brazen every day.`,
@@ -46,18 +46,18 @@ module.exports = {
   misinformation campaign, or abuse of privileged data access. These acts
   may seem random, but our intelligence indicates they are connected. We
   believe this is only the beginning of a larger offensive by the 
-  #[span.red Legacy Systems].`,
-  "fog_owl.cedric.about_tq_legacy_systems_do": `We will respond by swelling the ranks of the #[span.highlight Operators].
+  <span class='red'>Legacy Systems</span>.`,
+  "fog_owl.cedric.about_tq_legacy_systems_do": `We will respond by swelling the ranks of the <span class='highlight'>Operators</span>.
   The more people we have exploring The Cloud, adhering 
-  to #[span.highlight The Operator's Code],
+  to <span class='highlight'>The Operator's Code</span>,
   the better our chances of stamping out the influence of the 
-  #[span.red Legacy Systems]. Even in the vastness of The Cloud, we will
+  <span class='red'>Legacy Systems</span>. Even in the vastness of The Cloud, we will
   ensure there is no dark corner where the Legacy Systems can hide.`,
   "fog_owl.cedric.about_tq_history": `In the year 2013, the TwilioQuest program trained a handful of developers, 
-  the #[span.highlight First Operators], to take up the tools of software development in a 
+  the <span class='highlight'>First Operators</span>, to take up the tools of software development in a 
   mission to save The Cloud. Today, advances in cloud exploration 
   technology allow us to further scale our recruitment efforts. This is
-  most fortunate, as the #[span.red Legacy Systems] seem to be gaining strength at the
+  most fortunate, as the <span class='red'>Legacy Systems</span> seem to be gaining strength at the
   same time.`,
   "fog_owl.cedric.about_tq_first_operators_text": `You will get your chance to meet them in due time. But before that can happen,
   the Fog Owl must be made ready for exploration, and you must focus on
@@ -68,13 +68,13 @@ module.exports = {
   "fog_owl.cedric.about_tq_operator": `Operators are not part of a formal command structure, and have no
   responsibilities as such. However, to be considered an Operator
   and receive the support of the TwilioQuest program, members must
-  adhere to the #[span.highlight Operator's Code].`,
+  adhere to the <span class='highlight'>Operator's Code</span>.`,
   "fog_owl.cedric.about_tq_code_text": `Operators are sworn to use their abilities only to write code that
-  promotes #[span.highlight hope, power, and freedom] for all of humanity.
+  promotes <span class='highlight'>hope, power, and freedom</span> for all of humanity.
   Those that write code used to steal, oppress, or deceive
   cannot be called Operators. Intentionally or not, developers who use
   their skills in this way have become part of the 
-  #[span.red Legacy Systems].`,
+  <span class='red'>Legacy Systems</span>.`,
   "fog_owl.cedric.about_tq_code_speech": `Operators are sworn to use their abilities only to write code that
   promotes hope. power. and freedom. for all of humanity.
   Those that write code used to steal. oppress. or deceive.
@@ -85,13 +85,13 @@ module.exports = {
   and others. Twilio also provides higher level tools for use
   cases like contact centers, two-factor authentication, and A.I. bots.
   You can learn how to use these APIs through the training exercises in 
-  the #[span.highlight VR Training Room].`,
+  the <span class='highlight'>VR Training Room</span>.`,
   "fog_owl.cedric.about_twilio_name": `The name "Twilio" has no other meaning. It was chosen by the founders
   because of its brevity, and the availability of a dot com domain of the same
   name. It was assumed that a day would come where the company would
   change its name. That day never arrived.`,
   "fog_owl.cedric.about_twilio_brief": "I am happy to tell you what I know.",
-  "fog_owl.cedric.about_twilio_main": `#[a(href="https://www.twilio.com") Twilio] is a provider of 
+  "fog_owl.cedric.about_twilio_main": `<a href='https://www.twilio.com'>Twilio</a> is a provider of 
   communications APIs and infrastructure based in San Francisco, California.
   Twilio is the primary sponsor of the TwilioQuest program, although officially,
   they disavow any knowledge of our clandestine activities.`,
@@ -110,12 +110,12 @@ module.exports = {
   understand the virtual worlds of The Cloud.`,
   "fog_owl.cedric.about_world_cloud_text": `You are "literally" in The Cloud in the ...millenial... sense of the word?
   Your physical body is still located in the real world, but you have
-  formed a #[span.highlight direct neural connection] to The Cloud. This enables you to
+  formed a <span class='highlight'>direct neural connection</span> to The Cloud. This enables you to
   interpret data from The Cloud at incredibly high speeds, presented 
   using sensory input and mental models you built to interpret data
   from the real world.`,
-  "fog_owl.cedric.about_world_cloud_speech": `You are "literally" in The Cloud in the #[break(time="200ms")]
-  #[prosody(pitch="high") millenial?] #[break(time="200ms")]
+  "fog_owl.cedric.about_world_cloud_speech": `You are "literally" in The Cloud in the <break time="200ms"/>
+  <prosody pitch="high">millenial?</prosody> <break time="200ms"/>
   sense of the word? Your physical body is still located in the real world, 
   but you have
   formed a direct neural connection to The Cloud. This enables you to
@@ -123,17 +123,17 @@ module.exports = {
   using sensory input and mental models you built to interpret data
   from the real world.`,
   "fog_owl.cedric.about_world_brief": "What more can I tell you about The Cloud?",
-  "fog_owl.cedric.about_world_main_text": `You are aboard the Cloud Exploration Vessel (CEV) designated #[span.highlight Fog Owl].
+  "fog_owl.cedric.about_world_main_text": `You are aboard the Cloud Exploration Vessel (CEV) designated <span class='highlight'>Fog Owl</span>.
   We are approximately 1.2 million ticks outside the Meme Cluster, at an 
-  undisclosed location deep within #[span.highlight The Cloud].`,
+  undisclosed location deep within <span class='highlight'>The Cloud</span>.`,
   "fog_owl.cedric.about_world_main_speech": `You are aboard the Cloud Exploration Vessel designated Fawg Owl. We 
   are approximately 1.2 million ticks outside the Meme Cluster, at an 
   undisclosed location deep within The Cloud.`,
   "fog_owl.cedric.about_you_brief_text": "I do not mind. Ask and I shall do my best to answer.",
-  "fog_owl.cedric.about_you_brief_speech": `I do not mind. Ask #[break(strength="strong")]and I shall do my best 
+  "fog_owl.cedric.about_you_brief_speech": `I do not mind. Ask <break strength="strong"/>and I shall do my best 
   to answer.`,
   "fog_owl.cedric.about_you_main_text": `I am flattered by your interest! As you know, my name is 
-  #[span.highlight Cedric], and I have been assigned as your personal 
+  <span class='highlight'>Cedric</span>, and I have been assigned as your personal 
   assistant and executive officer aboard the Fog Owl.`,
   "fog_owl.cedric.about_you_main_speech": `I am flattered by your interest! As you know, my name is 
   Cedric, and I have been assigned as your personal 
@@ -143,7 +143,7 @@ module.exports = {
   Earth. However, it is frequently useful to appear in The Cloud or 
   the real world in a physical form. The "robot" you see in front of you 
   is my avatar in this world. I currently use a Misty II chassis from
-  #[a(href="https://www.mistyrobotics.com/") Misty Robotics] for this purpose.`,
+  <a href='https://www.mistyrobotics.com/'>Misty Robotics</a> for this purpose.`,
   "fog_owl.cedric.fun": `I wish I could say. While my programming is advanced in many 
   respects, I lack a strong understanding of the human experience. I 
   know the meaning of words like "fun", but I do not truly understand 
@@ -159,18 +159,18 @@ module.exports = {
   variety of social media platforms. Recently, I created a YouTube 
   channel where I capture low quality mobile phone video of my real 
   world avatar removing new products from their packaging. If you wish to 
-  help, you might consider #[break(strength="strong")] 
-  "#[emphasis(level="moderate") smashing that like button]" 
-  #[break(strength="medium")] or perhaps 
-  "#[emphasis(level="moderate") slapping that bell]"
-  #[break(strength="medium")]
+  help, you might consider <break strength="strong"/> 
+  <emphasis level="moderate">smashing that like button</emphasis>" 
+  <break strength="medium"/> or perhaps 
+  <emphasis level="moderate">slapping that bell</emphasis>"
+  <break strength="medium"/>
   to subscribe for my future content?`,
   "fog_owl.cedric.questions_main": "I am prepared to offer additional information as requested.",
   "fog_owl.cedric.questions": `No doubt you have many questions since arriving in The Cloud. I shall 
   endeavor to answer them as best I can.`,
   "fog_owl.cedric.how_get_here_text": `Temporary short term memory loss is a possible side effect of connecting
   to The Cloud as you have. The effect will pass, but in the meantime, you can
-  access #[span.highlight your Journal] for more context on where you
+  access <span class='highlight'>your Journal</span> for more context on where you
   are and what you are meant to do. Open the Journal by clicking the
   book icon in the top menu bar, or by pressing the 
   <span class="highlight">[J]</span> key.`,
@@ -180,10 +180,10 @@ module.exports = {
   are, and what you are meant to do. Open the Journal by clicking the
   - book - icon in the top menu bar, or by pressing the - J - key.`,
   "fog_owl.cedric.next": `Our mission is to exercise the Fog Owl's navigation systems, so I 
-  recommend that you #[span.highlight use the navigation interface to my left] 
+  recommend that you <span class='highlight'>use the navigation interface to my left</span> 
   to travel to and explore new worlds in The Cloud.<br/><br/>
   You may also find it useful to brush up on your technical skills using the 
-  #[span.highlight VR training room down the hallway behind you].`,
+  <span class='highlight'>VR training room down the hallway behind you</span>.`,
   "fog_owl.cedric.main": "Of course. How can I be of service?",
   "fog_owl.cedric.default": "Operator. I am pleased to see you once again. How can I be of service?",
   "fog_owl.corey.dossier_response": "[checks service records] It says you go by the nickname of \"Hurricane\"?",
@@ -447,6 +447,9 @@ module.exports = {
   "base.missionComputer.selectTraining": "Select Training Mission",
   "base.navmap.navigationLoading": "Navigation Loading...",
   "base.navmap.loadingIntelligence": "Loading intelligence report...",
+  "base.navmap.selectADestination": "SELECT A DESTINATION",
+  "base.navmap.exit": "EXIT",
+  "base.navmap.go": "GO!",
   "base.avatarStep.selectAvatar": "Select your avatar",
   "base.liveEventStep.adventure": "Do you have an adventure team join code?",
   "base.liveEventStep.no": "NO",
