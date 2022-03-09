@@ -499,5 +499,6 @@ module.exports = {
   "base.extensions.refresh": "Actualiser les traductions",
   "base.extensions.extensions": "Extensions",
   "base.onboardinginterface.start": "commencer",
-  "base.onboardinginterface.continue": "continuer"
+  "base.onboardinginterface.continue": "continuer",
+  "base.objects.fire.flames": "<i>Les flammes sont trop intenses pour se rapprocher! Vous aurez besoin de l'/n<em>extincteur</em> pour éteindre l'incendie."
 }

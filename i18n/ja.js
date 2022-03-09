@@ -493,5 +493,6 @@ module.exports = {
   "base.extensions.refresh": "翻訳を更新",
   "base.extensions.extensions": "拡張機能",
   "base.onboardinginterface.start": "開始",
-  "base.onboardinginterface.continue": "続行"
+  "base.onboardinginterface.continue": "続行",
+  "base.objects.fire.flames": "<i>火の勢いが激しくて、近づけません！火を消すには、/n<em>消火器</em>が必要です。"
 }
