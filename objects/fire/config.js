@@ -25,10 +25,7 @@ function onPlayerDidInteract(self, event, world) {
       });
       world.useTool("fire_extinguisher");
     } else {
-      world.showNotification(`
-      <i>The flames are too intense to get any closer! You'll need the 
-      <em>fire extinguisher</em> to clear the blaze.
-      `);
+      world.showNotification(world.getTranslatedString('base.objects.fire.flames'));
     }
   }
 }

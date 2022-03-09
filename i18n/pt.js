@@ -35,28 +35,28 @@ module.exports = {
   "fog_owl.cedric.about_tq_brief": "Sim, Operador. O que você gostaria de saber?",
   "fog_owl.cedric.about_tq_main": `O programa <span class='highlight'>TwilioQuest</span> é uma organização secreta 
   dedicada a explorar e proteger a fronteira selvagem da Nuvem.
-  <span class='highlight'>Operators</span> no programa TwilioQuest - pessoas como você - estão na
+  <span class='highlight'>Operadores</span> no programa TwilioQuest - pessoas como você - estão na
   vanguarda dessa importante missão.`,
   "fog_owl.cedric.about_tq_legacy_systems": `Infelizmente, sabemos muito pouco sobre os planos específicos e a participação 
-  dos <span class='red'>Legacy Systems</span>. Sabemos que eles são uma vasta rede de indivíduos 
+  dos <span class='red'>Sistemas legados</span>. Sabemos que eles são uma vasta rede de indivíduos 
   poderosos, sempre buscando proteger sua riqueza acumulada e
   influência. Até pouco tempo, eles se contentavam em operar nas sombras.
   Agora, suas operações crescem mais audaciosas e mais descaradas a cada dia.`,
   "fog_owl.cedric.about_tq_legacy_systems_bolder": `Parece que não passa um dia sem uma nova violação de segurança, campanha de mídia social
   desinformação ou abuso de acesso privilegiado a dados. Esses atos
   podem parecer aleatórios, mas nossa inteligência indica que estão conectados. Acreditamos que este é apenas o começo de uma ofensiva maior por parte dos 
-  <span class='red'>Legacy Systems</span>.`,
-  "fog_owl.cedric.about_tq_legacy_systems_do": `Vamos responder aumentando as fileiras dos <span class='highlight'>Operators</span>.
+  <span class='red'>Sistemas legados</span>.`,
+  "fog_owl.cedric.about_tq_legacy_systems_do": `Vamos responder aumentando as fileiras dos <span class='highlight'>Operadores</span>.
   Quanto mais pessoas tivermos explorando a Nuvem, aderindo 
-  ao <span class='highlight'>The Operator's Code</span>,
+  ao <span class='highlight'>Código do operador</span>,
   mais chances de acabar com a influência dos 
-  <span class='red'>Legacy Systems</span>. Mesmo na vastidão da Nuvem, vamos 
+  <span class='red'>Sistemas legados</span>. Mesmo na vastidão da Nuvem, vamos 
   garantir que não haja um canto escuro onde os Sistemas Legados possam se esconder.`,
   "fog_owl.cedric.about_tq_history": `Em 2013, o programa TwilioQuest treinou alguns desenvolvedores, 
-  os <span class='highlight'>First Operators</span>, para usar as ferramentas de desenvolvimento de software em uma 
+  os <span class='highlight'>Primeiros operadores</span>, para usar as ferramentas de desenvolvimento de software em uma 
   missão para salvar a Nuvem. Hoje, os avanços na 
   tecnologia de exploração da nuvem nos permitem ampliar ainda mais nossos esforços de recrutamento. Isso é
-  quase uma sorte, pois os <span class='red'>Legacy Systems</span> parecem estar ganhando força ao
+  quase uma sorte, pois os <span class='red'>Sistemas legados</span> parecem estar ganhando força ao
   mesmo tempo.`,
   "fog_owl.cedric.about_tq_first_operators_text": `Você terá a chance de conhecê-los no devido tempo. Mas antes que isso possa acontecer,
   a Fog Owl deve estar pronta para a exploração e você deve se concentrar em
@@ -67,13 +67,13 @@ module.exports = {
   "fog_owl.cedric.about_tq_operator": `Os operadores não fazem parte de uma estrutura de comando formal e não têm
   responsabilidades como tal. No entanto, para ser considerado um Operador
   e receber o suporte do programa TwilioQuest, os membros devem
-  aderir ao <span class='highlight'>Operator's Code</span>.`,
+  aderir ao <span class='highlight'>Código do operador</span>.`,
   "fog_owl.cedric.about_tq_code_text": `Os operadores prometeram usar suas habilidades apenas para escrever código que
-  promove <span class='highlight'>hope, power, and freedom</span> para toda a humanidade.
+  promove <span class='highlight'>esperança, poder e liberdade</span> para toda a humanidade.
   Aqueles que escrevem código usado para roubar, oprimir ou enganar
   não podem ser chamados de Operadores. Intencionalmente ou não, os desenvolvedores que usam
   suas habilidades dessa maneira se tornaram parte dos 
-  <span class='red'>Legacy Systems</span>.`,
+  <span class='red'>Sistemas legados</span>.`,
   "fog_owl.cedric.about_tq_code_speech": `Os operadores prometeram usar suas habilidades apenas para escrever código que
   promove esperança, força e liberdade para toda a humanidade.
   Aqueles que escrevem código usado para roubar, oprimir ou enganar
@@ -84,7 +84,7 @@ module.exports = {
   e outros. A Twilio também fornece ferramentas de nível superior para casos de
   uso como contact centers, autenticação de 2 fatores e bots com IA.
   Você pode aprender a usar essas APIs pelos exercícios de treinamento 
-  a <span class='highlight'>VR Training Room</span>.`,
+  a <span class='highlight'>Sala de treinamento em RV</span>.`,
   "fog_owl.cedric.about_twilio_name": `O nome \"Twilio\" não tem outro significado. Ele foi escolhido pelos fundadores
   por causa de sua brevidade e da disponibilidade de um domínio ponto com do mesmo
   nome. Presume-se que chegaria o dia em que a empresa mudaria
@@ -109,7 +109,7 @@ module.exports = {
   entenda os mundos virtuais da Nuvem.`,
   "fog_owl.cedric.about_world_cloud_text": `Você está \"literalmente\" na Nuvem no ...sentido milenar... da palavra?
   Seu corpo físico ainda está localizado no mundo real, mas você
-  formou uma <span class='highlight'>direct neural connection</span> com a Nuvem. Isso permite que você
+  formou uma <span class='highlight'>conexão neural direta</span> com a Nuvem. Isso permite que você
   interprete dados da Nuvem em velocidades incrivelmente altas, apresentados 
   usando dados sensoriais e modelos mentais que você construiu para interpretar dados
   do mundo real`,
@@ -159,9 +159,9 @@ module.exports = {
   canal no YouTube onde faço vídeos de baixa qualidade pelo celular do meu avatar do 
   mundo real removendo produtos novos de suas embalagens. Se quiser 
   ajudar, você pode clicar <break strength='strong'/> 
-  no <emphasis level="moderate">smashing that like button</emphasis> 
+  no <emphasis level="moderate">apertar o botão curtir</emphasis> 
   <break strength='medium'/> ou talvez 
-  <emphasis level="moderate">slapping that bell</emphasis>"
+  <emphasis level="moderate">bater o sino</emphasis>"
   <break strength='medium'/>
   para se inscrever no meu conteúdo futuro?`,
   "fog_owl.cedric.questions_main": "Estou preparado para oferecer informações adicionais, conforme solicitado.",
@@ -169,7 +169,7 @@ module.exports = {
   me esforçar para respondê-las da melhor maneira possível.`,
   "fog_owl.cedric.how_get_here_text": `A perda temporária de memória de curto prazo é um possível efeito colateral de se conectar
   à Nuvem como você fez. O efeito passará, mas enquanto isso, você pode
-  acessar o <span class='highlight'>your Journal</span> para obter mais contexto sobre onde você
+  acessar o <span class='highlight'>seu Diário</span> para obter mais contexto sobre onde você
   está e o que você deve fazer. Abra o Diário clicando no ícone de
   livro na barra de menus superior ou pressionando a tecla 
   <span class='highlight'>[J]</span>.`,
@@ -179,10 +179,10 @@ module.exports = {
   está e o que você deve fazer. Abra o Diário clicando no ícone de
   - livro - na barra de menus superior ou pressionando a tecla - J -.`,
   "fog_owl.cedric.next": `Nossa missão é exercitar os sistemas de navegação da Fog Owl, então eu 
-  recomendo que você <span class='highlight'>use the navigation interface to my left</span> 
+  recomendo que você <span class='highlight'>use a interface de navegação à minha esquerda</span> 
   para viajar e explorar novos mundos na Nuvem.<br/><br/>
   Você também pode achar útil aprimorar suas habilidades técnicas usando a 
-  <span class='highlight'>VR training room down the hallway behind you</span>.`,
+  <span class='highlight'>Sala de treinamento em RV no corredor atrás de você</span>.`,
   "fog_owl.cedric.main": "Claro. Como posso ajudar?",
   "fog_owl.cedric.default": "Operador. Estou feliz por vê-lo novamente. Como posso ajudar?",
   "fog_owl.corey.dossier_response": "[checks service records] Você atende pelo apelido de \"Furacão\"?",
@@ -500,5 +500,7 @@ module.exports = {
   "base.extensions.refresh": "Atualizar traduções",
   "base.extensions.extensions": "Extensões",
   "base.onboardinginterface.start": "iniciar",
-  "base.onboardinginterface.continue": "continuar"
+  "base.onboardinginterface.continue": "continuar",
+  "base.objects.fire.flames": `<i>As chamas estão muito intensas para chegar mais perto! Você precisará do 
+  <em>extintor de incêndio</em> para apagar as chamas.`
 }
