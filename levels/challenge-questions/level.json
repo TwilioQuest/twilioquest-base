@@ -1,0 +1,17 @@
+{
+  "title": "Challenge Questions",
+  "description": "Practice your programming skills!",
+  "questTitle": "Challenge Questions",
+  "questDescription": "Practice your programming skills!",
+  "mission_icon": "mission_icon.png",
+  "is_mission": true,
+  "priority": 1,
+  "backgroundMusic": "hackertheme_104771b",
+  "backgroundEffect": {
+    "key": "vr",
+    "options": {}
+  },
+  "flavorTextOverrides": {},
+  "objectives": [],
+  "//prereqs": ["javascript.js_node_env_setup", "javascript.js_node_workspace"]
+}
