@@ -12,6 +12,11 @@
     "options": {}
   },
   "flavorTextOverrides": {},
-  "objectives": [],
-  "//prereqs": ["javascript.js_node_env_setup", "javascript.js_node_workspace"]
+  "objectives": [
+    "difference-max-min",
+    "ducktypium-helm",
+    "remove-duplicate-characters",
+    "reverse-words",
+    "sum-array"
+  ]
 }

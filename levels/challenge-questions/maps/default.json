@@ -611,7 +611,7 @@
                  "rotation":0,
                  "type":"collider",
                  "visible":true,
-                 "width":12,
+                 "width":30,
                  "x":480,
                  "y":360
                 }, 
@@ -623,7 +623,7 @@
                  "rotation":0,
                  "type":"collider",
                  "visible":true,
-                 "width":12,
+                 "width":30,
                  "x":480,
                  "y":432
                 }, 
@@ -635,8 +635,8 @@
                  "rotation":0,
                  "type":"collider",
                  "visible":true,
-                 "width":12,
-                 "x":300,
+                 "width":30,
+                 "x":282,
                  "y":360
                 }, 
                 {
@@ -647,8 +647,8 @@
                  "rotation":0,
                  "type":"collider",
                  "visible":true,
-                 "width":12,
-                 "x":300,
+                 "width":30,
+                 "x":282,
                  "y":432
                 }],
          "opacity":1,
