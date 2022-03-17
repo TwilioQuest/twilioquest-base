@@ -1,0 +1,9 @@
+{
+  "title": "Difference of Min and Max",
+  "description": "Find the difference of the maximum and minimum number in an array.",
+  "validation_fields": [],
+  "show_ide": true,
+  "rewards": {
+    "xp": 100
+  }
+}

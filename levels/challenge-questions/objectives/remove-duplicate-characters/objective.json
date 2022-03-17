@@ -1,0 +1,9 @@
+{
+  "title": "Remove Duplicate Characters",
+  "description": "Remove duplicate characters in a row from a string.",
+  "validation_fields": [],
+  "show_ide": true,
+  "rewards": {
+    "xp": 100
+  }
+}

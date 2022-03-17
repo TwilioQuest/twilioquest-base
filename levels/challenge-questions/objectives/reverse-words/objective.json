@@ -1,0 +1,9 @@
+{
+  "title": "Backwards Sentence",
+  "description": "Reverse the words in a sentence.",
+  "validation_fields": [],
+  "show_ide": true,
+  "rewards": {
+    "xp": 100
+  }
+}

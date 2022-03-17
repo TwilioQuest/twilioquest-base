@@ -1,0 +1,9 @@
+{
+  "title": "Sum an Array",
+  "description": "Calculate the sum of all the numbers in an array.",
+  "validation_fields": [],
+  "show_ide": true,
+  "rewards": {
+    "xp": 100
+  }
+}

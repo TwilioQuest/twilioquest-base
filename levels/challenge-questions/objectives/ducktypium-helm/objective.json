@@ -1,0 +1,9 @@
+{
+  "title": "Retrieve the Ducktypium Helm",
+  "description": "Give Cedric the instructions he needs to retrieve the Ducktypium Helm.",
+  "validation_fields": [],
+  "show_ide": true,
+  "rewards": {
+    "xp": 100
+  }
+}
