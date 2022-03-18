@@ -28,8 +28,8 @@ module.exports = async function (helper) {
 
     test([1, 2, 3, 4, 5], 4);
     test([100, 0], 100);
-    test([3, 5, -2, 5], 7);
-    test([8, 1, 5, 9], 8);
+    test([3.3, 5, -2, 5], 7);
+    test([8, 1.2, 5, 9], 7.8);
   } catch (err) {
     helper.fail(err);
     return;

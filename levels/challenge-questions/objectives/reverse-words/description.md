@@ -1,23 +1,34 @@
-# Reverse the Words
+# Reverse the Sentence
 
 <div class="aside">
 <h3>Requirements</h3>
 <ul>
-  <li>Export a function.</li>
-  <li>Your function receives one string.</li>
-  <li>Return a new string with the words in the string in reverse order.</li>
+  <li>Create a function called `reverseSentence`.</li>
+  <li>This function receives a string that represents an English sentence. It has a capital letter and a trailing punctuation mark.</li>
+  <li>Return a new string that has modified the sentence.</li>
+  <ul>
+    <li>Put the words in reverse order.</li>
+    <li>Lowercase the original first word.</li>
+    <li>Capitalize the first letter of the new first word.</li>
+    <li>Don't modify the casing of any other words.</li>
+    <li>Leave the punctuation mark at the end of the sentence.</li>
+  </ul>
   <li>Once you're done, press <em>HACK</em>.</li>
 </ul>
 </div>
 
-Give players a little bit of information about what they need to do to hack past this objective. If you find yourself writing more than a few short paragraphs of text, it's likely your objective is too big!
+Create a function called `reverseSentence` that accepts a string as its first argument. This function should modify this string in a number of ways.
 
-## You can make sub headers with more information
+- Put the words in reverse order
+- Lowercase the original first word
+- Capitalize the first letter of the new first word
+- Don't modify the casing of any other words
+- Leave the punctuation mark at the end of the sentence
 
-Some times you wan to talk about additional concepts beyond the high level goal that might help players accomplish the high level goal.
+## Examples
 
-```js
-const areCodeSamplesVeryHelpful = true;
-```
+- `Happy New Year!` -> `Year New happy!`
+- `Elephants are big!` -> `Big are elephants!`
+- `My cat Pierogi is hungry.` -> `Hungry is Pierogi cat my.`
 
-Describe the final values for your player one last time. Then ask them to click the _HACK_ button.
+Once you've written this function, click the _HACK_ button!
