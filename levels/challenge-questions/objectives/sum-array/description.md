@@ -1,23 +1,23 @@
-# Reverse the Words
+# Sum Array of Numbers
 
 <div class="aside">
 <h3>Requirements</h3>
 <ul>
-  <li>Export a function.</li>
-  <li>Your function receives one string.</li>
-  <li>Return a new string with the words in the string in reverse order.</li>
+  <li>Create a function called `sumArray`.</li>
+  <li>This function receives an array of numbers.</li>
+  <li>If this array is empty, the sum should be `0`.</li>
+  <li>Add all the numbers in this array and return the total.</li>
   <li>Once you're done, press <em>HACK</em>.</li>
 </ul>
 </div>
 
-Give players a little bit of information about what they need to do to hack past this objective. If you find yourself writing more than a few short paragraphs of text, it's likely your objective is too big!
+Create a function called `sumArray` that accepts an array of numbers as its first argument. This function should add all these numbers together and return the sum.
 
-## You can make sub headers with more information
+## Examples
 
-Some times you wan to talk about additional concepts beyond the high level goal that might help players accomplish the high level goal.
+- `[1, 2, 3]` -> `6`
+- `[-1, 0, 1]` -> `0`
+- `[2.5, 5]` -> `7.5`
+- `[]` -> `0`
 
-```js
-const areCodeSamplesVeryHelpful = true;
-```
-
-Describe the final values for your player one last time. Then ask them to click the _HACK_ button.
+Once you've written this function, click the _HACK_ button!

@@ -1,4 +1,6 @@
-function removeDuplicateCharacters(string) {}
+function removeDuplicateCharacters(string) {
+  // TODO: Remove duplicate characters!
+}
 
 console.log("Test case 1:");
 console.log(removeDuplicateCharacters("aabbcc"));

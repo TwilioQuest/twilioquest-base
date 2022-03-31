@@ -1,4 +1,6 @@
-function differenceMinMax(array) {}
+function differenceMinMax(array) {
+  // TODO: Find the difference!
+}
 
 console.log("Test case 1:");
 console.log(differenceMinMax([1, 2, 3, 4, 5]));
