@@ -1,6 +1,7 @@
 const merge = require("lodash.merge");
 const updateQuestLogWhenComplete = require("./events/updateQuestLogWhenComplete");
 const packageInfo = require("../../package.json");
+const fixDoorWallDepthSorting = require("./events/fixDoorDepthSorting");
 
 const WORLD_STATE_KEY = "com.twilioquest.challenge-questions";
 
@@ -37,6 +38,8 @@ module.exports = function (event, world) {
     worldStateKey: WORLD_STATE_KEY,
     version: packageInfo.version,
   });
+
+  fixDoorWallDepthSorting(event, world);
 
   world.setState(WORLD_STATE_KEY, worldState);
 };
