@@ -1,7 +1,14 @@
 {
   "title": "Retrieve the Ducktypium Helm",
   "description": "Give Cedric the instructions he needs to retrieve the Ducktypium Helm.",
-  "validation_fields": [],
+  "validation_fields": [
+    {
+      "name": "instructions",
+      "type": "text",
+      "placeholder": "up down left right",
+      "label": "Cedric's Pathing Instructions"
+    }
+  ],
   "show_ide": false,
   "rewards": {
     "xp": 100

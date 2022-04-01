@@ -1,35 +1,71 @@
-const assert = require("assert");
-
-const assertTestCase = (testFunction) => (input, expected) => {
-  const testResult = testFunction(input);
-
-  assert.strictEqual(
-    testResult,
-    expected,
-    `Expected "${expected}" from input "${input}", but received "${testResult}".`
-  );
-};
-
 module.exports = async function (helper) {
-  let context;
-
   try {
-    context = await helper.pullVarsFromQuestIdeUserCodeLocalScope(
-      ["differenceMinMax"],
-      "difference-max-min"
-    );
+    const instructions = helper.getNormalizedInput("instructions");
 
-    assert(
-      context.differenceMinMax,
-      "The function differenceMinMax is not defined!"
-    );
+    const validInstructions = ["up", "down", "left", "right"];
+    const playerInstructions = instructions.split(" ");
+    const correctInstructions = [
+      "left",
+      "left",
+      "down",
+      "down",
+      "left",
+      "left",
+      "left",
+      "left",
+      "up",
+      "up",
+      "up",
+    ];
 
-    const test = assertTestCase(context.differenceMinMax);
+    console.log(playerInstructions);
 
-    test([1, 2, 3, 4, 5], 4);
-    test([100, 0], 100);
-    test([3.3, 5, -2, 5], 7);
-    test([8, 1.2, 5, 9], 7.8);
+    if (playerInstructions.length === 1 && playerInstructions[0] === "") {
+      helper.fail(
+        "There do not seem to be any instructions here! They should be in a single string separated by spaces. Like this: 'left left left'."
+      );
+      return;
+    }
+
+    if (
+      playerInstructions.some(
+        (instruction) => !validInstructions.includes(instruction)
+      )
+    ) {
+      // Check if any player instruction is invalid
+      helper.fail(
+        `Not all of your instructions are valid! The only valid instructions are: ${validInstructions.join(
+          " "
+        )}.`
+      );
+      return;
+    }
+
+    for (let i = 0; i < playerInstructions.length; i += 1) {
+      if (i >= correctInstructions.length) {
+        // This means player gave too many instructions, we'll let them have it and break out early.
+        break;
+      }
+
+      if (playerInstructions[i] !== correctInstructions[i]) {
+        const isFirstInstruction = i === 0;
+
+        // This is an invalid instruction
+        let message =
+          "Your instructions for Cedric did not get him to the temple door!";
+
+        if (isFirstInstruction) {
+          message += ` The first instruction was wrong. It should be 'left', not '${playerInstructions[i]}'.`;
+        } else {
+          message += ` Your first ${i} instructions were correct. Here's what they were: '${playerInstructions
+            .slice(0, i)
+            .join(" ")}'.`;
+        }
+
+        helper.fail(message);
+        return;
+      }
+    }
   } catch (err) {
     helper.fail(err);
     return;
