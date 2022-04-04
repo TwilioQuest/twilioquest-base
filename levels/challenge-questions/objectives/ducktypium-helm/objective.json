@@ -11,6 +11,7 @@
   ],
   "show_ide": false,
   "rewards": {
-    "xp": 100
+    "xp": 100,
+    "items": ["dark_ducktypium_armor_helmet"]
   }
 }
