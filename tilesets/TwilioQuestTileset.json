@@ -1,0 +1,14 @@
+{ "columns":100,
+ "image":"TwilioQuestTileset.png",
+ "imageheight":2400,
+ "imagewidth":2400,
+ "margin":0,
+ "name":"TwilioQuestTileset",
+ "spacing":0,
+ "tilecount":10000,
+ "tiledversion":"1.7.2",
+ "tileheight":24,
+ "tilewidth":24,
+ "type":"tileset",
+ "version":"1.6"
+}

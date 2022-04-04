@@ -1,0 +1,22 @@
+{
+  "title": "Raid the Dark Ducktypium Forge",
+  "description": "Practice your programming skills to prepare for raiding the Dark Ducktypium Forge!",
+  "questTitle": "Raid the Dark Ducktypium Forge",
+  "questDescription": "Practice your programming skills to prepare for raiding the Dark Ducktypium Forge!",
+  "mission_icon": "challenge-questions/Icon_Forgex4.png",
+  "is_mission": true,
+  "priority": 1,
+  "backgroundMusic": "hackertheme_104771b",
+  "backgroundEffect": {
+    "key": "vr",
+    "options": {}
+  },
+  "flavorTextOverrides": {},
+  "objectives": [
+    "difference-max-min",
+    "ducktypium-helm",
+    "remove-duplicate-characters",
+    "reverse-words",
+    "sum-array"
+  ]
+}
