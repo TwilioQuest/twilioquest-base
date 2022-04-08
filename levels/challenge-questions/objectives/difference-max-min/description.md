@@ -10,4 +10,6 @@
 </ul>
 </div>
 
+It looks like this section of the forge is responsible for performing computations. This particular terminal is finding the appropriate temperature range for darkening Ducktypium.
+
 Create a function called `differenceMinMax` that accepts an array of numbers as its first argument. This function should return the difference (the mathematical result of subtraction) of the maximum and minimum numbers in that array. Then click the _HACK_ button.
