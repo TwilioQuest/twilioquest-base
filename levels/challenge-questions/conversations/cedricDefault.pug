@@ -1,33 +1,28 @@
 conversation(display_name="Cedric")
   case lastResponse
-    when "nice_to_meet"
-    when "you_seem_nice"
+    when "bottom_of_this"
       statement#final
       responses
 
-    when "who_are_you"
-      statement#cedric
+    when "what_they_do"
+      statement#forge
       responses
-        response#nice_to_meet.
-          Nice to meet you!
-        response#you_seem_nice.
-          You seem nice!
+        response#bottom_of_this.
+          I'll get to the bottom of this!
 
     default
       statement#default
       responses
-        response#who_are_you.
-          Hello, who are you?
+        response#what_they_do.
+          Oh no! What are they going to do?
 
   statements
     statement#default
       text.
-        Welcome aboard the #[span.highlight Fog Owl!]
-      speech.
-        Welcome aboard the #[break(strength="medium")] Fog Owl!
-    statement#cedric
+        Operator! I'm glad you're here! The #[span.red Legacy Systems] have stolen a sample of Ducktypium from the #[span.highlight JavaScript Test Lab].
+    statement#forge
       text.
-        I am Cedric, your Cloud navigational assistant!
+        We're not sure! One of our #[span.highlight Field Operators] found these partial plans for something called the #[span.highlight Dark Ducktypium Forge]. We've rendered what we can here. We need you to explore this simulation and figure out its purpose!
     statement#final
       text.
-        Thank you! Now get exploring!
+        Be sure to return to this simulation. Our #[span.highlight Field Operators] will be bringing back more of the plans soon!
