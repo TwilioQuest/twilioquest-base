@@ -11,7 +11,11 @@
 </ul>
 </div>
 
+It looks like this section of the forge is responsible for performing computations. This particular terminal is calculating the total mass of Dark Ducktypium after production.
+
 Create a function called `sumArray` that accepts an array of numbers as its first argument. This function should add all these numbers together and return the sum.
+
+<br>
 
 ## Examples
 
@@ -19,5 +23,7 @@ Create a function called `sumArray` that accepts an array of numbers as its firs
 - `[-1, 0, 1]` -> `0`
 - `[2.5, 5]` -> `7.5`
 - `[]` -> `0`
+
+<br>
 
 Once you've written this function, click the _HACK_ button!

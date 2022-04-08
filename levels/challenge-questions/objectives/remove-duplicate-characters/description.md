@@ -10,6 +10,8 @@
 </ul>
 </div>
 
+It looks like this section of the forge is responsible for performing computations. This particular terminal is ensuring the Ducktypium darkening instruction sequence is unique.
+
 Create a function called `removeDuplicateCharacters` that accepts a string as its first argument. This function should condense all duplicate characters in a row to one character.
 
 ## Examples
