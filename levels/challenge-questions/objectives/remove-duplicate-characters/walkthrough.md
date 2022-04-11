@@ -5,4 +5,14 @@ Here are some links that could help you with hacking this terminal. Be sure to s
 ## Links
 
 - [String.split on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+
+  Converting a string into an array of characters with `String.split` example:
+
+  ```js
+  const string = "asdf";
+  const characters = string.split("");
+
+  // characters -> ['a', 's', 'd', 'f']
+  ```
+
 - [Array.join on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)

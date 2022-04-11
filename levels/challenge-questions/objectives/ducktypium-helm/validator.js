@@ -18,8 +18,6 @@ module.exports = async function (helper) {
       "up",
     ];
 
-    console.log(playerInstructions);
-
     if (playerInstructions.length === 1 && playerInstructions[0] === "") {
       helper.fail(
         "There do not seem to be any instructions here! They should be in a single string separated by spaces. Like this: 'left left left'."
@@ -41,12 +39,7 @@ module.exports = async function (helper) {
       return;
     }
 
-    for (let i = 0; i < playerInstructions.length; i += 1) {
-      if (i >= correctInstructions.length) {
-        // This means player gave too many instructions, we'll let them have it and break out early.
-        break;
-      }
-
+    for (let i = 0; i < correctInstructions.length; i += 1) {
       if (playerInstructions[i] !== correctInstructions[i]) {
         const isFirstInstruction = i === 0;
 
