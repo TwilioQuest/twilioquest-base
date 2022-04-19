@@ -5,7 +5,7 @@
   "questDescription": "Practice your programming skills to prepare for raiding the Dark Ducktypium Forge!",
   "mission_icon": "challenge-questions/Icon_Forgex4.png",
   "is_mission": true,
-  "priority": 1,
+  "priority": 4,
   "backgroundMusic": "hackertheme_104771b",
   "backgroundEffect": {
     "key": "vr",
