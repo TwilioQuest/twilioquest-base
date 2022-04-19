@@ -478,8 +478,8 @@
                  "type":"player",
                  "visible":true,
                  "width":0,
-                 "x":513,
-                 "y":432
+                 "x":516,
+                 "y":419
                 }, 
                 {
                  "gid":10786,
@@ -660,6 +660,29 @@
                  "width":24,
                  "x":768,
                  "y":624
+                }, 
+                {
+                 "height":0,
+                 "id":134,
+                 "name":"nav-map-arrow",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"hidden",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"key",
+                         "type":"string",
+                         "value":"nav-map-arrow"
+                        }],
+                 "rotation":0,
+                 "type":"arrow",
+                 "visible":true,
+                 "width":0,
+                 "x":528,
+                 "y":322
                 }],
          "opacity":1,
          "properties":[
@@ -721,13 +744,13 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":44,
          "x":0,
          "y":0
         }],
  "nextlayerid":29,
- "nextobjectid":134,
+ "nextobjectid":135,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",

@@ -1,6 +1,8 @@
+const { NAV_MAP_ARROW_KEY } = require("./config");
+
 /**
- * Handle scripting and interaction for the fog owl tutorial. 
- * 
+ * Handle scripting and interaction for the fog owl tutorial.
+ *
  * @param {LifecycleEvent} event - lifecycle event emitted by TQ
  * @param {WorldAPI} world - TQ World API
  * @param {object} worldState - current game world state (mutate to change)
@@ -45,6 +47,9 @@ async function handleTutorial(event, world, worldState) {
     </i>
   `);
   world.enablePlayerMovement();
+
+  worldState.showNavMapArrow = true;
+  world.showEntities(NAV_MAP_ARROW_KEY);
 
   worldState.hasSeenTutorial = true;
 }
