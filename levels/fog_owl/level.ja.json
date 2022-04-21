@@ -15,12 +15,12 @@
   "flavorTextOverrides": {
     "crewPod": "このポッドは別のユーザー用に設定されているようだ。代わりに<span class=\"highlight\">自分のVRポッド</span>を使う必要がある。<span class=\"highlight\">トップの緑色のライトが点いているオープンポッド</span>だ。",
     "crewComplement": "ブリッジ乗員のベッドが4人分か...Fog Owlの発進準備が完了したら、ミッションのための<span class=\"highlight\">チームを集める</span>必要があるな。",
-    "chestNothing": "<span class=\"highlight\">この宝箱</span>は開くかな？開かないようだ...でも試してみた価値はある。",
+    "chestNothing": "<span class=\"highlight\">この宝箱</span>は開くかな?開かないようだ...でも試してみた価値はある。",
     "replacementParts": "The Cloudの神経インターフェースの交換用パーツか。これがあれば安心だ。",
-    "standupSet": "「「0」は「8」に何を言いましたか？<span class=\"highlight\">いいベルトだ!</span>」 ... 残念ながら、このスタンドアップルーチンでは他に良いものがない。これを書いた人が、別のステージに進む前に、もう何回か繰り返していると良いのだが。",
+    "standupSet": "「「0」は「8」に何を言いましたか?<span class=\"highlight\">いいベルトだ!</span>」 ... 残念ながら、このスタンドアップルーチンでは他に良いものがない。これを書いた人が、別のステージに進む前に、もう何回か繰り返していると良いのだが。",
     "fuel": "この船のエネルギー源は何だろう...",
     "navigationSystemOffline": "<span class=\"highlight\">ナビゲーションシステム</span>が、The Cloudの他の場所に船を案内するようだ。まだオフラインのようだ...",
     "battleTactics": "<span class=\"red\">Legacy Systems</span>軍に遭遇したときのための戦術が書いてある。我々がオンラインで船に乗り込んだら、誰かがトラブルを予測する...",
-    "airlock": "エアロックのようだ。これが仮想環境の場合、これを開けたら<span class=\"highlight\">宇宙に放り出される</span>のだろうか？自分でも見つけたいのかどうかよく分からない。"
+    "airlock": "エアロックのようだ。これが仮想環境の場合、これを開けたら<span class=\"highlight\">宇宙に放り出される</span>のだろうか?自分でも見つけたいのかどうかよく分からない。"
   }
 }
