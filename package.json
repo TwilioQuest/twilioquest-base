@@ -1,6 +1,6 @@
 {
   "name": "twilioquest-base",
-  "version": "3.0.0-translations.beta.4",
+  "version": "3.0.0-translations.beta.5",
   "description": "Base extension for the TwilioQuest game - contains Fog Owl map and common assets",
   "main": "index.js",
   "//files": "This lists the directories we package and ship to NPM.",
@@ -11,7 +11,8 @@
     "/objects",
     "/scripts",
     "/spritesheets",
-    "/tilesets"
+    "/tilesets",
+    "/fonts"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
