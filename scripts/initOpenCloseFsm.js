@@ -3,6 +3,11 @@ const FSM = require("./FSM");
 const initOpenCloseFsm =
   ({
     modifyPhysicsBodyWithStateChange = true,
+    /**
+     * This setting only works if the animation
+     * opening and closing animations contain the
+     * same number of frames.
+     */
     smoothTransitionBetweenOpeningAndClosing = true,
   } = {}) =>
   (self) => {
@@ -66,7 +71,7 @@ const initOpenCloseFsm =
           },
         },
       },
-      self.initialState ?  self.initialState : "closed"
+      self.initialState ? self.initialState : "closed"
     );
 
     self.setState({ fsm });
