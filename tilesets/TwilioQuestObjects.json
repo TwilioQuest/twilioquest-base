@@ -621,15 +621,49 @@
         }, 
         {
          "id":33,
-         "image":"missing.png",
+         "image":"..\/objects\/groundskeeper-npc\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":"groundskeeper"
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"groundskeeper.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"groundskeeper-npc"
         }, 
         {
          "id":34,
-         "image":"missing.png",
+         "image":"..\/objects\/ghost-professor\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":"ghost"
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"ghost-professor.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"ghost-professor-npc"
         }, 
         {
          "id":35,
