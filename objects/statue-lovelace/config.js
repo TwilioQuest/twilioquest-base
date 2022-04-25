@@ -20,10 +20,5 @@ module.exports = {
       spriteSheet: "twilioQuestStatueLovelace",
       layers: [],
     },
-    idleAnimations: {
-      animations: { idle: 100 },
-      minIdleTime: 0,
-      maxIdleTime: 0,
-    },
   },
 };

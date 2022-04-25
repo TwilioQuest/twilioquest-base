@@ -20,10 +20,5 @@ module.exports = {
       spriteSheet: "twilioQuestStatueNeumann",
       layers: [],
     },
-    idleAnimations: {
-      animations: { idle: 100 },
-      minIdleTime: 0,
-      maxIdleTime: 0,
-    },
   },
 };
