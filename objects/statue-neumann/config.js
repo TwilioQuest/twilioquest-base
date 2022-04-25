@@ -1,8 +1,19 @@
+const createObjectiveCompletionResponderConfig = require("../../scripts/objectiveCompletionResponder");
+
 module.exports = {
+  ...createObjectiveCompletionResponderConfig(),
   animations: {
-    idle: {
+    objectiveNotCompleted: {
+      frames: [0],
+      frameRate: 1,
+    },
+    objectiveCompleting: {
       frames: [0, 1],
-      frameRate: 4,
+      frameRate: 2,
+    },
+    objectiveCompleted: {
+      frames: [1],
+      frameRate: 1,
     },
   },
   spriteSheets: {
