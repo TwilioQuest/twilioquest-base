@@ -670,6 +670,12 @@
          "image":"..\/objects\/statue-hopper\/HouseStatues_Hopper_Icon.png",
          "imageheight":48,
          "imagewidth":24,
+         "properties":[
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example"
+                }],
          "type":"statue-hopper"
         }, 
         {
@@ -677,6 +683,12 @@
          "image":"..\/objects\/statue-lovelace\/HouseStatues_Lovelace_Icon.png",
          "imageheight":48,
          "imagewidth":24,
+         "properties":[
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example"
+                }],
          "type":"statue-lovelace"
         }, 
         {
@@ -684,6 +696,12 @@
          "image":"..\/objects\/statue-neumann\/HouseStatues_Neumann_Icon.png",
          "imageheight":48,
          "imagewidth":24,
+         "properties":[
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example"
+                }],
          "type":"statue-neumann"
         }, 
         {
@@ -691,6 +709,12 @@
          "image":"..\/objects\/statue-turing\/HouseStatues_Turing_Icon.png",
          "imageheight":48,
          "imagewidth":24,
+         "properties":[
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example"
+                }],
          "type":"statue-turing"
         }, 
         {
