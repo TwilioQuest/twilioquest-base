@@ -593,7 +593,7 @@
         }, 
         {
          "id":29,
-         "image":"..\/objects\/door-cage\/CageDoor_Icon.png",
+         "image":"..\/objects\/door-cage-right\/CageDoor_Icon.png",
          "imageheight":48,
          "imagewidth":24,
          "type":"door-cage-right"
@@ -644,7 +644,7 @@
         }, 
         {
          "id":34,
-         "image":"..\/objects\/ghost-professor\/icon.png",
+         "image":"..\/objects\/ghost-professor-npc\/icon.png",
          "imageheight":32,
          "imagewidth":32,
          "properties":[
