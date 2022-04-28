@@ -1,6 +1,6 @@
 {
   "name": "twilioquest-base",
-  "version": "2.6.0",
+  "version": "3.0.0",
   "description": "Base extension for the TwilioQuest game - contains Fog Owl map and common assets",
   "main": "index.js",
   "//files": "This lists the directories we package and ship to NPM.",
