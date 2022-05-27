@@ -1,3 +1,5 @@
+const scrollSelfHorizontally = require("../../scripts/scrollSelfHorizontally");
+
 module.exports = {
   animations: {},
   spriteSheets: {
@@ -7,6 +9,11 @@ module.exports = {
         width: 528,
         height: 216,
       },
+    },
+  },
+  events: {
+    onMapDidLoad: (self, event, world) => {
+      scrollSelfHorizontally(self, world, 5);
     },
   },
   properties: {
