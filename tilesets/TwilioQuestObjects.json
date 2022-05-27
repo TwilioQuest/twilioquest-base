@@ -627,7 +627,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -756,99 +755,115 @@
         }, 
         {
          "id":41,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-piece-1\/icon.png",
+         "imageheight":48,
+         "imagewidth":48,
+         "type":"tower-piece-1"
         }, 
         {
          "id":42,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-piece-2\/icon.png",
+         "imageheight":48,
+         "imagewidth":48,
+         "type":"tower-piece-2"
         }, 
         {
          "id":43,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-piece-3\/icon.png",
+         "imageheight":48,
+         "imagewidth":48,
+         "type":"tower-piece-3"
         }, 
         {
          "id":44,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-piece-4\/icon.png",
+         "imageheight":48,
+         "imagewidth":48,
+         "type":"tower-piece-4"
         }, 
         {
          "id":45,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-piece-5\/icon.png",
+         "imageheight":48,
+         "imagewidth":72,
+         "type":"tower-piece-5"
         }, 
         {
          "id":46,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-piece-6\/icon.png",
+         "imageheight":48,
+         "imagewidth":72,
+         "type":"tower-piece-6"
         }, 
         {
          "id":47,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-piece-7\/icon.png",
+         "imageheight":48,
+         "imagewidth":72,
+         "type":"tower-piece-7"
         }, 
         {
          "id":48,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-piece-8\/icon.png",
+         "imageheight":48,
+         "imagewidth":24,
+         "type":"tower-piece-8"
         }, 
         {
          "id":49,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-piece-9\/icon.png",
+         "imageheight":48,
+         "imagewidth":24,
+         "type":"tower-piece-9"
         }, 
         {
          "id":50,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-piece-10\/icon.png",
+         "imageheight":48,
+         "imagewidth":24,
+         "type":"tower-piece-10"
         }, 
         {
          "id":51,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/wisp-1\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "type":"wisp-1"
         }, 
         {
          "id":52,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/wisp-2\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "type":"wisp-2"
         }, 
         {
          "id":53,
-         "image":"missing.png",
+         "image":"..\/objects\/space-explorer-npc\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "type":"space-explorer-npc"
         }, 
         {
          "id":54,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/door-dev-tower\/Icon.png",
+         "imageheight":72,
+         "imagewidth":48,
+         "type":"door-dev-tower"
         }, 
         {
          "id":55,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/clouds-tower-left\/icon.png",
+         "imageheight":72,
+         "imagewidth":120,
+         "type":"clouds-tower-left"
         }, 
         {
          "id":56,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/clouds-tower-right\/icon.png",
+         "imageheight":72,
+         "imagewidth":120,
+         "type":"clouds-tower-right"
         }, 
         {
          "id":57,
@@ -6604,7 +6619,7 @@
          "imageheight":32,
          "imagewidth":32
         }],
- "tilewidth":72,
+ "tilewidth":120,
  "type":"tileset",
  "version":"1.6"
 }

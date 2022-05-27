@@ -2,7 +2,7 @@ module.exports = {
   animations: {
     idle: {
       frames: [0, 1, 2, 3],
-      frameRate: 8,
+      frameRate: 4,
     },
   },
   spriteSheets: {
@@ -21,7 +21,7 @@ module.exports = {
       layers: [],
     },
     idleAnimations: {
-      animations: { idle: 200 },
+      animations: { idle: 100 },
       minIdleTime: 0,
       maxIdleTime: 0,
     },
