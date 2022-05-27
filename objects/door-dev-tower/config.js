@@ -3,7 +3,7 @@ module.exports = {
     twilioquestDoorTower: {
       fileName: "Door_Tower.png",
       frameDimensions: {
-        width: 24,
+        width: 48,
         height: 72,
       },
     },
