@@ -881,33 +881,68 @@
         }, 
         {
          "id":59,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-section\/tower-section-bottom.png",
+         "imageheight":168,
+         "imagewidth":192,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestTowerSectionBottom"
+                }],
+         "type":"tower-section"
         }, 
         {
          "id":60,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-section\/tower-section-middle.png",
+         "imageheight":168,
+         "imagewidth":192,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestTowerSectionMiddle"
+                }],
+         "type":"tower-section"
         }, 
         {
          "id":61,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-section\/tower-section-middle-outer-highlight.png",
+         "imageheight":168,
+         "imagewidth":192,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestTowerSectionMiddleOuterHighlight"
+                }],
+         "type":"tower-section"
         }, 
         {
          "id":62,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-section\/tower-section-middle-center-highlight.png",
+         "imageheight":168,
+         "imagewidth":192,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestTowerSectionMiddleCenterHighlight"
+                }],
+         "type":"tower-section"
         }, 
         {
          "id":63,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tower-section\/tower-section-top.png",
+         "imageheight":168,
+         "imagewidth":192,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestTowerSectionTop"
+                }],
+         "type":"tower-section"
         }, 
         {
          "id":64,
