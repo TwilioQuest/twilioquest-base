@@ -24,6 +24,7 @@ module.exports = {
       animations: { idle: 100 },
       minIdleTime: 0,
       maxIdleTime: 0,
+      shouldPickRandomInitialFrame: true,
     },
   },
 };
