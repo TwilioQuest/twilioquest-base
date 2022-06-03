@@ -8,12 +8,12 @@ module.exports = {
       frameRate: 1,
     },
     objectiveCompleting: {
-      frames: [0, 1],
-      frameRate: 2,
+      frames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+      frameRate: 8,
     },
     objectiveCompleted: {
-      frames: [1],
-      frameRate: 1,
+      frames: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      frameRate: 8,
     },
   },
   spriteSheets: {
