@@ -828,6 +828,12 @@
          "image":"..\/objects\/wisp-1\/icon.png",
          "imageheight":24,
          "imagewidth":24,
+         "properties":[
+                {
+                 "name":"disableBody",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"wisp-1"
         }, 
         {
@@ -835,6 +841,12 @@
          "image":"..\/objects\/wisp-2\/icon.png",
          "imageheight":24,
          "imagewidth":24,
+         "properties":[
+                {
+                 "name":"disableBody",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"wisp-2"
         }, 
         {
