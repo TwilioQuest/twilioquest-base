@@ -1,4 +1,4 @@
-function isPalindrome(array) {
+function isPalindrome(string) {
     // TODO: check for palindrome!
   }
 
