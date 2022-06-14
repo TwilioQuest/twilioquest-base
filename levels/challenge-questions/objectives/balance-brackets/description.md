@@ -11,7 +11,7 @@
 </ul>
 </div>
 
-It looks like this part of the forge is responsible for generating power and distributing to the rest of the system. This particular terminal ensures the power generator has a balanced fuel mixture.
+It looks like this part of the forge is responsible for generating power and distributing it to the rest of the system. This particular terminal ensures the power generator has a balanced fuel mixture.
 
 Create a function `balanceBrackets` that accepts an array of brackets. This function should return a boolean (true/false) based on whether or not the array of brackets is balanced.
 

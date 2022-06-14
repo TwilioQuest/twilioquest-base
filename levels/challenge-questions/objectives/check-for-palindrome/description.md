@@ -11,7 +11,7 @@
 </ul>
 </div>
 
-It looks like this part of the forge is responsible for generating power and distributing to the rest of the system. This particular terminal ensures the forge has a constant flow of pur palindromic power by stabilizing all signals that pass through the system.
+It looks like this part of the forge is responsible for generating power and distributing it to the rest of the system. This particular terminal ensures the forge has a constant flow of pure palindromic power by stabilizing all signals that pass through the system.
 
 Create a function `isPalindrome` that accepts a string. This function should return a boolean (true/false) based on whether or not the string is spelled the same forwards and backwards. There are a couple of ways you should modify the input string.
 

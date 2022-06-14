@@ -11,7 +11,7 @@
 </ul>
 </div>
 
-It looks like this part of the forge is responsible for generating power and distributing to the rest of the system. This particular terminal is tasked with removing Dark Ducktypium impurities.
+It looks like this part of the forge is responsible for generating power and distributing it to the rest of the system. This particular terminal is tasked with removing Dark Ducktypium impurities.
 
 Create a function called `flattenArray` that accepts an array containing any number of elements, each of varying types. This function should return a new, flattened (taking all the elements inside sub-arrays, from any depth, and lifting them to the top) array.
 
