@@ -28,15 +28,18 @@ module.exports = function (event, world) {
         'reverse-words',
         'sum-array'
       );
+      break;
     case 'room2':
       lockingObjectives.push(
         'check-for-palindrome',
         'balance-brackets',
         'flatten-array'
       );
+      break;
   }
 
   if (
+    lockingObjectives.length &&
     lockingObjectives.every((objectiveName) =>
       world.isObjectiveCompleted(objectiveName)
     )
