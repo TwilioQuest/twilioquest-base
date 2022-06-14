@@ -12,6 +12,13 @@ module.exports = function (event, world) {
 
   const lockingObjectives = [];
 
+  worldState.currentMapName = world.getCurrentMapName();
+
+  if (event.name === 'conversationDidEnd' && event.npc.conversation === 'cedricDefault' && worldState.chosenMap) {
+    warp('challenge-questions', 'player_entry1', worldState.chosenMap);
+    delete worldState.chosenMap;
+  }
+
   switch(world.getCurrentMapName()) {
     case 'default':
       lockingObjectives.push(
