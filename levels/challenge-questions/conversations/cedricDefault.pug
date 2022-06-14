@@ -1,3 +1,7 @@
+-
+  const STATE_KEY = "com.twilioquest.challenge-questions";
+  const worldState = getState(STATE_KEY);
+
 conversation(display_name="Cedric")
   case lastResponse
     when "bottom_of_this"
@@ -10,11 +14,31 @@ conversation(display_name="Cedric")
         response#bottom_of_this.
           I'll get to the bottom of this!
 
+    when "transition_to_computations"
+      statement#transition_to_map
+      responses
+      - worldState.chosenMap = 'default';
+
+    when "transition_to_power"
+      - worldState.chosenMap = 'room2';
+
+    when "transition_to_other_map"
+      statement#where_to
+      responses
+        if worldState.currentMapName !== 'default'
+          response#transition_to_computations.
+            To where computations are done.
+        if worldState.currentMapName !== 'room2'
+          response#transition_to_power.
+            To where power is generated.
+
     default
       statement#default
       responses
         response#what_they_do.
           Oh no! What are they going to do?
+        response#transition_to_other_map.
+          Take me to another part of the simulation!
 
   statements
     statement#default
@@ -26,3 +50,11 @@ conversation(display_name="Cedric")
     statement#final
       text.
         Be sure to return to this simulation. Our #[span.highlight Field Operators] will be bringing back more of the plans soon!
+    statement#where_to
+      text.
+        Where would you like to go?
+    statement#transition_to_map
+      text.
+        Off you go!
+
+- setState(STATE_KEY, worldState);
