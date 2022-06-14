@@ -20,6 +20,8 @@ conversation(display_name="Cedric")
       - worldState.chosenMap = 'default';
 
     when "transition_to_power"
+      statement#transition_to_map
+      responses
       - worldState.chosenMap = 'room2';
 
     when "transition_to_other_map"
