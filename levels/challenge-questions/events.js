@@ -12,7 +12,7 @@ module.exports = function (event, world) {
 
   const lockingObjectives = [];
 
-  switch(event.mapName) {
+  switch(world.getCurrentMapName()) {
     case 'default':
       lockingObjectives.push(
         'difference-max-min',
@@ -29,7 +29,6 @@ module.exports = function (event, world) {
   }
 
   if (
-    lockingObjectives.length &&
     lockingObjectives.every((objectiveName) =>
       world.isObjectiveCompleted(objectiveName)
     )
