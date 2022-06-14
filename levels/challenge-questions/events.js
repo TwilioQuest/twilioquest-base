@@ -20,7 +20,7 @@ module.exports = function (event, world) {
     delete worldState.chosenMap;
   }
 
-  switch(world.getCurrentMapName()) {
+  switch(worldState.currentMapName) {
     case 'default':
       lockingObjectives.push(
         'difference-max-min',
