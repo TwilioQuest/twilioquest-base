@@ -11,10 +11,9 @@ module.exports = function (event, world) {
   const worldState = merge(INITIAL_STATE, world.getState(WORLD_STATE_KEY));
 
   const lockingObjectives = [
-    "sum-array",
-    "reverse-words",
-    "remove-duplicate-characters",
-    "difference-max-min",
+    "check-for-palindrome",
+    "balance-brackets",
+    "flatten-array"
   ];
 
   if (

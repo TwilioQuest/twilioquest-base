@@ -3,7 +3,7 @@ const assert = require("assert");
 const assertTestCase = (testFunction) => (input, expected) => {
   const testResult = testFunction(input);
 
-  assert.strictEqual(
+  assert.deepStrictEqual(
     testResult,
     expected,
     `Expected "${expected}" from input "${input}", but received "${testResult}".`
