@@ -958,15 +958,17 @@
         }, 
         {
          "id":64,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/dev-fund-water-fish\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "type":"dev-fund-water-fish"
         }, 
         {
          "id":65,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/dev-fund-water-lilipad\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "type":"dev-fund-water-lilipad"
         }, 
         {
          "id":66,
