@@ -17,6 +17,9 @@
     "ducktypium-helm",
     "remove-duplicate-characters",
     "reverse-words",
-    "sum-array"
+    "sum-array",
+    "balance-brackets",
+    "check-for-palindrome",
+    "flatten-array"
   ]
 }

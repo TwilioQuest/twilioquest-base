@@ -10,13 +10,26 @@ const INITIAL_STATE = {};
 module.exports = function (event, world) {
   const worldState = merge(INITIAL_STATE, world.getState(WORLD_STATE_KEY));
 
-  const lockingObjectives = [
-    "check-for-palindrome",
-    "balance-brackets",
-    "flatten-array"
-  ];
+  const lockingObjectives = [];
+
+  switch(event.mapName) {
+    case 'default':
+      lockingObjectives.push(
+        'difference-max-min',
+        'remove-duplicate-characters',
+        'reverse-words',
+        'sum-array'
+      );
+    case 'room2':
+      lockingObjectives.push(
+        'check-for-palindrome',
+        'balance-brackets',
+        'flatten-array'
+      );
+  }
 
   if (
+    lockingObjectives.length &&
     lockingObjectives.every((objectiveName) =>
       world.isObjectiveCompleted(objectiveName)
     )
