@@ -854,6 +854,22 @@
          "image":"..\/objects\/space-explorer-npc\/icon.png",
          "imageheight":32,
          "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":"spaceExplorerDefault"
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"space-explorer.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"space-explorer-npc"
         }, 
         {
