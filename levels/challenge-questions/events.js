@@ -16,7 +16,7 @@ module.exports = function (event, world) {
     worldState.currentMapName = event.mapName;
 
   if (event.name === 'conversationDidEnd' && event.npc.conversation === 'cedricDefault' && worldState.chosenMap) {
-    warp('challenge-questions', 'player_entry1', worldState.chosenMap);
+    world.Warp('challenge-questions', 'player_entry1', worldState.chosenMap);
     delete worldState.chosenMap;
   }
 
@@ -44,11 +44,19 @@ module.exports = function (event, world) {
       world.isObjectiveCompleted(objectiveName)
     )
   ) {
+
+    // BEHAVIOR FOR default MAP
     // If all objectives completed that lock the door
     // the render it unlocked.
     world.showEntities(`doorFrame_unlocked`);
     world.hideEntities(`doorFrame_locked`);
     world.hideEntities(`door`);
+
+
+    // BEHAVIOR FOR room2 MAP
+    world.forEachEntities('room2-loot-laser', (ob) => {
+      ob.setState({ ...ob.state, isCompleted: true });
+    });
   }
 
   updateQuestLogWhenComplete({
