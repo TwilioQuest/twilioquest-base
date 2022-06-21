@@ -1,6 +1,28 @@
 -
   const STATE_KEY = "com.twilioquest.challenge-questions";
   const worldState = getState(STATE_KEY);
+  const defaultObjectives = [
+    'difference-max-min',
+    'remove-duplicate-characters',
+    'sum-array',
+    'reverse-words'
+  ];
+
+  let computationsCompleted = true;
+
+  for (let i = 0; i < defaultObjectives.length; i++)
+    if (!(`challenge-questions.${defaultObjectives[i]}` in completedObjectives)){
+      computationsCompleted = false;
+      break;
+    }
+
+mixin what_they_do
+  response#what_they_do.
+    Oh no! What are they going to do?
+
+mixin transition_to_other_map
+  response#transition_to_other_map.
+    Can you render another part of the simulation?
 
 conversation(display_name="Cedric")
   case lastResponse
@@ -29,18 +51,22 @@ conversation(display_name="Cedric")
       responses
         if worldState.currentMapName !== 'default'
           response#transition_to_computations.
-            To where computations are done.
+            Render the area where computations are done.
         if worldState.currentMapName !== 'room2'
           response#transition_to_power.
-            To where power is generated.
+            Render the area where power is generated.
 
     default
-      statement#default
-      responses
-        response#what_they_do.
-          Oh no! What are they going to do?
-        response#transition_to_other_map.
-          Take me to another part of the simulation!
+      if worldState.currentMapName === 'room2' && computationsCompleted
+        statement#default_room2
+        responses
+          +what_they_do
+          +transition_to_other_map
+      else
+        statement#default
+        responses
+          +what_they_do
+          +transition_to_other_map
 
   statements
     statement#default
@@ -54,9 +80,12 @@ conversation(display_name="Cedric")
         Be sure to return to this simulation. Our #[span.highlight Field Operators] will be bringing back more of the plans soon!
     statement#where_to
       text.
-        Where would you like to go?
+        I sure can! What should we set the configuration to?
     statement#transition_to_map
       text.
         Off you go!
+    statement#default_room2
+      text.
+        Great work tackling those computations! We now know that the #[span.red Legacy Systems] were using those machines for synthesizing Dark Ducktypium!
 
 - setState(STATE_KEY, worldState);

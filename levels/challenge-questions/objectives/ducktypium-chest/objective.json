@@ -1,0 +1,17 @@
+{
+  "title": "Retrieve the Ducktypium Chest",
+  "description": "Give Cedric the instructions he needs to retrieve the Ducktypium Chest.",
+  "validation_fields": [
+    {
+      "name": "instructions",
+      "type": "text",
+      "placeholder": "up down left right",
+      "label": "Cedric's Pathing Instructions"
+    }
+  ],
+  "show_ide": false,
+  "rewards": {
+    "xp": 100,
+    "items": ["dark_ducktypium_armor_chest"]
+  }
+}
