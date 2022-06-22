@@ -49,5 +49,5 @@ module.exports = async function (helper) {
     return;
   }
 
-  helper.success("You did it!");
+  helper.success("You did it! Cedric managed to find a missing piece to the lever inside one of the barrels. The piece held the lever down, keeping the door open, and allowing Cedric through!");
 };
