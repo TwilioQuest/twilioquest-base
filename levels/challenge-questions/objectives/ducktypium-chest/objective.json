@@ -1,0 +1,17 @@
+{
+  "title": "Retrieve the Ducktypium Chest",
+  "description": "Tell Cedric what action to perform in order to bypass the door and get the Dark Ducktypium Chest.",
+  "validation_fields": [
+    {
+      "name": "action",
+      "type": "text",
+      "placeholder": "race the lever, break barrels and pots, give up, kick the door",
+      "label": "Cedric's Action to Perform"
+    }
+  ],
+  "show_ide": false,
+  "rewards": {
+    "xp": 100,
+    "items": ["dark_ducktypium_armor_chest"]
+  }
+}
