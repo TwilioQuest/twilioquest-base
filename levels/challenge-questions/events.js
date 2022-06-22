@@ -16,7 +16,7 @@ module.exports = function (event, world) {
     worldState.currentMapName = event.mapName;
 
   if (event.name === 'conversationDidEnd' && event.npc.conversation === 'cedricDefault' && worldState.chosenMap) {
-    world.Warp('challenge-questions', 'player_entry1', worldState.chosenMap);
+    world.warp('challenge-questions', 'player_entry1', worldState.chosenMap);
     delete worldState.chosenMap;
   }
 
