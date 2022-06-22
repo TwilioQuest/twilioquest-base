@@ -17,4 +17,4 @@ For example, to tell Cedric to try and kick the door down you would enter the st
 
 ![Room that Cedric is in](<%= imagePath %>)
 
-Once you've written out Cedric's instructions in the input on the right, click the _HACK_ button!
+Once you've written out the action Cedric will perform in the input on the right, click the _HACK_ button!
