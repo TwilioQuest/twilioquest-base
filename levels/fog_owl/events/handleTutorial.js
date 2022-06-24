@@ -52,6 +52,15 @@ async function handleTutorial(event, world, worldState) {
   world.showEntities(NAV_MAP_ARROW_KEY);
 
   worldState.hasSeenTutorial = true;
+
+  world.analytics.event(
+    "Tutorial",
+    "Finished Fog Owl Orientation",
+    "Fog Owl",
+    null,
+    "/maps/fog_owl/default",
+    "Fog Owl Default Map"
+  );
 }
 
 module.exports = handleTutorial;
