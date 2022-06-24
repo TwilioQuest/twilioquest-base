@@ -53,14 +53,16 @@ async function handleTutorial(event, world, worldState) {
 
   worldState.hasSeenTutorial = true;
 
-  world.analytics.event(
-    "Tutorial",
-    "Finished Fog Owl Orientation",
-    "Fog Owl",
-    null,
-    "/maps/fog_owl/default",
-    "Fog Owl Default Map"
-  );
+  // Analytics won't exist if we're working on this locally
+  world.analytics &&
+    world.analytics.event(
+      "Tutorial",
+      "Finished Fog Owl Orientation",
+      "Fog Owl",
+      null,
+      "/maps/fog_owl/default",
+      "Fog Owl Default Map"
+    );
 }
 
 module.exports = handleTutorial;
