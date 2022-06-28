@@ -1,12 +1,12 @@
 {
   "title": "Retrieve the Ducktypium Chest",
-  "description": "Tell Cedric what action to perform in order to bypass the door and get the Dark Ducktypium Chest.",
+  "description": "Tell Cedric the order that the words should be in to bypass the door and get the Dark Ducktypium Chest.",
   "validation_fields": [
     {
-      "name": "action",
+      "name": "words",
       "type": "text",
-      "placeholder": "race the lever, break barrels and pots, give up, kick the door",
-      "label": "Cedric's Action to Perform"
+      "placeholder": "skrept jah vuh",
+      "label": "Words on the door"
     }
   ],
   "show_ide": false,
