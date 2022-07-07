@@ -3,13 +3,13 @@ function isPalindrome(string) {
   }
 
   console.log("Test case 1:");
-  console.log(isPalindrome("tacocat"));
+  console.log(isPalindrome("tacocat").toString());
   
   console.log("Test case 2:");
-  console.log(isPalindrome(""));
+  console.log(isPalindrome("").toString());
   
   console.log("Test case 3:");
-  console.log(isPalindrome("heLLo"));
+  console.log(isPalindrome("heLLo").toString());
   
   console.log("Test case 4:");
-  console.log(isPalindrome("Never odd or even"));
+  console.log(isPalindrome("Never odd or even").toString());
