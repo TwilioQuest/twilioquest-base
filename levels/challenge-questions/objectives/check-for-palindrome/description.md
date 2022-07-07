@@ -20,6 +20,8 @@ Create a function `isPalindrome` that accepts a string. This function should ret
 
 <br>
 
+Consider checking out the [Palindrome Wiki](https://en.wikipedia.org/wiki/Palindrome) for more information on what they are.
+
 ## Examples
 
 - `tacocat` -> `true`

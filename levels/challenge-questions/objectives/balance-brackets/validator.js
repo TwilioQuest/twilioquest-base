@@ -27,8 +27,10 @@ module.exports = async function (helper) {
     const test = assertTestCase(context.balanceBrackets);
 
     test(["{", "}"], true);
+    test(["[", "(", "]", ")"], false);
     test([], true);
     test(["{", "[", "}"], false);
+    test(["]", "(", ")", "["], false);
     test(["(", ")", "[", "(", "{", "}", ")", "]"], true);
   } catch (err) {
     helper.fail(err);

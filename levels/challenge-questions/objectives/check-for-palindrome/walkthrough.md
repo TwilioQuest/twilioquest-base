@@ -6,3 +6,4 @@ Here are some links that could help you with hacking this terminal. Be sure to s
 
 - [For loops on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 - [String.at on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/at)
+- [Palindrome on Wiki](https://en.wikipedia.org/wiki/Palindrome)

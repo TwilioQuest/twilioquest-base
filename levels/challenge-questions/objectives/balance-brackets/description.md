@@ -20,8 +20,10 @@ Create a function `balanceBrackets` that accepts an array of brackets. This func
 ## Examples
 
 - `["{", "}”]` -> `true`
+- `["[", "(", "]", ")"]` -> `false`
 - `[]` -> `true`
 - `["{", "[", "}”]` -> `false`
+- `["]", "(", ")", "["]` -> `false`
 - `["(", ")”, "[", "(", "{", "}”, ")”, "]”]` -> `true`
 
 <br>
