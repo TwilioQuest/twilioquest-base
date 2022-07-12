@@ -5,7 +5,7 @@ module.exports = {
       fileName: "exclamation.png",
       frameDimensions: {
         width: 20,
-        height: 32,
+        height: 30,
       },
     },
   },
