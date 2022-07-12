@@ -59,7 +59,24 @@ function playerChoseToTeleport(event, worldState) {
 }
 
 function migrationIsNeeded(worldState, previouslyCompletedAllObjectives) {
+  // Returns true/false whether based on whether or not the player has finished all
+  // the objectives in the first map, but has challengeMapsCompleted set to 0
   return worldState.currentMapName === 'default' && worldState.challengeMapsCompleted === 0 && previouslyCompletedAllObjectives;
+}
+
+// MIGRATION(marvel) challengeMapsCompleted
+// challengeMapsCompleted started at 0 and wouldn't increment
+// if player had completed all objectives in first map while
+// using previous game version. Check if player has finished the 
+// first map with challengeMapsCompleted set to 0, and fix it if
+// that's the case.
+function makeMigrations(world, mapEvent) {
+  // Gets all the completed objectives and removes 'challenge-questions.' from their names
+  const completedObjectives = Object.keys(world.getContext('completedObjectives')).map(objective => objective.replace('challenge-questions.', ''));
+  const previouslyCompletedAllObjectives = mapEvent.objectives.every(objective => completedObjectives.includes(objective));
+  
+  if (migrationIsNeeded(worldState, previouslyCompletedAllObjectives))
+    worldState.challengeMapsCompleted++;
 }
 
 async function notifyPlayerOfAbilityToTeleport(world) {
@@ -96,14 +113,8 @@ module.exports = async function (event, world) {
   const mapEvent = getMapEvent(worldState.currentMapName);
   const playerCompletedMap = allObjectivesAreComplete(world, mapEvent.objectives);
 
-  if (event.name === 'levelDidLoad') {
-    // Gets all the completed objectives and removes 'challenge-questions.' from their names
-    const completedObjectives = Object.keys(world.getContext('completedObjectives')).map(objective => objective.replace('challenge-questions.', ''));
-    const previouslyCompletedAllObjectives = mapEvent.objectives.every(objective => completedObjectives.includes(objective));
-    
-    if (migrationIsNeeded(worldState, previouslyCompletedAllObjectives))
-      worldState.challengeMapsCompleted++;
-  }
+  if (event.name === 'levelDidLoad')
+    makeMigrations(world, mapEvent);
   
   if (completedMapLoadedAndPlayerHasNotTeleported(event, worldState, playerCompletedMap))
     notifyPlayerOfAbilityToTeleport(world);
