@@ -11,24 +11,24 @@ const INITIAL_STATE = {
   playerCompletedObjective: false
 };
 
-function allObjectivesAreComplete(world, lockingObjectives) {
-  return lockingObjectives && (lockingObjectives.length === 0 ||
-    lockingObjectives.every((objectiveName) => world.isObjectiveCompleted(objectiveName)));
+function allObjectivesAreComplete(world, objectives) {
+  return objectives && (objectives.length === 0 ||
+    objectives.every((objectiveName) => world.isObjectiveCompleted(objectiveName)));
 }
 
 function getMapEvent(mapName) {
   const mapEvent = {
-    lockingObjectives: [],
+    objectives: [],
     completionCallback: () => {}
   };
 
   switch(mapName) {
     case 'room2':
-      mapEvent.lockingObjectives.push('check-for-palindrome', 'balance-brackets', 'flatten-array', 'ducktypium-chest');
+      mapEvent.objectives.push('check-for-palindrome', 'balance-brackets', 'flatten-array', 'ducktypium-chest');
       mapEvent.completionCallback = (world) => {
-        const laserObjectives = ['check-for-palindrome', 'balance-brackets', 'flatten-array'];
+        const laserBarrierObjectives = ['check-for-palindrome', 'balance-brackets', 'flatten-array'];
 
-        if (!allObjectivesAreComplete(world, laserObjectives))
+        if (!allObjectivesAreComplete(world, laserBarrierObjectives))
           return;
         
         world.forEachEntities('room2-loot-laser', (ob) => {
@@ -37,7 +37,7 @@ function getMapEvent(mapName) {
       };
       break;
     default:
-      mapEvent.lockingObjectives.push('difference-max-min', 'remove-duplicate-characters', 'reverse-words', 'sum-array', 'ducktypium-helm');
+      mapEvent.objectives.push('difference-max-min', 'remove-duplicate-characters', 'reverse-words', 'sum-array', 'ducktypium-helm');
       mapEvent.completionCallback = (world) => {
         const doorObjectives = ['difference-max-min', 'remove-duplicate-characters', 'reverse-words', 'sum-array'];
         
@@ -94,12 +94,12 @@ module.exports = async function (event, world) {
     worldState.currentMapName = event.mapName;
 
   const mapEvent = getMapEvent(worldState.currentMapName);
-  const playerCompletedMap = allObjectivesAreComplete(world, mapEvent.lockingObjectives);
+  const playerCompletedMap = allObjectivesAreComplete(world, mapEvent.objectives);
 
   if (event.name === 'levelDidLoad') {
     // Gets all the completed objectives and removes 'challenge-questions.' from their names
     const completedObjectives = Object.keys(world.getContext('completedObjectives')).map(objective => objective.replace('challenge-questions.', ''));
-    const previouslyCompletedAllObjectives = mapEvent.lockingObjectives.every(objective => completedObjectives.includes(objective));
+    const previouslyCompletedAllObjectives = mapEvent.objectives.every(objective => completedObjectives.includes(objective));
     
     if (migrationIsNeeded(worldState, previouslyCompletedAllObjectives))
       worldState.challengeMapsCompleted++;
