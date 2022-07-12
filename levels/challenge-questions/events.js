@@ -11,43 +11,43 @@ const INITIAL_STATE = {
   playerCompletedObjective: false
 };
 
-function mapIsCompleted(world, lockingObjectives, ...ignoredObjectives) {
-  return lockingObjectives && lockingObjectives.length &&
-    lockingObjectives.every((objectiveName) => {
-      if (!ignoredObjectives.includes(objectiveName))
-        return world.isObjectiveCompleted(objectiveName);
-      
-      return true;
-    });
+function allObjectivesAreComplete(world, lockingObjectives) {
+  return lockingObjectives && (lockingObjectives.length === 0 ||
+    lockingObjectives.every((objectiveName) => world.isObjectiveCompleted(objectiveName)));
 }
 
 function getMapEvent(mapName) {
-  const mapEvent = {};
+  const mapEvent = {
+    lockingObjectives: [],
+    completionCallback: () => {}
+  };
 
   switch(mapName) {
-    case 'default':
-      mapEvent.lockingObjectives = ['difference-max-min', 'remove-duplicate-characters', 'reverse-words', 'sum-array', 'ducktypium-helm'];
+    case 'room2':
+      mapEvent.lockingObjectives.push('check-for-palindrome', 'balance-brackets', 'flatten-array', 'ducktypium-chest');
       mapEvent.completionCallback = (world) => {
-        if (!mapIsCompleted(world, mapEvent.lockingObjectives, 'ducktypium-helm'))
+        const laserObjectives = ['check-for-palindrome', 'balance-brackets', 'flatten-array'];
+
+        if (!allObjectivesAreComplete(world, laserObjectives))
           return;
         
-        world.showEntities(`doorFrame_unlocked`);
-        world.hideEntities(`doorFrame_locked`);
-        world.hideEntities(`door`);
-      };
-      break;
-    case 'room2':
-      mapEvent.lockingObjectives = ['check-for-palindrome', 'balance-brackets', 'flatten-array', 'ducktypium-chest'];
-      mapEvent.completionCallback = (world) => {
-        if (!mapIsCompleted(world, mapEvent.lockingObjectives, 'ducktypium-chest'))
-          return;
         world.forEachEntities('room2-loot-laser', (ob) => {
           ob.setState({ ...ob.state, isCompleted: true });
         });
       };
       break;
     default:
-      mapEvent.completionCallback = () => {};
+      mapEvent.lockingObjectives.push('difference-max-min', 'remove-duplicate-characters', 'reverse-words', 'sum-array', 'ducktypium-helm');
+      mapEvent.completionCallback = (world) => {
+        const doorObjectives = ['difference-max-min', 'remove-duplicate-characters', 'reverse-words', 'sum-array'];
+        
+        if (!allObjectivesAreComplete(world, doorObjectives))
+          return;
+        
+        world.showEntities(`doorFrame_unlocked`);
+        world.hideEntities(`doorFrame_locked`);
+        world.hideEntities(`door`);
+      };
       break;
   }
 
@@ -56,6 +56,10 @@ function getMapEvent(mapName) {
 
 function playerChoseToTeleport(event, worldState) {
   return event.name === 'conversationDidEnd' && event.npc.conversation === 'cedricDefault' && worldState.chosenMap;
+}
+
+function migrationIsNeeded(worldState, previouslyCompletedAllObjectives) {
+  return worldState.currentMapName === 'default' && worldState.challengeMapsCompleted === 0 && previouslyCompletedAllObjectives;
 }
 
 async function notifyPlayerOfAbilityToTeleport(world) {
@@ -90,10 +94,19 @@ module.exports = async function (event, world) {
     worldState.currentMapName = event.mapName;
 
   const mapEvent = getMapEvent(worldState.currentMapName);
-  const playerCompletedMap = mapIsCompleted(world, mapEvent.lockingObjectives);
+  const playerCompletedMap = allObjectivesAreComplete(world, mapEvent.lockingObjectives);
+
+  if (event.name === 'levelDidLoad') {
+    // Gets all the completed objectives and removes 'challenge-questions.' from their names
+    const completedObjectives = Object.keys(world.getContext('completedObjectives')).map(objective => objective.replace('challenge-questions.', ''));
+    const previouslyCompletedAllObjectives = mapEvent.lockingObjectives.every(objective => completedObjectives.includes(objective));
+    
+    if (migrationIsNeeded(worldState, previouslyCompletedAllObjectives))
+      worldState.challengeMapsCompleted++;
+  }
   
   if (completedMapLoadedAndPlayerHasNotTeleported(event, worldState, playerCompletedMap))
-    await notifyPlayerOfAbilityToTeleport(world);
+    notifyPlayerOfAbilityToTeleport(world);
   
   if (event.name === 'objectiveCompleted')
     worldState.playerCompletedObjective = true;
@@ -105,7 +118,7 @@ module.exports = async function (event, world) {
       worldState.challengeMapsCompleted++;
       
       if (!worldState.playerHasTeleported)
-        await notifyPlayerOfAbilityToTeleport(world);
+        notifyPlayerOfAbilityToTeleport(world);
     }
   }
 
