@@ -988,51 +988,51 @@
         }, 
         {
          "id":66,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/door-elevator\/icon.png",
+         "imageheight":72,
+         "imagewidth":72
         }, 
         {
          "id":67,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/librarian-npc-monitor\/icon.png",
+         "imageheight":48,
+         "imagewidth":72
         }, 
         {
          "id":68,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/librarian-npc\/icon.png",
+         "imageheight":96,
+         "imagewidth":72
         }, 
         {
          "id":69,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/exclamation\/icon.png",
+         "imageheight":30,
+         "imagewidth":20
         }, 
         {
          "id":70,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/door-stained-glass\/Icon.png",
+         "imageheight":48,
+         "imagewidth":24
         }, 
         {
          "id":71,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/door-wood-1\/Icon.png",
+         "imageheight":48,
+         "imagewidth":24
         }, 
         {
          "id":72,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/door-wood-2\/Icon.png",
+         "imageheight":48,
+         "imagewidth":24
         }, 
         {
          "id":73,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/chest-fundamentals\/Icon.png",
+         "imageheight":24,
+         "imagewidth":24
         }, 
         {
          "id":74,

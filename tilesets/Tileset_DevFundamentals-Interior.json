@@ -1,0 +1,14 @@
+{ "columns":50,
+ "image":"Tileset_DevFundamentals-Interior.png",
+ "imageheight":1680,
+ "imagewidth":1200,
+ "margin":0,
+ "name":"Tileset_DevFundamentals-Interior",
+ "spacing":0,
+ "tilecount":3500,
+ "tiledversion":"1.7.2",
+ "tileheight":24,
+ "tilewidth":24,
+ "type":"tileset",
+ "version":"1.6"
+}
