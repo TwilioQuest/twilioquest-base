@@ -5,7 +5,7 @@ module.exports = {
     fsm: null,
   },
   spriteSheets: {
-    twilioquestElevator Door: {
+    twilioquestElevatorDoor: {
       fileName: "Door_Elevator.png",
       frameDimensions: {
         width: 72,

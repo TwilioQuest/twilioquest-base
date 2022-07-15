@@ -990,49 +990,80 @@
          "id":66,
          "image":"..\/objects\/door-elevator\/icon.png",
          "imageheight":72,
-         "imagewidth":72
+         "imagewidth":72,
+         "type":"door-elevator"
         }, 
         {
          "id":67,
          "image":"..\/objects\/librarian-npc-monitor\/icon.png",
          "imageheight":48,
-         "imagewidth":72
+         "imagewidth":72,
+         "type":"librarian-npc-monitor"
         }, 
         {
          "id":68,
          "image":"..\/objects\/librarian-npc\/icon.png",
          "imageheight":96,
-         "imagewidth":72
+         "imagewidth":72,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":37,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":72,
+                     "x":0,
+                     "y":59
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
+         "type":"librarian-npc"
         }, 
         {
          "id":69,
          "image":"..\/objects\/exclamation\/icon.png",
          "imageheight":30,
-         "imagewidth":20
+         "imagewidth":20,
+         "type":"exclamation"
         }, 
         {
          "id":70,
          "image":"..\/objects\/door-stained-glass\/Icon.png",
          "imageheight":48,
-         "imagewidth":24
+         "imagewidth":24,
+         "type":"door-stained-glass"
         }, 
         {
          "id":71,
          "image":"..\/objects\/door-wood-1\/Icon.png",
          "imageheight":48,
-         "imagewidth":24
+         "imagewidth":24,
+         "type":"door-wood-1"
         }, 
         {
          "id":72,
          "image":"..\/objects\/door-wood-2\/Icon.png",
          "imageheight":48,
-         "imagewidth":24
+         "imagewidth":24,
+         "type":"door-wood-2"
         }, 
         {
          "id":73,
          "image":"..\/objects\/chest-fundamentals\/Icon.png",
          "imageheight":24,
-         "imagewidth":24
+         "imagewidth":24,
+         "type":"chest-fundamentals"
         }, 
         {
          "id":74,

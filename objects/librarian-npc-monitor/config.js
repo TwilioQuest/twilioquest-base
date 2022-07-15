@@ -3,16 +3,16 @@ const conversationOnInteract = require("../../scripts/conversationOnInteract");
 module.exports = {
   animations: {
     idle: {
-      frames: [0, 1, 2, 3],
+      frames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
       frameRate: 4,
     },
   },
   spriteSheets: {
-    twilioQuestSpaceExplorer: {
-      fileName: "SpaceExplorer.png",
+    twilioQuestLibrarianNpcMonitor: {
+      fileName: "NPC_Librarian_Monitor.png",
       frameDimensions: {
-        width: 32,
-        height: 32,
+        width: 72,
+        height: 48,
       },
     },
   },
@@ -22,7 +22,7 @@ module.exports = {
   properties: {
     sprite: {
       defaultFrameIndex: 0,
-      spriteSheet: "twilioQuestSpaceExplorer",
+      spriteSheet: "twilioQuestLibrarianNpcMonitor",
       layers: [],
     },
     idleAnimations: {
