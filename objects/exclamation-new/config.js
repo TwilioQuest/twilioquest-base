@@ -1,7 +1,7 @@
 module.exports = {
   animations: {},
   spriteSheets: {
-    exclamation: {
+    exclamationNew: {
       fileName: "exclamation.png",
       frameDimensions: {
         width: 20,
@@ -12,7 +12,7 @@ module.exports = {
   properties: {
     sprite: {
       defaultFrameIndex: 0,
-      spriteSheet: "exclamation",
+      spriteSheet: "exclamationNew",
       layers: [],
     },
   },

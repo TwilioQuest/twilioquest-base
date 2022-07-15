@@ -991,6 +991,12 @@
          "image":"..\/objects\/door-elevator\/icon.png",
          "imageheight":72,
          "imagewidth":72,
+         "properties":[
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"door-elevator"
         }, 
         {
@@ -998,6 +1004,12 @@
          "image":"..\/objects\/librarian-npc-monitor\/icon.png",
          "imageheight":48,
          "imagewidth":72,
+         "properties":[
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"librarian-npc-monitor"
         }, 
         {
@@ -1015,6 +1027,12 @@
                      "height":37,
                      "id":1,
                      "name":"",
+                     "properties":[
+                            {
+                             "name":"interactable",
+                             "type":"bool",
+                             "value":true
+                            }],
                      "rotation":0,
                      "type":"",
                      "visible":true,
@@ -1028,6 +1046,12 @@
              "x":0,
              "y":0
             },
+         "properties":[
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"librarian-npc"
         }, 
         {
@@ -1063,6 +1087,17 @@
          "image":"..\/objects\/chest-fundamentals\/Icon.png",
          "imageheight":24,
          "imagewidth":24,
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
          "type":"chest-fundamentals"
         }, 
         {
