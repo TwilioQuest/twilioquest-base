@@ -1,6 +1,6 @@
 name: Prepare Release
 on:
-# Allows this workflow to be started manually from the 'Actions' page of the repo
+  # Allows this workflow to be started manually from the 'Actions' page of the repo
   workflow_dispatch:
     inputs:
       release_type:
@@ -11,7 +11,7 @@ on:
         - patch
         default: patch
         required: true
-# Allows this workflow to be reused by the workflows in other TwilioQuest extensions
+  # Allows this workflow to be reused by the workflows in other TwilioQuest extensions
   workflow_call:
     inputs:
       release_type:
@@ -30,18 +30,18 @@ jobs:
       - shell: bash
         name: update_version
         run: |
-#         Increments part of the package.json version based on 'inputs.release_type' by 1. The option stops npm from automatically
-#         creating a new commit and tag with the new version.
+          # Increments part of the package.json version based on 'inputs.release_type' by 1. The option stops npm from automatically
+          # creating a new commit and tag with the new version.
           npm --no-git-tag-version version ${{ inputs.release_type }}
-#         Appends the current package.json version to the 'env' context in a variable called 'updated_version'.
-#         Here are some helpful resources:
-#           The $() command substitution - https://www.gnu.org/software/bash/manual/html_node/Command-Substitution.html
-#           The use of 'node -p' - https://nodejs.org/api/cli.html#-p---print-script
-#           Dynamically updating 'env' context - https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-environment-variable
+          # Appends the current package.json version to the 'env' context in a variable called 'updated_version'.
+          # Here are some helpful resources:
+          # The $() command substitution - https://www.gnu.org/software/bash/manual/html_node/Command-Substitution.html
+          # The use of 'node -p' - https://nodejs.org/api/cli.html#-p---print-script
+          # Dynamically updating 'env' context - https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-environment-variable
           echo "updated_version=$(node -p "require('./package.json').version")" >> $GITHUB_ENV
       - shell: bash
         env:
-#         This token is necessary for any step using the gh cli. See https://docs.github.com/en/actions/using-workflows/using-github-cli-in-workflows
+          # This token is necessary for any step using the gh cli. See https://docs.github.com/en/actions/using-workflows/using-github-cli-in-workflows
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         name: commit
         run: |
