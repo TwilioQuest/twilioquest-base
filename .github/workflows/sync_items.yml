@@ -1,0 +1,23 @@
+name: Manual Sync Items Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Push items to twilioquest-server
+        uses: cpina/github-action-push-to-another-repository@ssh-deploy-key
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_ITEMS_SYNC_KEY }}
+        with:
+          source-directory: "items"
+          destination-github-username: "twilio"
+          destination-repository-name: "twilioquest-server"
+          user-email: dalejo_1996@hotmail.com
+          commit-message: "Sync items to TQ server"
+          target-branch: workflow-test
+          target-directory: "test/functions/views/items"
