@@ -113,7 +113,9 @@ module.exports = async function (event, world) {
   const mapEvent = getMapEvent(worldState.currentMapName);
   const playerCompletedMap = allObjectivesAreComplete(world, mapEvent.objectives);
 
-  if (event.name === 'levelDidLoad')
+  // A duplicate check for mapDidLoad is necessary for allowing worldState.currentMapName and mapEvent to be initialized
+  // before calling makeMigrations
+  if (event.name === 'mapDidLoad')
     makeMigrations(world, worldState, mapEvent);
   
   if (completedMapLoadedAndPlayerHasNotTeleported(event, worldState, playerCompletedMap))
