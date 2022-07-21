@@ -1,3 +1,15 @@
+-
+  const STATE_KEY = "com.twilioquest.challenge-questions";
+  const worldState = getState(STATE_KEY);
+
+mixin what_they_do
+  response#what_they_do.
+    Oh no! What are they going to do?
+
+mixin transition_to_other_map
+  response#transition_to_other_map.
+    Let's go to another part of the simulation!
+
 conversation(display_name="Cedric")
   case lastResponse
     when "bottom_of_this"
@@ -10,11 +22,35 @@ conversation(display_name="Cedric")
         response#bottom_of_this.
           I'll get to the bottom of this!
 
-    default
-      statement#default
+    when "transition_to_computations"
+      statement#transition_to_map
       responses
-        response#what_they_do.
-          Oh no! What are they going to do?
+      - worldState.chosenMap = 'default';
+
+    when "transition_to_power"
+      statement#transition_to_map
+      responses
+      - worldState.chosenMap = 'room2';
+
+    when "transition_to_other_map"
+      statement#where_to
+      responses
+        if worldState.currentMapName !== 'default'
+          response#transition_to_computations.
+            Render the area where computations are done.
+        if worldState.currentMapName !== 'room2'
+          response#transition_to_power.
+            Render the area where power is generated.
+
+    default
+      if worldState.challengeMapsCompleted >= 1
+        statement#default_room2
+        responses
+          +transition_to_other_map
+      else
+        statement#default
+        responses
+          +what_they_do
 
   statements
     statement#default
@@ -26,3 +62,16 @@ conversation(display_name="Cedric")
     statement#final
       text.
         Be sure to return to this simulation. Our #[span.highlight Field Operators] will be bringing back more of the plans soon!
+    statement#where_to
+      text.
+        Sounds good! What should we set the configuration to?
+    statement#transition_to_map
+      text.
+        Off you go!
+    statement#default_room2
+      text.
+        Great work tackling those computations! We now know that the #[span.red Legacy Systems] were using those machines for synthesizing Dark Ducktypium!
+        Our #[span.highlight Field Operators] found additional plans for the #[span.highlight Dark Ducktypium Forge] that I can render. Let me know what part
+        of the simulation you'd like to explore and I'll take us there!
+
+- setState(STATE_KEY, worldState);

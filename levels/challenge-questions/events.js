@@ -5,29 +5,141 @@ const fixDoorWallDepthSorting = require("./events/fixDoorDepthSorting");
 
 const WORLD_STATE_KEY = "com.twilioquest.challenge-questions";
 
-const INITIAL_STATE = {};
+const INITIAL_STATE = {
+  challengeMapsCompleted: 0,
+  playerHasTeleported: false,
+  playerCompletedObjective: false
+};
 
-module.exports = function (event, world) {
+function allObjectivesAreComplete(world, objectives) {
+  return objectives && (objectives.length === 0 ||
+    objectives.every((objectiveName) => world.isObjectiveCompleted(objectiveName)));
+}
+
+function getMapEvent(mapName) {
+  const mapEvent = {
+    objectives: [],
+    completionCallback: () => {}
+  };
+
+  switch(mapName) {
+    case 'room2':
+      mapEvent.objectives.push('check-for-palindrome', 'balance-brackets', 'flatten-array', 'ducktypium-chest');
+      mapEvent.completionCallback = (world) => {
+        const laserBarrierObjectives = ['check-for-palindrome', 'balance-brackets', 'flatten-array'];
+
+        if (!allObjectivesAreComplete(world, laserBarrierObjectives))
+          return;
+        
+        world.forEachEntities('room2-loot-laser', (ob) => {
+          ob.setState({ ...ob.state, isCompleted: true });
+        });
+      };
+      break;
+    default:
+      mapEvent.objectives.push('difference-max-min', 'remove-duplicate-characters', 'reverse-words', 'sum-array', 'ducktypium-helm');
+      mapEvent.completionCallback = (world) => {
+        const doorObjectives = ['difference-max-min', 'remove-duplicate-characters', 'reverse-words', 'sum-array'];
+        
+        if (!allObjectivesAreComplete(world, doorObjectives))
+          return;
+        
+        world.showEntities(`doorFrame_unlocked`);
+        world.hideEntities(`doorFrame_locked`);
+        world.hideEntities(`door`);
+      };
+      break;
+  }
+
+  return mapEvent;
+}
+
+function playerChoseToTeleport(event, worldState) {
+  return event.name === 'conversationDidEnd' && event.npc.conversation === 'cedricDefault' && worldState.chosenMap;
+}
+
+function migrationIsNeeded(worldState, previouslyCompletedAllObjectives) {
+  // Returns true/false whether based on whether or not the player has finished all
+  // the objectives in the first map, but has challengeMapsCompleted set to 0
+  return worldState.currentMapName === 'default' && worldState.challengeMapsCompleted === 0 && previouslyCompletedAllObjectives;
+}
+
+// MIGRATION(marvel) challengeMapsCompleted
+// challengeMapsCompleted started at 0 and wouldn't increment
+// if player had completed all objectives in first map while
+// using previous game version. Check if player has finished the 
+// first map with challengeMapsCompleted set to 0, and fix it if
+// that's the case.
+function makeMigrations(world, mapEvent) {
+  // Gets all the completed objectives and removes 'challenge-questions.' from their names
+  const completedObjectives = Object.keys(world.getContext('completedObjectives')).map(objective => objective.replace('challenge-questions.', ''));
+  const previouslyCompletedAllObjectives = mapEvent.objectives.every(objective => completedObjectives.includes(objective));
+  
+  if (migrationIsNeeded(worldState, previouslyCompletedAllObjectives))
+    worldState.challengeMapsCompleted++;
+}
+
+async function notifyPlayerOfAbilityToTeleport(world) {
+  world.disablePlayerMovement();
+  
+  world.forEachEntities((ent) => ent.instance.type === 'tq-npc', async (cedric) => {
+    await world.tweenCameraToPosition({
+      x: cedric.startX,
+      y: cedric.startY
+    });
+  });
+
+  world.showNotification(`
+    <i>I should probably speak to Cedric to see if any more plans
+    have been found for the <span class="highlight">Dark Ducktypium Forge</span>.</i>
+  `);
+
+  await world.wait(6000);
+  await world.tweenCameraToPlayer();
+
+  world.enablePlayerMovement();
+}
+
+function completedMapLoadedAndPlayerHasNotTeleported(event, worldState, playerCompletedMap) {
+  return event.name === 'mapDidLoad' && playerCompletedMap && !worldState.playerHasTeleported
+}
+
+module.exports = async function (event, world) {
   const worldState = merge(INITIAL_STATE, world.getState(WORLD_STATE_KEY));
 
-  const lockingObjectives = [
-    "sum-array",
-    "reverse-words",
-    "remove-duplicate-characters",
-    "difference-max-min",
-  ];
+  if (event.name === 'mapDidLoad')
+    worldState.currentMapName = event.mapName;
 
-  if (
-    lockingObjectives.every((objectiveName) =>
-      world.isObjectiveCompleted(objectiveName)
-    )
-  ) {
-    // If all objectives completed that lock the door
-    // the render it unlocked.
-    world.showEntities(`doorFrame_unlocked`);
-    world.hideEntities(`doorFrame_locked`);
-    world.hideEntities(`door`);
+  const mapEvent = getMapEvent(worldState.currentMapName);
+  const playerCompletedMap = allObjectivesAreComplete(world, mapEvent.objectives);
+
+  if (event.name === 'levelDidLoad')
+    makeMigrations(world, mapEvent);
+  
+  if (completedMapLoadedAndPlayerHasNotTeleported(event, worldState, playerCompletedMap))
+    notifyPlayerOfAbilityToTeleport(world);
+  
+  if (event.name === 'objectiveCompleted')
+    worldState.playerCompletedObjective = true;
+
+  if (event.name === 'objectiveDidClose' && worldState.playerCompletedObjective) {
+    worldState.playerCompletedObjective = false;
+    
+    if (playerCompletedMap) {
+      worldState.challengeMapsCompleted++;
+      
+      if (!worldState.playerHasTeleported)
+        notifyPlayerOfAbilityToTeleport(world);
+    }
   }
+
+  if (playerChoseToTeleport(event, worldState)) {
+    world.warp('challenge-questions', 'player_entry1', worldState.chosenMap);
+    delete worldState.chosenMap;
+    worldState.playerHasTeleported = true;
+  }
+  
+  mapEvent.completionCallback(world);
 
   updateQuestLogWhenComplete({
     notification:

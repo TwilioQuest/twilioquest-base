@@ -1,0 +1,43 @@
+on:
+  workflow_dispatch:
+    inputs:
+      release_type:
+        type: choice
+        options:
+        - major
+        - minor
+        - patch
+        default: patch
+        required: true
+  workflow_call:
+    inputs:
+      release_type:
+        type: string
+        default: patch
+        required: true
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14
+      - shell: bash
+        name: update_version
+        run: |
+          npm --no-git-tag-version version ${{ inputs.release_type }}
+          echo "updated_version=$(node -p "require('./package.json').version")" >> $GITHUB_ENV
+      - shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        name: commit
+        run: |
+          git config user.name 'Github Action'
+          git config user.email '<>'
+          git checkout -b release/${{ env.updated_version }}
+          git add .
+          git commit -m "Preparing ${{ env.updated_version }} Release"
+          git push origin release/${{ env.updated_version }}
+          gh pr create --title "Prepare ${{ env.updated_version }} Release" --body ''

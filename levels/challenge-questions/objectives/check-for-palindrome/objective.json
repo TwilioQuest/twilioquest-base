@@ -1,0 +1,17 @@
+{
+    "title": "Check for Palindrome",
+    "description": "Determine whether or not a string is spelled the same forwards and backwards.",
+    "validation_fields": [
+      {
+        "name": "prompt",
+        "type": "prompt",
+        "placeholder": "",
+        "label": "Click HACK to test your function."
+      }
+    ],
+    "show_ide": true,
+    "rewards": {
+      "xp": 100
+    }
+  }
+  
