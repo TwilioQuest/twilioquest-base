@@ -70,7 +70,7 @@ function migrationIsNeeded(worldState, previouslyCompletedAllObjectives) {
 // using previous game version. Check if player has finished the 
 // first map with challengeMapsCompleted set to 0, and fix it if
 // that's the case.
-function makeMigrations(world, mapEvent) {
+function makeMigrations(world, worldState, mapEvent) {
   // Gets all the completed objectives and removes 'challenge-questions.' from their names
   const completedObjectives = Object.keys(world.getContext('completedObjectives')).map(objective => objective.replace('challenge-questions.', ''));
   const previouslyCompletedAllObjectives = mapEvent.objectives.every(objective => completedObjectives.includes(objective));
@@ -114,7 +114,7 @@ module.exports = async function (event, world) {
   const playerCompletedMap = allObjectivesAreComplete(world, mapEvent.objectives);
 
   if (event.name === 'levelDidLoad')
-    makeMigrations(world, mapEvent);
+    makeMigrations(world, worldState, mapEvent);
   
   if (completedMapLoadedAndPlayerHasNotTeleported(event, worldState, playerCompletedMap))
     notifyPlayerOfAbilityToTeleport(world);
