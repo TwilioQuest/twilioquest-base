@@ -1,0 +1,17 @@
+{
+    "title": "Balance Brackets",
+    "description": "Ensure a combination of brackets is balanced in an array.",
+    "validation_fields": [
+      {
+        "name": "prompt",
+        "type": "prompt",
+        "placeholder": "",
+        "label": "Click HACK to test your function."
+      }
+    ],
+    "show_ide": true,
+    "rewards": {
+      "xp": 100
+    }
+  }
+  

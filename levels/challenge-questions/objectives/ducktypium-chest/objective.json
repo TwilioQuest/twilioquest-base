@@ -1,0 +1,17 @@
+{
+  "title": "Retrieve the Ducktypium Chest",
+  "description": "Tell Cedric the order that the words should be in to bypass the door and get the Dark Ducktypium Chest.",
+  "validation_fields": [
+    {
+      "name": "words",
+      "type": "text",
+      "placeholder": "skrept jah vuh",
+      "label": "Words on the door"
+    }
+  ],
+  "show_ide": false,
+  "rewards": {
+    "xp": 100,
+    "items": ["dark_ducktypium_armor_chest"]
+  }
+}

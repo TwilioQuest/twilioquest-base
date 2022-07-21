@@ -1,0 +1,17 @@
+{
+    "title": "Flatten an Array",
+    "description": "Lift all the elements out of any sub-arrays and ensure they all exist within one common array.",
+    "validation_fields": [
+      {
+        "name": "prompt",
+        "type": "prompt",
+        "placeholder": "",
+        "label": "Click HACK to test your function."
+      }
+    ],
+    "show_ide": true,
+    "rewards": {
+      "xp": 100
+    }
+  }
+  
