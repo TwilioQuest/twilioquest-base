@@ -991,6 +991,28 @@
          "image":"..\/objects\/door-elevator\/icon.png",
          "imageheight":72,
          "imagewidth":72,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "name":"",
+             "objects":[
+                    {
+                     "height":22,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":72,
+                     "x":0,
+                     "y":50
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
          "properties":[
                 {
                  "name":"interactable",
@@ -1006,6 +1028,16 @@
          "imagewidth":72,
          "properties":[
                 {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":"librarianDefault"
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"Librarian.png"
+                }, 
+                {
                  "name":"interactable",
                  "type":"bool",
                  "value":true
@@ -1020,7 +1052,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1048,6 +1079,16 @@
             },
          "properties":[
                 {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":"librarianDefault"
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"Librarian.png"
+                }, 
+                {
                  "name":"interactable",
                  "type":"bool",
                  "value":true
@@ -1056,7 +1097,7 @@
         }, 
         {
          "id":69,
-         "image":"..\/objects\/exclamation\/icon.png",
+         "image":"..\/objects\/exclamation-new\/icon.png",
          "imageheight":30,
          "imagewidth":20,
          "type":"exclamation"
