@@ -1,4 +1,9 @@
+const initOpenCloseFsm = require("../../scripts/initOpenCloseFsm");
+
 module.exports = {
+  state: {
+    fsm: null,
+  },
   spriteSheets: {
     twilioquestDoorTower: {
       fileName: "Door_Tower.png",
@@ -9,11 +14,13 @@ module.exports = {
     },
   },
   animations: {
-    open: {
+    open: { frames: [4], frameRate: 1 },
+    opening: {
       frames: [0, 1, 2, 3, 4],
       frameRate: 6,
     },
-    close: {
+    closed: { frames: [9], frameRate: 1 },
+    closing: {
       frames: [5, 6, 7, 8, 9],
       frameRate: 6,
     },
@@ -24,5 +31,10 @@ module.exports = {
       spriteSheet: "twilioquestDoorTower",
       layers: [],
     },
+  },
+  events: {
+    onMapDidLoad: initOpenCloseFsm({
+      smoothTransitionBetweenOpeningAndClosing: false,
+    }),
   },
 };
