@@ -6,7 +6,7 @@ const assertTestCase = (testFunction) => (input, expected) => {
   assert.deepStrictEqual(
     testResult,
     expected,
-    `Expected "${expected}" from input "[${input}]", but received "${testResult}".`
+    `Expected "${JSON.stringify(expected)}" from input "[${JSON.stringify(expected)}]", but received "${JSON.stringify(expected)}".`
   );
 };
 
