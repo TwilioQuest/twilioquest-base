@@ -1,7 +1,8 @@
 name: Manual Sync Items Test
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: "0 0 2/16 * *"
 
 jobs:
   build:
@@ -10,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Push items to twilioquest-server
-        uses: cpina/github-action-push-to-another-repository@b5ac509f7b2dc62ec43608515039593fae596689 # branch: ssh-deploy-key, last updated: Aug. 1, 2022 
+        uses: cpina/github-action-push-to-another-repository@b5ac509f7b2dc62ec43608515039593fae596689 # branch: ssh-deploy-key, last updated: Aug. 1, 2022
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_ITEMS_SYNC_KEY }}
         with:
@@ -18,6 +19,6 @@ jobs:
           destination-github-username: "twilio"
           destination-repository-name: "twilioquest-server"
           user-email: dalejo_1996@hotmail.com
-          commit-message: "Sync items to TQ server"
-          target-branch: workflow-test
-          target-directory: "test/functions/views/items"
+          commit-message: "Sync items to twilioquest-base"
+          target-branch: next
+          target-directory: "functions/views/items"
