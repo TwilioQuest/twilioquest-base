@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Push items to twilioquest-server
-        uses: cpina/github-action-push-to-another-repository@b5ac509f7b2dc62ec43608515039593fae596689 # branch: ssh-deploy-key 
+        uses: cpina/github-action-push-to-another-repository@b5ac509f7b2dc62ec43608515039593fae596689 # branch: ssh-deploy-key, last updated: Aug. 1, 2022 
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_ITEMS_SYNC_KEY }}
         with:
