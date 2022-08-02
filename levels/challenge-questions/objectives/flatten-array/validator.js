@@ -1,19 +1,16 @@
 const assert = require("assert");
 
-const wrapInBracketsIfArray = (value) =>
-  Array.isArray(value) ? `[${value}]` : String(value);
-
 const ARRAY_ELEMENT_DIFFERENT_ERROR_MESSAGE =
   "One or more array elements are different or have different types.";
-const DEFAULT_ERROR_MESSAGE = (expected, input, testResult) => {
-  const expectedFormatted = wrapInBracketsIfArray(expected);
-  const inputFormatted = wrapInBracketsIfArray(input);
-  const testResultFormatted = wrapInBracketsIfArray(testResult);
+const DEFAULT_ERROR_MESSAGE = (expected, input, testResult, helper) => {
+  const expectedFormatted = helper.appendSymbolsByType(expected);
+  const inputFormatted = helper.appendSymbolsByType(input);
+  const testResultFormatted = helper.appendSymbolsByType(testResult);
 
-  return `Expected "${expectedFormatted}" from input "${inputFormatted}", but received "${testResultFormatted}".`;
+  return `Expected ${expectedFormatted} from input ${inputFormatted}, but received ${testResultFormatted}.`;
 };
 
-const assertTestCase = (testFunction) => (input, expected) => {
+const assertTestCase = (testFunction, helper) => (input, expected) => {
   const testResult = testFunction(input);
 
   // Checks for 'value' equality. This should only be true if both are 'Pure Ducktypium!'
@@ -26,16 +23,20 @@ const assertTestCase = (testFunction) => (input, expected) => {
   const areEqualArrays =
     Array.isArray(expected) &&
     Array.isArray(testResult) &&
-    testResult.length === expected.length &&
-    expected.every((element, idx) => {
-      if (!Object.is(element, testResult[idx]))
-        assert.fail(ARRAY_ELEMENT_DIFFERENT_ERROR_MESSAGE);
+    helper.areArrayContentsEqual(
+      expected,
+      testResult,
+      (element, otherElement) => {
+        if (!Object.is(element, otherElement))
+          assert.fail(ARRAY_ELEMENT_DIFFERENT_ERROR_MESSAGE);
 
-      return true;
-    });
+        return true;
+      }
+    );
 
-  if (!areEqualStrings && !areEqualArrays)
-    assert.fail(DEFAULT_ERROR_MESSAGE(expected, input, testResult));
+  if (!areEqualStrings && !areEqualArrays) {
+    assert.fail(DEFAULT_ERROR_MESSAGE(expected, input, testResult, helper));
+  }
 };
 
 module.exports = async function (helper) {
@@ -49,7 +50,7 @@ module.exports = async function (helper) {
 
     assert(context.flattenArray, "The function flattenArray is not defined!");
 
-    const test = assertTestCase(context.flattenArray);
+    const test = assertTestCase(context.flattenArray, helper);
 
     test([], "Pure Ducktypium!");
     test([1, "two", 3, "four"], [1, "two", 3, "four"]);
