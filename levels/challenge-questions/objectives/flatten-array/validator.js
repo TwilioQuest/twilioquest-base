@@ -2,10 +2,10 @@ const assert = require("assert");
 
 const ARRAY_ELEMENT_DIFFERENT_ERROR_MESSAGE =
   "One or more array elements are different or have different types.";
-const DEFAULT_ERROR_MESSAGE = (expected, input, testResult, helper) => {
-  const expectedFormatted = helper.appendSymbolsByType(expected);
-  const inputFormatted = helper.appendSymbolsByType(input);
-  const testResultFormatted = helper.appendSymbolsByType(testResult);
+const createDefaultErrorMessage = (expected, input, testResult, helper) => {
+  const expectedFormatted = helper.formatByType(expected);
+  const inputFormatted = helper.formatByType(input);
+  const testResultFormatted = helper.formatByType(testResult);
 
   return `Expected ${expectedFormatted} from input ${inputFormatted}, but received ${testResultFormatted}.`;
 };
@@ -35,7 +35,7 @@ const assertTestCase = (testFunction, helper) => (input, expected) => {
     );
 
   if (!areEqualStrings && !areEqualArrays) {
-    assert.fail(DEFAULT_ERROR_MESSAGE(expected, input, testResult, helper));
+    assert.fail(createDefaultErrorMessage(expected, input, testResult, helper));
   }
 };
 
