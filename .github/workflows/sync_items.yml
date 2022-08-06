@@ -19,6 +19,6 @@ jobs:
           destination-github-username: "twilio"
           destination-repository-name: "twilioquest-server"
           user-email: dalejo_1996@hotmail.com
-          commit-message: "Sync items to twilioquest-base"
+          commit-message: "Sync items from twilioquest-base"
           target-branch: next
           target-directory: "functions/views/items"
