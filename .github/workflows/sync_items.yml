@@ -1,8 +1,9 @@
 name: Manual Sync Items Test
 
 on:
-  schedule:
-    - cron: "0 0 2/16 * *"
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "0 0 2/16 * *"
 
 jobs:
   build:
