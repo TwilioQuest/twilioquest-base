@@ -1,0 +1,16 @@
+{
+  "title": "Sum an Array",
+  "description": "Calculate the sum of all the numbers in an array.",
+  "validation_fields": [
+    {
+      "name": "prompt",
+      "type": "prompt",
+      "placeholder": "",
+      "label": "Click HACK to test your function."
+    }
+  ],
+  "show_ide": true,
+  "rewards": {
+    "xp": 100
+  }
+}
