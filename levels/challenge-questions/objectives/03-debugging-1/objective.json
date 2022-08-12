@@ -1,12 +1,12 @@
 {
-  "title": "Sum an Array",
-  "description": "Calculate the sum of all the numbers in an array.",
+  "title": "Dark Ducktypium Reservoir Monitor",
+  "description": "Repair the Dark Ducktypium Reservoir Monitor to figure out how it works.",
   "validation_fields": [
     {
       "name": "prompt",
       "type": "prompt",
       "placeholder": "",
-      "label": "Click HACK to test your function."
+      "label": "Click HACK to you've repaired the monitor function."
     }
   ],
   "show_ide": true,

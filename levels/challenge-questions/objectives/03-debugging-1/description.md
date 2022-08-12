@@ -1,29 +1,16 @@
-# Sum Array of Numbers
+# Dark Ducktypium Reservoir Monitor
 
 <div class="aside">
 <h3>Requirements</h3>
 <ul>
-  <li>Create a function called `sumArray`.</li>
-  <li>This function receives an array of numbers.</li>
-  <li>If this array is empty, the sum should be `0`.</li>
-  <li>Add all the numbers in this array and return the total.</li>
+  <li>Inspect the function in the QuestIDE.</li>
+  <li>Fix all bugs in the code.</li>
   <li>Once you're done, press <em>HACK</em>.</li>
 </ul>
 </div>
 
-It looks like this section of the forge is responsible for performing computations. This particular terminal is calculating the total mass of Dark Ducktypium after production.
+It looks like this section of the forge was created to repair some of the bugs introduced to programs by exposure to raw Dark Ducktypium. This program seems to be responsible for detecting when a reservoir of Dark Ducktypium has been overfilled.
 
-Create a function called `sumArray` that accepts an array of numbers as its first argument. This function should add all these numbers together and return the sum.
+The function takes an array of reservoir objects. These reservoir objects contain a bunch of metadata properties describing their state. One important property for this function is the `contents` property. This is a number showing how much ducktypium is in the reservoir. This program should also check the `type` property of a reservoir. Only type `"raw"` reservoirs should be filtered out if their `contents` are reach or exceed 100.
 
-<br>
-
-## Examples
-
-- `[1, 2, 3]` -> `6`
-- `[-1, 0, 1]` -> `0`
-- `[2.5, 5]` -> `7.5`
-- `[]` -> `0`
-
-<br>
-
-Once you've written this function, click the _HACK_ button!
+Once you've fixed the bugs in this function, click the _HACK_ button!
