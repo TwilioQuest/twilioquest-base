@@ -9,8 +9,17 @@
 </ul>
 </div>
 
-It looks like this section of the forge was created to repair some of the bugs introduced to programs by exposure to raw Dark Ducktypium. This program seems to be responsible for detecting when a reservoir of Dark Ducktypium has been overfilled.
+It looks like this section of the forge repairs the software bugs caused by exposure to raw Dark Ducktypium. This program in particular seems to be responsible for detecting when a reservoir of Dark Ducktypium has overfilled.
 
-The function takes an array of reservoir objects. These reservoir objects contain a bunch of metadata properties describing their state. One important property for this function is the `contents` property. This is a number showing how much ducktypium is in the reservoir. This program should also check the `type` property of a reservoir. Only type `"raw"` reservoirs should be filtered out if their `contents` are reach or exceed 100.
+## The monitorReservoirs Function
+
+The `monitorReservoirs` function takes an array of reservoir objects. These objects contain a bunch of metadata describing the state of the reservoirs.
+
+The two properties important for this function are `contents` and `type`.
+
+- `contents` is a number showing how much ducktypium in the reservoir
+- `type` is a string indicating the variety of ducktypium in the reservoir
+
+Only reservoirs with a `type` of `"raw"` that have 100 or more ducktypium in their `contents` should be returned in an array by this function.
 
 Once you've fixed the bugs in this function, click the _HACK_ button!

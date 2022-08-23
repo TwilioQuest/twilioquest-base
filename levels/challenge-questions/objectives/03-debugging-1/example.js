@@ -28,6 +28,7 @@ console.log("Test case data:");
 console.log(
   monitorReservoirs([
     {
+      id: 623,
       label: "Reservoir-2A-East-Wing",
       radiation: {
         radsCountCurrent: "190",
@@ -37,6 +38,7 @@ console.log(
       contents: 83,
     },
     {
+      id: 21,
       label: "Reservoir-2B-East-Wing",
       radiation: {
         radsCountCurrent: "48",
@@ -46,6 +48,7 @@ console.log(
       contents: 120,
     },
     {
+      id: 617,
       label: "Reservoir-3F-North-Wing",
       radiation: {
         radsCountCurrent: "39",
@@ -55,6 +58,7 @@ console.log(
       contents: 100,
     },
     {
+      id: 100,
       label: "Reservoir-3G-North-Wing",
       radiation: {
         radsCountCurrent: "712",
