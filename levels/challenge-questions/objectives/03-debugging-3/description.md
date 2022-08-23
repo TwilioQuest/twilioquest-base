@@ -1,29 +1,22 @@
-# Sum Array of Numbers
+# Dark Ducktypium Diagnostics
 
 <div class="aside">
 <h3>Requirements</h3>
 <ul>
-  <li>Create a function called `sumArray`.</li>
-  <li>This function receives an array of numbers.</li>
-  <li>If this array is empty, the sum should be `0`.</li>
-  <li>Add all the numbers in this array and return the total.</li>
+  <li>Inspect the function in the QuestIDE.</li>
+  <li>Fix all bugs in the code.</li>
   <li>Once you're done, press <em>HACK</em>.</li>
 </ul>
 </div>
 
-It looks like this section of the forge is responsible for performing computations. This particular terminal is calculating the total mass of Dark Ducktypium after production.
+It looks like this section of the forge repairs the software bugs caused by exposure to raw Dark Ducktypium. This program in particular seems to produce diagnostic information for the reservoirs.
 
-Create a function called `sumArray` that accepts an array of numbers as its first argument. This function should add all these numbers together and return the sum.
+## The findLongestDiagnosticUrl Function
 
-<br>
+The `findLongestDiagnosticUrl` function takes an array of reservoir objects. These objects contain a bunch of metadata describing the state of the reservoirs.
 
-## Examples
+Each reservoir object has a [corresponding diagnostic URL](https://www.twilio.com/quest/ducktypium-diagnostics). Metadata from the reservoir is put into the query params of the URL to display correct information.
 
-- `[1, 2, 3]` -> `6`
-- `[-1, 0, 1]` -> `0`
-- `[2.5, 5]` -> `7.5`
-- `[]` -> `0`
+This function should return the longest diagnostic URL from the list of provided URLs.
 
-<br>
-
-Once you've written this function, click the _HACK_ button!
+Once you've fixed the bugs in this function, click the _HACK_ button!

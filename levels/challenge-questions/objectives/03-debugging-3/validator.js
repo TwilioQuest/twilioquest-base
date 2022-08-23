@@ -1,13 +1,21 @@
 const assert = require("assert");
+const isEqual = require("lodash.isequal");
 
 const assertTestCase = (testFunction) => (input, expected) => {
   const testResult = testFunction(input);
+  const errorMessage = `<div style="text-align:left;overflow: scroll;">
+    <span class="highlight">Expected</span>
+    <pre>${JSON.stringify(expected, undefined, 2)}</pre>
+    </pre><span class="highlight">But received</span><pre>${JSON.stringify(
+      testResult,
+      undefined,
+      2
+    )}</pre>
+    </div>`;
 
-  assert.strictEqual(
-    testResult,
-    expected,
-    `Expected "${expected}" from input "${input}", but received "${testResult}".`
-  );
+  if (!isEqual(testResult, expected)) {
+    throw new Error(errorMessage);
+  }
 };
 
 module.exports = async function (helper) {
@@ -15,20 +23,62 @@ module.exports = async function (helper) {
 
   try {
     context = await helper.pullVarsFromQuestIdeUserCodeLocalScope(
-      ["sumArray"],
-      "sum-array"
+      ["findLongestDiagnosticUrl"],
+      "03-debugging-3"
     );
 
-    assert(context.sumArray, "The function sumArray is not defined!");
+    assert(
+      context.findLongestDiagnosticUrl,
+      "The function findLongestDiagnosticUrl is not defined!"
+    );
 
-    const test = assertTestCase(context.sumArray);
+    const test = assertTestCase(context.findLongestDiagnosticUrl);
 
-    test([1, 2, 3], 6);
-    test([-1, 0, 1], 0);
-    test([1.2, 2.3, 4], 7.5);
-    test([1, 1, 2, 3, 5, 8, 13], 33);
-    test([], 0);
-    test([3], 3);
+    test(
+      [
+        {
+          id: 623,
+          label: "Reservoir-2A-East-Wing",
+          radiation: {
+            radsCountCurrent: "190",
+            monitorSystemGuid: "8453b2e7-0cf3-43fa-8909-cab00f75d413",
+          },
+          type: "raw",
+          contents: 83,
+        },
+        {
+          id: 21,
+          label: "Reservoir-2B-East-Wing",
+          radiation: {
+            radsCountCurrent: "48",
+            monitorSystemGuid: "55eee6a5-5fb9-4118-b015-7f656b845465",
+          },
+          type: "distilled",
+          contents: 120,
+        },
+        {
+          id: 617,
+          label: "Reservoir-3F-North-Wing",
+          radiation: {
+            radsCountCurrent: "39",
+            monitorSystemGuid: "bf0b28be-ae90-406a-8f90-c556b0056f2e",
+          },
+          type: "raw",
+          contents: 100,
+        },
+        {
+          id: 100,
+          label: "Reservoir-3G-North-Wing",
+          radiation: {
+            radsCountCurrent: "712",
+            monitorSystemGuid: "e1e73107-f0ad-495d-a11c-e730543f1ad5",
+          },
+          type: "raw",
+          contents: 98,
+        },
+      ],
+      "https://www.twilio.com/quest/ducktypium-diagnostics?label=Reservoir-3F-North-Wing%2575&id=617&type=raw&contents=100&rads=39&guid=bf0b28be-ae90-406a-8f90-c556b0056f2e"
+    );
   } catch (err) {
     helper.fail(err);
     return;
