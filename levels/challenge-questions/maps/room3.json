@@ -177,14 +177,14 @@
                         {
                          "name":"key",
                          "type":"string",
-                         "value":"room2-loot-laser"
+                         "value":"room3-loot-laser"
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":72,
                  "x":348,
-                 "y":276
+                 "y":288
                 }, 
                 {
                  "gid":10009,

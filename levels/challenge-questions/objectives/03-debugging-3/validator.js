@@ -48,17 +48,13 @@ module.exports = async function (helper) {
         },
         {
           id: 21,
-          label: "Reservoir-2B-East-Wing",
-          radiation: {
-            radsCountCurrent: "48",
-            monitorSystemGuid: "55eee6a5-5fb9-4118-b015-7f656b845465",
-          },
+          label: "Reservoir-2B-East-Wing%50",
           type: "distilled",
           contents: 120,
         },
         {
           id: 617,
-          label: "Reservoir-3F-North-Wing",
+          label: "Reservoir-3F-North-Wing%75",
           radiation: {
             radsCountCurrent: "39",
             monitorSystemGuid: "bf0b28be-ae90-406a-8f90-c556b0056f2e",
@@ -68,7 +64,7 @@ module.exports = async function (helper) {
         },
         {
           id: 100,
-          label: "Reservoir-3G-North-Wing",
+          label: "Reservoir-3G-North-Wing%50",
           radiation: {
             radsCountCurrent: "712",
             monitorSystemGuid: "e1e73107-f0ad-495d-a11c-e730543f1ad5",
