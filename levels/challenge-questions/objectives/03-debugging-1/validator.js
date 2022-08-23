@@ -53,7 +53,7 @@ module.exports = async function (helper) {
             radsCountCurrent: "48",
             monitorSystemGuid: "55eee6a5-5fb9-4118-b015-7f656b845465",
           },
-          type: "refined",
+          type: "distilled",
           contents: 120,
         },
         {

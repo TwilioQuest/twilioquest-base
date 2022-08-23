@@ -1,6 +1,6 @@
 {
-  "title": "Sum an Array",
-  "description": "Calculate the sum of all the numbers in an array.",
+  "title": "Dark Ducktypium Radiation Counter",
+  "description": "Calculate the sum of the radiation in all the dark ducktypium reservoirs.",
   "validation_fields": [
     {
       "name": "prompt",

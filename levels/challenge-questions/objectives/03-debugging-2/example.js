@@ -1,12 +1,59 @@
-function sumArray(numbers) {
-  // TODO: Sum the numbers!
+function sumRadLevels(reservoirs) {
+  let total = 0;
+
+  for (reservoir of reservoirs) {
+    if (reservoir.radiation ! == undefined) {
+      const { radsCountCurrent } = reservoir.radiation;
+
+      total += radsCountCurrent;
+    }
+  }
+
+  return total;
 }
 
-console.log("Test case 1:");
-console.log(sumArray([1, 2, 3]));
-
-console.log("Test case 2:");
-console.log(sumArray([-1, 0, 1]));
-
-console.log("Test case 3:");
-console.log(sumArray([100, 12.0, -4.5]));
+console.log("Test case data:");
+console.log(
+  sumRadLevels([
+    {
+      id: 623,
+      label: "Reservoir-2A-East-Wing",
+      radiation: {
+        radsCountCurrent: "190",
+        monitorSystemGuid: "8453b2e7-0cf3-43fa-8909-cab00f75d413",
+      },
+      type: "raw",
+      contents: 83,
+    },
+    {
+      id: 21,
+      label: "Reservoir-2B-East-Wing",
+      radiation: {
+        radsCountCurrent: "48",
+        monitorSystemGuid: "55eee6a5-5fb9-4118-b015-7f656b845465",
+      },
+      type: "distilled",
+      contents: 120,
+    },
+    {
+      id: 617,
+      label: "Reservoir-3F-North-Wing",
+      radiation: {
+        radsCountCurrent: "39",
+        monitorSystemGuid: "bf0b28be-ae90-406a-8f90-c556b0056f2e",
+      },
+      type: "raw",
+      contents: 100,
+    },
+    {
+      id: 100,
+      label: "Reservoir-3G-North-Wing",
+      radiation: {
+        radsCountCurrent: "712",
+        monitorSystemGuid: "e1e73107-f0ad-495d-a11c-e730543f1ad5",
+      },
+      type: "raw",
+      contents: 98,
+    },
+  ])
+);
