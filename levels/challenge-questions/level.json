@@ -21,6 +21,10 @@
     "sum-array",
     "balance-brackets",
     "check-for-palindrome",
-    "flatten-array"
+    "flatten-array",
+    "03-debugging-1",
+    "03-debugging-2",
+    "03-debugging-3",
+    "03-ducktypium-legs"
   ]
 }
