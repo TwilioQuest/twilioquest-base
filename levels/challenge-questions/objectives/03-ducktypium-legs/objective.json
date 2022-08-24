@@ -1,0 +1,17 @@
+{
+  "title": "Retrieve the Ducktypium Legs",
+  "description": "Figure out which type of jar Cedric should smash to find a treasure.",
+  "validation_fields": [
+    {
+      "name": "color",
+      "type": "text",
+      "placeholder": "white and green, gray, or terracotta",
+      "label": "Which color jar is not trapped?"
+    }
+  ],
+  "show_ide": false,
+  "rewards": {
+    "xp": 100,
+    "items": ["dark_ducktypium_armor_legs"]
+  }
+}

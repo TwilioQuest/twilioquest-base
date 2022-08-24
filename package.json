@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/TwilioQuest/twilioquest-base#readme",
   "dependencies": {
+    "lodash.isequal": "^4.5.0",
     "lodash.merge": "^4.6.2"
   }
 }

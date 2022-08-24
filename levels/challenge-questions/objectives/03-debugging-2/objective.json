@@ -1,0 +1,16 @@
+{
+  "title": "Dark Ducktypium Radiation Counter",
+  "description": "Calculate the sum of the radiation in all the dark ducktypium reservoirs.",
+  "validation_fields": [
+    {
+      "name": "prompt",
+      "type": "prompt",
+      "placeholder": "",
+      "label": "Click HACK to test your function."
+    }
+  ],
+  "show_ide": true,
+  "rewards": {
+    "xp": 100
+  }
+}

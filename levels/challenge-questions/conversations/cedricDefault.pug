@@ -32,6 +32,11 @@ conversation(display_name="Cedric")
       responses
       - worldState.chosenMap = 'room2';
 
+    when "transition_to_bugs"
+        statement#transition_to_map
+        responses
+        - worldState.chosenMap = 'room3';
+
     when "transition_to_other_map"
       statement#where_to
       responses
@@ -41,6 +46,9 @@ conversation(display_name="Cedric")
         if worldState.currentMapName !== 'room2'
           response#transition_to_power.
             Render the area where power is generated.
+        if worldState.currentMapName !== 'room3'
+          response#transition_to_bugs.
+            Render the area where bugs are repaired.
 
     default
       if worldState.challengeMapsCompleted >= 1
