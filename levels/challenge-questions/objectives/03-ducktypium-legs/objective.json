@@ -1,16 +1,17 @@
 {
-  "title": "Sum an Array",
-  "description": "Calculate the sum of all the numbers in an array.",
+  "title": "Retrieve the Ducktypium Legs",
+  "description": "Figure out which type of jar Cedric should smash to find a treasure.",
   "validation_fields": [
     {
-      "name": "prompt",
-      "type": "prompt",
-      "placeholder": "",
-      "label": "Click HACK to test your function."
+      "name": "color",
+      "type": "text",
+      "placeholder": "white and green, gray, or terracotta",
+      "label": "Which color jar is not trapped?"
     }
   ],
-  "show_ide": true,
+  "show_ide": false,
   "rewards": {
-    "xp": 100
+    "xp": 100,
+    "items": ["dark_ducktypium_armor_legs"]
   }
 }

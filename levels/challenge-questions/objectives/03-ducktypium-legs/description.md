@@ -1,29 +1,29 @@
-# Sum Array of Numbers
+# Tricky Jars
 
 <div class="aside">
 <h3>Requirements</h3>
 <ul>
-  <li>Create a function called `sumArray`.</li>
-  <li>This function receives an array of numbers.</li>
-  <li>If this array is empty, the sum should be `0`.</li>
-  <li>Add all the numbers in this array and return the total.</li>
+  <li>Figure out which type of jar Cedric should smash.</li>
+  <li>Enter the color `white and green`, `terracotta`, `gray` of the jar into the input on the right.</li>
   <li>Once you're done, press <em>HACK</em>.</li>
 </ul>
 </div>
 
-It looks like this section of the forge is responsible for performing computations. This particular terminal is calculating the total mass of Dark Ducktypium after production.
+Cedric has stumbled across some jars scattered in an otherwise empty hallway. His O.W.L. unit is once again indicating that there's something worth checking out in one of these jars. However, it also warns that the other jars are trapped.
 
-Create a function called `sumArray` that accepts an array of numbers as its first argument. This function should add all these numbers together and return the sum.
+<% const imagePath = await resolveAbsolutePath("images/challenge-questions/logic_puzzle_x4.png") %>
 
-<br>
+![A hallway with 3 white and green jars, 2 terracotta jars, and 1 gray jar](<%= imagePath %>)
 
-## Examples
+The O.W.L. unit has collected a lot of random information about the jars. Help Cedric figure out which jar color to smash.
 
-- `[1, 2, 3]` -> `6`
-- `[-1, 0, 1]` -> `0`
-- `[2.5, 5]` -> `7.5`
-- `[]` -> `0`
+- There are three colors of jar `white and green`, `terracotta`, and `gray`.
+- The most plentiful jar is at most 100 years old.
+- The least plentiful jar's paint is starting to peel.
+- The terracotta jars are cracking with age.
+- The newest jar is trapped.
+- Jars with peeling paint are between 200 and 300 years old.
+- Jars with cracks are at least 500 years old.
+- The oldest jar is also trapped.
 
-<br>
-
-Once you've written this function, click the _HACK_ button!
+Enter the color of jar that is not trapped so Cedric can smash it, click the _HACK_ button!

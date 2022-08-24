@@ -1,34 +1,24 @@
-const assert = require("assert");
-
-const assertTestCase = (testFunction) => (input, expected) => {
-  const testResult = testFunction(input);
-
-  assert.strictEqual(
-    testResult,
-    expected,
-    `Expected "${expected}" from input "${input}", but received "${testResult}".`
-  );
-};
-
 module.exports = async function (helper) {
-  let context;
-
   try {
-    context = await helper.pullVarsFromQuestIdeUserCodeLocalScope(
-      ["sumArray"],
-      "sum-array"
-    );
+    const color = helper.getNormalizedInput("color");
 
-    assert(context.sumArray, "The function sumArray is not defined!");
+    if (!color) {
+      helper.fail("Be sure to enter a color of jar!");
+      return;
+    }
 
-    const test = assertTestCase(context.sumArray);
+    const validColors = ["gray", "white and green", "terracotta"];
+    if (!validColors.includes(color)) {
+      helper.fail(
+        `The color you entered "${color}" is not one of the valid colors: "gray", "white and green", or "terracotta".`
+      );
+      return;
+    }
 
-    test([1, 2, 3], 6);
-    test([-1, 0, 1], 0);
-    test([1.2, 2.3, 4], 7.5);
-    test([1, 1, 2, 3, 5, 8, 13], 33);
-    test([], 0);
-    test([3], 3);
+    if (color !== "gray" && color !== "grey") {
+      helper.fail(`That jar was trapped! Cedric barely avoided getting hurt!`);
+      return;
+    }
   } catch (err) {
     helper.fail(err);
     return;
