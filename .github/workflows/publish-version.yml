@@ -10,3 +10,4 @@ jobs:
       shouldSyncItems: true
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      SSH_ITEMS_SYNC_KEY: ${{ secrets.SSH_ITEMS_SYNC_KEY }}
