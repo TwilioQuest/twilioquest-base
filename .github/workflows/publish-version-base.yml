@@ -4,6 +4,7 @@ on:
     secrets:
       NPM_TOKEN:
         required: true
+      SSH_ITEMS_SYNC_KEY:
     inputs:
       shouldSyncItems:
         description: "Should Sync Items to Firebase"
