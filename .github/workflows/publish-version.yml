@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     uses: twilioquest/twilioquest-base/.github/workflows/publish-version-base.yml@main
-    inputs:
+    with:
       shouldSyncItems: true
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
