@@ -6,9 +6,9 @@
  "name":"Tileset_API-Interior",
  "spacing":0,
  "tilecount":1800,
- "tiledversion":"1.7.2",
+ "tiledversion":"1.8.0",
  "tileheight":24,
  "tilewidth":24,
  "type":"tileset",
- "version":"1.6"
+ "version":"1.8"
 }
