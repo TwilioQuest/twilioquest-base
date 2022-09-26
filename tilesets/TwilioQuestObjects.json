@@ -9,7 +9,7 @@
  "name":"TwilioQuestObjects",
  "spacing":0,
  "tilecount":1015,
- "tiledversion":"1.8.0",
+ "tiledversion":"1.7.2",
  "tileheight":216,
  "tiles":[
         {
@@ -669,6 +669,29 @@
          "image":"..\/objects\/ghost-professor-npc\/icon.png",
          "imageheight":32,
          "imagewidth":32,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":8,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":16,
+                     "x":8,
+                     "y":24
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
          "properties":[
                 {
                  "name":"conversation",
@@ -854,6 +877,29 @@
          "image":"..\/objects\/space-explorer-npc\/icon.png",
          "imageheight":32,
          "imagewidth":32,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":8,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":16,
+                     "x":8,
+                     "y":24
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
          "properties":[
                 {
                  "name":"conversation",
@@ -1146,6 +1192,29 @@
          "image":"..\/objects\/hopper-student-rep\/icon.png",
          "imageheight":32,
          "imagewidth":32,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":4,
+             "name":"",
+             "objects":[
+                    {
+                     "height":8,
+                     "id":3,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":16,
+                     "x":8,
+                     "y":24
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
          "properties":[
                 {
                  "name":"conversation",
@@ -1169,6 +1238,29 @@
          "image":"..\/objects\/neumann-student-rep\/icon.png",
          "imageheight":32,
          "imagewidth":32,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":8,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":16,
+                     "x":8,
+                     "y":24
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
          "properties":[
                 {
                  "name":"conversation",
@@ -1192,6 +1284,29 @@
          "image":"..\/objects\/lovelace-student-rep\/icon.png",
          "imageheight":32,
          "imagewidth":32,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":8,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":16,
+                     "x":8,
+                     "y":24
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
          "properties":[
                 {
                  "name":"conversation",
@@ -1215,6 +1330,29 @@
          "image":"..\/objects\/turing-student-rep\/icon.png",
          "imageheight":32,
          "imagewidth":32,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":8,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":16,
+                     "x":8,
+                     "y":24
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
          "properties":[
                 {
                  "name":"conversation",
@@ -1237,7 +1375,30 @@
          "id":78,
          "image":"..\/objects\/head-of-house-turing\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":8,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":16,
+                     "x":8,
+                     "y":24
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            }
         }, 
         {
          "id":79,
@@ -6863,5 +7024,5 @@
         }],
  "tilewidth":528,
  "type":"tileset",
- "version":"1.8"
+ "version":"1.6"
 }
