@@ -672,7 +672,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -880,7 +879,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1195,7 +1193,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":4,
              "name":"",
              "objects":[
                     {
@@ -1241,7 +1238,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1287,7 +1283,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1333,7 +1328,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1379,7 +1373,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1402,9 +1395,26 @@
         }, 
         {
          "id":79,
-         "image":"missing.png",
+         "image":"..\/..\/twilioquest-open-source\/objects\/daizen\/daizen.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":"daizen"
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"daizen.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"daizen"
         }, 
         {
          "id":80,
