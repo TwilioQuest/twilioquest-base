@@ -1,0 +1,14 @@
+{ "columns":28,
+ "image":"Tileset_OpenSource.png",
+ "imageheight":1104,
+ "imagewidth":672,
+ "margin":0,
+ "name":"Tileset_OpenSource",
+ "spacing":0,
+ "tilecount":1288,
+ "tiledversion":"1.7.2",
+ "tileheight":24,
+ "tilewidth":24,
+ "type":"tileset",
+ "version":"1.6"
+}
