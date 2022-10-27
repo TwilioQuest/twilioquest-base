@@ -1431,27 +1431,31 @@
         }, 
         {
          "id":81,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/door-hopper\/Icon.png",
+         "imageheight":48,
+         "imagewidth":24,
+         "type":"door-hopper"
         }, 
         {
          "id":82,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/door-lovelace\/Icon.png",
+         "imageheight":48,
+         "imagewidth":24,
+         "type":"door-lovelace"
         }, 
         {
          "id":83,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/door-neumann\/Icon.png",
+         "imageheight":48,
+         "imagewidth":24,
+         "type":"door-neumann"
         }, 
         {
          "id":84,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/door-turing\/Icon.png",
+         "imageheight":48,
+         "imagewidth":24,
+         "type":"door-turing"
         }, 
         {
          "id":85,
