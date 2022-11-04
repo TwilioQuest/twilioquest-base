@@ -9,7 +9,7 @@
  "name":"TwilioQuestObjects",
  "spacing":0,
  "tilecount":1015,
- "tiledversion":"1.7.2",
+ "tiledversion":"1.8.0",
  "tileheight":216,
  "tiles":[
         {
@@ -1459,9 +1459,16 @@
         }, 
         {
          "id":85,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/object-shine-yellow\/Icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"disableBody",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"object-shine-yellow"
         }, 
         {
          "id":86,
@@ -7045,5 +7052,5 @@
         }],
  "tilewidth":528,
  "type":"tileset",
- "version":"1.6"
+ "version":"1.8"
 }
