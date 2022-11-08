@@ -1407,8 +1407,12 @@
                  "name":"interactable",
                  "type":"bool",
                  "value":true
+<<<<<<< Updated upstream
                 }],
          "type":"head-of-house-turing"
+=======
+                }]
+>>>>>>> Stashed changes
         }, 
         {
          "id":79,
