@@ -1391,7 +1391,24 @@
              "visible":true,
              "x":0,
              "y":0
-            }
+            },
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"head_of_house_turing.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"head-of-house-turing"
         }, 
         {
          "id":79,
@@ -1472,45 +1489,164 @@
         }, 
         {
          "id":86,
-         "image":"missing.png",
+         "image":"..\/objects\/head-of-house-hopper\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"head_of_house_hopper.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"head-of-house-hopper"
         }, 
         {
          "id":87,
-         "image":"missing.png",
+         "image":"..\/objects\/head-of-house-lovelace\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"head_of_house_lovelace.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"head-of-house-lovelace"
         }, 
         {
          "id":88,
-         "image":"missing.png",
+         "image":"..\/objects\/head-of-house-neumann\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"head_of_house_neumann.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"head-of-house-neumann"
         }, 
         {
          "id":89,
-         "image":"missing.png",
+         "image":"..\/objects\/student-lovelace-1\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_lovelace1.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"lovelace-student-1"
         }, 
         {
          "id":90,
-         "image":"missing.png",
+         "image":"..\/objects\/student-lovelace-2\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_lovelace2.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"lovelace-student-2"
         }, 
         {
          "id":91,
-         "image":"missing.png",
+         "image":"..\/objects\/student-lovelace-3\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_lovelace3.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"lovelace-student-3"
         }, 
         {
          "id":92,
-         "image":"missing.png",
+         "image":"..\/objects\/student-lovelace-4\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_lovelace4.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"lovelace-student-4"
         }, 
         {
          "id":93,
