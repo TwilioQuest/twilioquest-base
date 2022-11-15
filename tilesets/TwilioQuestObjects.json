@@ -9,7 +9,7 @@
  "name":"TwilioQuestObjects",
  "spacing":0,
  "tilecount":1015,
- "tiledversion":"1.8.0",
+ "tiledversion":"1.7.2",
  "tileheight":216,
  "tiles":[
         {
@@ -1650,63 +1650,133 @@
         }, 
         {
          "id":93,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/fire-rainbow-small\/icon.png",
+         "imageheight":48,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestFireRainbowSmall"
+                }],
+         "type":"fire-rainbow-small"
         }, 
         {
          "id":94,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/scroll-fade\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestScrollFade"
+                }],
+         "type":"scroll-fade"
         }, 
         {
          "id":95,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/orb-blue\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestOrbBlue"
+                }],
+         "type":"orb-blue"
         }, 
         {
          "id":96,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/orb-green\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestOrbGreen"
+                }],
+         "type":"orb-green"
         }, 
         {
          "id":97,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/orb-orange\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestOrbOrange"
+                }],
+         "type":"orb-orange"
         }, 
         {
          "id":98,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/orb-purple\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestOrbPurple"
+                }],
+         "type":"orb-purple"
         }, 
         {
          "id":99,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/sparkle_lovelace\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestSparkleLovelace"
+                }],
+         "type":"sparkle-lovelace"
         }, 
         {
          "id":100,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/sparkle-hopper\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestSparkleHopper"
+                }],
+         "type":"sparkle-hopper"
         }, 
         {
          "id":101,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/sparkle-neumann\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestSparkleNeumann"
+                }],
+         "type":"sparkle-neumann"
         }, 
         {
          "id":102,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/sparkle-turing\/icon.png",
+         "imageheight":24,
+         "imagewidth":24,
+         "properties":[
+                {
+                 "name":"spritesheet",
+                 "type":"string",
+                 "value":"twilioquestSparkleTuring"
+                }],
+         "type":"sparkle-turing"
         }, 
         {
          "id":103,
@@ -7188,5 +7258,5 @@
         }],
  "tilewidth":528,
  "type":"tileset",
- "version":"1.8"
+ "version":"1.6"
 }
