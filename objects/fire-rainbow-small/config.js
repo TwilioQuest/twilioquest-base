@@ -7,7 +7,7 @@ module.exports = {
   },
   spriteSheets: {
     twilioquestFireRainbowSmall: {
-      fileName: "Fire_rainbow_Small.png",
+      fileName: "Fire_Rainbow_Small.png",
       frameDimensions: {
         width: 24,
         height: 48,
