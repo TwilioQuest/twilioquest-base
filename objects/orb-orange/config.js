@@ -17,7 +17,7 @@ module.exports = {
   properties: {
     sprite: {
       defaultFrameIndex: 0,
-      spriteSheet: "twilioquestOrb_Orange",
+      spriteSheet: "twilioquestOrbOrange",
       layers: [],
     },
     idleAnimations: {

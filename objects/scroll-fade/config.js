@@ -17,7 +17,7 @@ module.exports = {
   properties: {
     sprite: {
       defaultFrameIndex: 0,
-      spriteSheet: "twilioquestScroll_Fade",
+      spriteSheet: "twilioquestScrollFade",
       layers: [],
     },
     idleAnimations: {
