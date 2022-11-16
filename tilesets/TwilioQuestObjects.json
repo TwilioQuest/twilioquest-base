@@ -2114,27 +2114,31 @@
         }, 
         {
          "id":117,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/..\/..\/..\/Downloads\/bookshelf_Animation 1_0.png",
+         "imageheight":49,
+         "imagewidth":24,
+         "type":"empty-shelf"
         }, 
         {
          "id":118,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/..\/..\/..\/Downloads\/bookshelf_Animation 1_1.png",
+         "imageheight":49,
+         "imagewidth":24,
+         "type":"shelf"
         }, 
         {
          "id":119,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/..\/..\/..\/Downloads\/bookshelfwide_Animation 1_0.png",
+         "imageheight":49,
+         "imagewidth":48,
+         "type":"shelf"
         }, 
         {
          "id":120,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/..\/..\/..\/Downloads\/bookshelfwide_Animation 1_1.png",
+         "imageheight":49,
+         "imagewidth":48,
+         "type":"empty-shelf"
         }, 
         {
          "id":121,
