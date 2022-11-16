@@ -1728,7 +1728,7 @@
         }, 
         {
          "id":99,
-         "image":"..\/objects\/sparkle_lovelace\/icon.png",
+         "image":"..\/objects\/sparkle-lovelace\/icon.png",
          "imageheight":24,
          "imagewidth":24,
          "properties":[
@@ -1780,9 +1780,33 @@
         }, 
         {
          "id":103,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/tv-medium\/Icon.png",
+         "imageheight":72,
+         "imagewidth":48,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":25,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":48,
+                     "x":0,
+                     "y":34
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
+         "type":"tv-medium"
         }, 
         {
          "id":104,
