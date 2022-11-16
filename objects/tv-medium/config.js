@@ -1,5 +1,14 @@
 module.exports = {
-  animations: {},
+  animations: {
+    on: {
+      frames: [0, 1, 2, 3, 4, 5, 6, 7],
+      frameRate: 4,
+    },
+    off: {
+      frames: [7, 6, 5, 4, 3, 2, 1, 0],
+      frameRate: 4,
+    },
+  },
   spriteSheets: {
     tqTvMedium: {
       fileName: "TV_Medium.png",
