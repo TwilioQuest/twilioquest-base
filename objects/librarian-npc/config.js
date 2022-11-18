@@ -38,7 +38,7 @@ module.exports = {
       layers: [],
     },
     idleAnimations: {
-      animations: { idle: 35, sleep: 65 },
+      animations: { idle: 100 },
       minIdleTime: 1500,
       maxIdleTime: 3000,
     },
