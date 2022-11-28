@@ -2,12 +2,20 @@ const conversationOnInteract = require("../../scripts/conversationOnInteract");
 
 module.exports = {
   animations: {
-    idle: {
-      frames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    sleep: {
+      frames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
       frameRate: 4,
     },
-    sleep: {
-      frames: [12, 13, 14, 15, 16, 17, 12],
+    wakeUp: {
+      frames: [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
+      frameRate: 4,
+    },
+    idle: {
+      frames: [36, 37, 38, 39, 40, 41],
+      frameRate: 4,
+    },
+    shocked: {
+      frames: [54, 55, 56, 57, 58, 59, 60],
       frameRate: 4,
     },
   },
@@ -30,7 +38,7 @@ module.exports = {
       layers: [],
     },
     idleAnimations: {
-      animations: { idle: 35, sleep: 65 },
+      animations: { idle: 100 },
       minIdleTime: 1500,
       maxIdleTime: 3000,
     },

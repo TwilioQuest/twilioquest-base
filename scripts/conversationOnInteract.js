@@ -4,6 +4,10 @@ module.exports = function (self, event, world) {
     return;
   }
 
+  if (self.isConversationDisabled) {
+    return;
+  }
+
   if (self.observation) {
     // The "observation" property can be set to have the Operator
     // make an observation about a character without kicking off a convo
