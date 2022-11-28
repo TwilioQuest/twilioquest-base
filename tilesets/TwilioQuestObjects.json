@@ -1825,7 +1825,6 @@
         }, 
         {
          "id":104,
-         "image":"..\/..\/..\/..\/Downloads\/wallsicon.png",
          "imageheight":72,
          "imagewidth":48,
          "properties":[
@@ -1834,11 +1833,11 @@
                  "type":"bool",
                  "value":true
                 }],
-         "type":"door-barrier"
+         "type":"door-barrier-lovelace"
         }, 
         {
          "id":105,
-         "image":"..\/..\/..\/..\/Downloads\/drive-download-20221116T191431Z-001\/NPC_Student_Hopper1_Icon.png",
+         "image":"..\/objects\/student-hopper-1\/icon.png",
          "imageheight":32,
          "imagewidth":32,
          "properties":[
@@ -1861,7 +1860,7 @@
         }, 
         {
          "id":106,
-         "image":"..\/..\/..\/..\/Downloads\/drive-download-20221116T191431Z-001\/NPC_Student_Hopper2_Icon.png",
+         "image":"..\/objects\/student-hopper-2\/icon.png",
          "imageheight":32,
          "imagewidth":32,
          "properties":[
@@ -1884,7 +1883,7 @@
         }, 
         {
          "id":107,
-         "image":"..\/..\/..\/..\/Downloads\/drive-download-20221116T191431Z-001\/NPC_Student_Hopper3_Icon.png",
+         "image":"..\/objects\/student-hopper-3\/icon.png",
          "imageheight":32,
          "imagewidth":32,
          "properties":[
@@ -1907,7 +1906,7 @@
         }, 
         {
          "id":108,
-         "image":"..\/..\/..\/..\/Downloads\/drive-download-20221116T191431Z-001\/NPC_Student_Hopper4_Icon.png",
+         "image":"..\/objects\/student-hopper-4\/icon.png",
          "imageheight":32,
          "imagewidth":32,
          "properties":[
@@ -1930,7 +1929,7 @@
         }, 
         {
          "id":109,
-         "image":"..\/..\/..\/..\/Downloads\/drive-download-20221116T192719Z-001\/NPC_Student_Neumann1_Icon.png",
+         "image":"..\/objects\/student-neumann-1\/icon.png",
          "imageheight":32,
          "imagewidth":32,
          "properties":[
@@ -1953,7 +1952,7 @@
         }, 
         {
          "id":110,
-         "image":"..\/..\/..\/..\/Downloads\/drive-download-20221116T192719Z-001\/NPC_Student_Neumann2_Icon.png",
+         "image":"..\/objects\/student-neumann-2\/icon.png",
          "imageheight":32,
          "imagewidth":32,
          "properties":[
@@ -1976,7 +1975,7 @@
         }, 
         {
          "id":111,
-         "image":"..\/..\/..\/..\/Downloads\/drive-download-20221116T192719Z-001\/NPC_Student_Neumann3_Icon.png",
+         "image":"..\/objects\/student-neumann-3\/icon.png",
          "imageheight":32,
          "imagewidth":32,
          "properties":[
@@ -1999,7 +1998,7 @@
         }, 
         {
          "id":112,
-         "image":"..\/..\/..\/..\/Downloads\/drive-download-20221116T192719Z-001\/NPC_Student_Neumann4_Icon.png",
+         "image":"..\/objects\/student-neumann-4\/icon.png",
          "imageheight":32,
          "imagewidth":32,
          "properties":[
@@ -2022,7 +2021,7 @@
         }, 
         {
          "id":113,
-         "image":"..\/..\/..\/..\/Downloads\/drive-download-20221116T193709Z-001\/NPC_Student_Turing1_Icon.png",
+         "image":"..\/objects\/student-turing-1\/icon.png",
          "imageheight":32,
          "imagewidth":32,
          "properties":[
@@ -2045,7 +2044,7 @@
         }, 
         {
          "id":114,
-         "image":"..\/..\/..\/..\/Downloads\/drive-download-20221116T193544Z-001\/NPC_Student_Turing2_Icon.png",
+         "image":"..\/objects\/student-turing-2\/icon.png",
          "imageheight":32,
          "imagewidth":32,
          "properties":[
@@ -2068,7 +2067,7 @@
         }, 
         {
          "id":115,
-         "image":"..\/..\/..\/..\/Downloads\/drive-download-20221116T193544Z-001\/NPC_Student_Turing3_Icon.png",
+         "image":"..\/objects\/student-turing-3\/icon.png",
          "imageheight":32,
          "imagewidth":32,
          "properties":[
@@ -2091,7 +2090,7 @@
         }, 
         {
          "id":116,
-         "image":"..\/..\/..\/..\/Downloads\/drive-download-20221116T193544Z-001\/NPC_Student_Turing4_icon.png",
+         "image":"..\/objects\/student-turing-4\/icon.png",
          "imageheight":32,
          "imagewidth":32,
          "properties":[
@@ -2114,31 +2113,31 @@
         }, 
         {
          "id":117,
-         "image":"..\/..\/..\/..\/Downloads\/bookshelf_Animation 1_0.png",
+         "image":"..\/objects\/empty-shelf\/icon.png",
          "imageheight":49,
          "imagewidth":24,
          "type":"empty-shelf"
         }, 
         {
          "id":118,
-         "image":"..\/..\/..\/..\/Downloads\/bookshelf_Animation 1_1.png",
+         "image":"..\/objects\/shelf\/icon.png",
          "imageheight":49,
          "imagewidth":24,
          "type":"shelf"
         }, 
         {
          "id":119,
-         "image":"..\/..\/..\/..\/Downloads\/bookshelfwide_Animation 1_0.png",
+         "image":"..\/objects\/shelf-big\/icon.png",
          "imageheight":49,
          "imagewidth":48,
-         "type":"shelf"
+         "type":"shelf-big"
         }, 
         {
          "id":120,
-         "image":"..\/..\/..\/..\/Downloads\/bookshelfwide_Animation 1_1.png",
+         "image":"..\/objects\/empty-shelf-big\/icon.png",
          "imageheight":49,
          "imagewidth":48,
-         "type":"empty-shelf"
+         "type":"empty-shelf-big"
         }, 
         {
          "id":121,
