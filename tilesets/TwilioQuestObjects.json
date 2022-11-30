@@ -2116,8 +2116,7 @@
          "id":117,
          "image":"..\/objects\/empty-shelf\/icon.png",
          "imageheight":49,
-         "imagewidth":24,
-         "type":"empty-shelf"
+         "imagewidth":24
         }, 
         {
          "id":118,
@@ -2137,8 +2136,7 @@
          "id":120,
          "image":"..\/objects\/empty-shelf-big\/icon.png",
          "imageheight":49,
-         "imagewidth":48,
-         "type":"empty-shelf-big"
+         "imagewidth":48
         }, 
         {
          "id":121,
