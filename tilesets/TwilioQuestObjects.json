@@ -9,7 +9,7 @@
  "name":"TwilioQuestObjects",
  "spacing":0,
  "tilecount":1015,
- "tiledversion":"1.7.2",
+ "tiledversion":"1.8.0",
  "tileheight":216,
  "tiles":[
         {
@@ -1458,6 +1458,22 @@
          "image":"..\/objects\/door-lovelace\/Icon.png",
          "imageheight":48,
          "imagewidth":24,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":"library-door"
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"door_lovelace.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"door-lovelace"
         }, 
         {
@@ -1786,7 +1802,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -1810,105 +1825,318 @@
         }, 
         {
          "id":104,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/door-barrier-lovelace\/icon.png",
+         "imageheight":72,
+         "imagewidth":48,
+         "properties":[
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"door-barrier-lovelace"
         }, 
         {
          "id":105,
-         "image":"missing.png",
+         "image":"..\/objects\/student-hopper-1\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_hopper1.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"hopper-student-1"
         }, 
         {
          "id":106,
-         "image":"missing.png",
+         "image":"..\/objects\/student-hopper-2\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_hopper2.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"hopper-student-2"
         }, 
         {
          "id":107,
-         "image":"missing.png",
+         "image":"..\/objects\/student-hopper-3\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_hopper3.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"hopper-student-3"
         }, 
         {
          "id":108,
-         "image":"missing.png",
+         "image":"..\/objects\/student-hopper-4\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_hopper4.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"hopper-student-4"
         }, 
         {
          "id":109,
-         "image":"missing.png",
+         "image":"..\/objects\/student-neumann-1\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_neumann1.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"neumann-student-1"
         }, 
         {
          "id":110,
-         "image":"missing.png",
+         "image":"..\/objects\/student-neumann-2\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_neumann2.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"student-neumann-2"
         }, 
         {
          "id":111,
-         "image":"missing.png",
+         "image":"..\/objects\/student-neumann-3\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_neumann3.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"student-neumann-3"
         }, 
         {
          "id":112,
-         "image":"missing.png",
+         "image":"..\/objects\/student-neumann-4\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_neumann4.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"student-neumann-4"
         }, 
         {
          "id":113,
-         "image":"missing.png",
+         "image":"..\/objects\/student-turing-1\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_turing1.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"student-turing-1"
         }, 
         {
          "id":114,
-         "image":"missing.png",
+         "image":"..\/objects\/student-turing-2\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_turing2.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"student-turing-2"
         }, 
         {
          "id":115,
-         "image":"missing.png",
+         "image":"..\/objects\/student-turing-3\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_turing3.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"student-turing-3"
         }, 
         {
          "id":116,
-         "image":"missing.png",
+         "image":"..\/objects\/student-turing-4\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "properties":[
+                {
+                 "name":"conversation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"conversationAvatar",
+                 "type":"string",
+                 "value":"student_turing4.png"
+                }, 
+                {
+                 "name":"interactable",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"student-turing-4"
         }, 
         {
          "id":117,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/empty-shelf\/icon.png",
+         "imageheight":49,
+         "imagewidth":24
         }, 
         {
          "id":118,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/shelf\/icon.png",
+         "imageheight":49,
+         "imagewidth":24,
+         "type":"shelf"
         }, 
         {
          "id":119,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/shelf-big\/icon.png",
+         "imageheight":49,
+         "imagewidth":48,
+         "type":"shelf-big"
         }, 
         {
          "id":120,
-         "image":"missing.png",
-         "imageheight":32,
-         "imagewidth":32
+         "image":"..\/objects\/empty-shelf-big\/icon.png",
+         "imageheight":49,
+         "imagewidth":48
         }, 
         {
          "id":121,
@@ -7282,5 +7510,5 @@
         }],
  "tilewidth":528,
  "type":"tileset",
- "version":"1.6"
+ "version":"1.8"
 }

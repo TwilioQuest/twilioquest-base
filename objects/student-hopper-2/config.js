@@ -8,8 +8,8 @@ module.exports = {
     },
   },
   spriteSheets: {
-    twilioQuestApiHeadHouseNeumann: {
-      fileName: "NPC_HeadHouses_Neumann.png",
+    twilioQuestApiStudentHopper2: {
+      fileName: "NPC_Student_Hopper2.png",
       frameDimensions: {
         width: 32,
         height: 32,
@@ -22,7 +22,7 @@ module.exports = {
   properties: {
     sprite: {
       defaultFrameIndex: 0,
-      spriteSheet: "twilioQuestApiHeadHouseNeumann",
+      spriteSheet: "twilioQuestApiStudentHopper2",
       layers: [],
     },
     idleAnimations: {
