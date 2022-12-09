@@ -20,13 +20,5 @@ module.exports = {
       spriteSheet: "twilioquestScrollFade",
       layers: [],
     },
-<<<<<<< Updated upstream
-    idleAnimations: {
-      animations: { idle: 100 },
-      minIdleTime: 0,
-      maxIdleTime: 0,
-    },
-=======
->>>>>>> Stashed changes
   },
 };
