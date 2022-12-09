@@ -19,9 +19,9 @@ module.exports = {
       frames: [0, 1, 2, 3, 4],
       frameRate: 6,
     },
-    closed: { frames: [9], frameRate: 1 },
+    closed: { frames: [0], frameRate: 1 },
     closing: {
-      frames: [5, 6, 7, 8, 9],
+      frames: [4, 3, 2, 1, 0],
       frameRate: 6,
     },
   },
@@ -33,8 +33,6 @@ module.exports = {
     },
   },
   events: {
-    onMapDidLoad: initOpenCloseFsm({
-      smoothTransitionBetweenOpeningAndClosing: false,
-    }),
+    onMapDidLoad: initOpenCloseFsm(),
   },
 };
