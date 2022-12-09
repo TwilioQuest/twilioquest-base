@@ -9,7 +9,7 @@ module.exports = {
   },
   spriteSheets: {
     twilioQuestApiHeadHouseNeumann: {
-      fileName: "NPC_HeadHouses_Neumann.png",
+      fileName: "NPC_HeadHouse_Neumann.png",
       frameDimensions: {
         width: 32,
         height: 32,
