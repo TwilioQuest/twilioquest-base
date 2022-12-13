@@ -13,6 +13,20 @@ module.exports = {
         height: 24,
       },
     },
+    twilioQuestSpellLeftRight: {
+      fileName: "Operator_ToolEffects_LeftRight.png",
+      frameDimensions: {
+        width: 64,
+        height: 32,
+      },
+    },
+    twilioQuestSpellUpDown: {
+      fileName: "Operator_ToolEffects_UpDown.png",
+      frameDimensions: {
+        width: 32,
+        height: 64,
+      },
+    },
   },
   properties: {
     sprite: {
