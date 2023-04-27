@@ -1,3 +1,9 @@
+# IMPORTANT MESSAGE
+
+TwilioQuest is being moved to an open source version called [Terminal Quest](https://terminal.quest/).
+
+This repository is archived for an indefinite time. To keep contributing with this initiative please considering visiting Terminal Quest [repository](https://github.com/TerminalQuest).
+
 # TwilioQuest Base Extension
 
 Base extension for the TwilioQuest game - contains Fog Owl map and common assets.
