@@ -1,8 +1,8 @@
 # IMPORTANT MESSAGE
 
-TwilioQuest is being moved to an open source version called [Terminal Quest](https://terminal.quest/).
+TwilioQuest has found a new home as an open source educational PC game called [TerminalQuest](https://terminal.quest/).
 
-This repository is archived for an indefinite time. To keep contributing with this initiative please considering visiting Terminal Quest [repository](https://github.com/TerminalQuest).
+This repository is archived indefinitely. To keep contributing to this initiative please considering visiting TerminalQuest [repository](https://github.com/TerminalQuest).
 
 # TwilioQuest Base Extension
 
